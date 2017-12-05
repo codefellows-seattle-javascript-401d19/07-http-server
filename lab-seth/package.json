@@ -1,7 +1,7 @@
 {
   "name": "01-http-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "This TCP Chat Server allows users to connect to an ip via telnet and do basic chat with one another, change their displayd name, and direct message other users.",
   "main": "index.js",
   "scripts": {
     "test": "jest -i --coverage"
@@ -18,5 +18,8 @@
     "dotenv": "^4.0.0",
     "faker": "^4.1.0",
     "winston": "^2.4.0"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
