@@ -17,9 +17,9 @@ const logger = new (winston.Logger)({
 
 const requestParser = module.exports = {};
 
-request.parse = (request) => {
+requestParser.parse = (request) => {
   return new Promise((resolve,reject) => {
-    logger.log('debug', `Original URL: ${JSON.stringify(request,url)}`);
+    logger.log('debug', `Original URL: ${JSON.stringify(request.url)}`);
     request.url = urlModule.parse(request.url);
     request.url.query = queryStringModule.parse(request.url.query);
     logger.log('debug', `Parsed URL : ${JSON.stringify(request.url)}`);
