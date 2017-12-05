@@ -33,7 +33,6 @@ Standard JavaScript with ES6
 * Jest
 * Eslint
 * Winston
-* Faker
 * Superagent
 * Cowsay
 
