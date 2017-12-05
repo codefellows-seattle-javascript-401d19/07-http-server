@@ -10,7 +10,7 @@
     "test": "jest -i --coverage",
     "lint": "eslint */.js */**.js",
     "start": "node index.js",
-    "watch": "nodemon index.js"
+    "devStart": "nodemon index.js --ignore 'log.json'"
   },
   "repository": {
     "type": "git",
