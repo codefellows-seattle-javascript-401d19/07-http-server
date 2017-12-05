@@ -1,0 +1,38 @@
+{
+  "name": "lab-andrew",
+  "version": "1.0.0",
+  "description": "http-server",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest -i --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALB37/07-http-server.git"
+  },
+  "keywords": [
+    "vanilla",
+    "javascript",
+    "server"
+  ],
+  "author": "Andrew Bloom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ALB37/07-http-server/issues"
+  },
+  "homepage": "https://github.com/ALB37/07-http-server#readme",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1",
+    "superagent": "^3.8.1"
+  },
+  "dependencies": {
+    "cowsay": "^1.2.1",
+    "dotenv": "^4.0.0",
+    "faker": "^4.1.0",
+    "winston": "^2.4.0"
+  }
+}
