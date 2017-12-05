@@ -33,11 +33,28 @@ const app = http.createServer((request, response) => {
       if(request.method === 'GET' && request.url.pathname === '/') {
         response.writeHead(200,{'Content-Type' : 'text/html' });
 
-        response.write(`<html>here</html>`);
+        response.write(`<!DOCTYPE html>
+        <html>
+          <head>
+            <title> cowsay </title>  
+          </head>
+          <body>
+           <header>
+             <nav>
+               <ul> 
+                 <li><a href="/cowsay">cowsay</a></li>
+               </ul>
+             </nav>
+           <header>
+           <main>
+             <!-- project description -->
+           </main>
+          </body>
+        </html>`);
         logger.log('info', 'Responding with a 200 status code');
         response.end();
         return;
-      }else if(request.method === 'POST' && request.url.pathname === '/echo'){
+      }else if(request.method === 'POST' && request.url.pathname === '/cowsay'){
         response.writeHead(200,{'Content-Type' : 'application/json'});
         response.write(JSON.stringify(request.body));
         response.end();
