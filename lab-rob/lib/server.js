@@ -13,7 +13,7 @@ const winstonLevels = {
   debug: 4,
 };
 
-const logger = new (winson.Logger)({
+const logger = new (winston.Logger)({
   transports: [
     new (winston.transports.File)({
       filename: 'log.json',
