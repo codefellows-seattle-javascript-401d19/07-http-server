@@ -22,11 +22,14 @@ const logger = new (winson.Logger)({
 });
 
 
+
+
+
+// -----------------------------------------------------
 const server = module.exports = {};
 
 server.start = (port, callback) => {
   logger.log('info', 'Server is up on port ${port}');
-  console.log('Server is up on port ${port}');
   return app.listen(port, callback);
 };
 
