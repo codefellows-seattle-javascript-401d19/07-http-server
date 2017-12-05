@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest -i --coverage"
+    "test": "jest -i --coverage",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -32,7 +33,6 @@
   "dependencies": {
     "cowsay": "^1.2.1",
     "dotenv": "^4.0.0",
-    "faker": "^4.1.0",
     "winston": "^2.4.0"
   }
 }
