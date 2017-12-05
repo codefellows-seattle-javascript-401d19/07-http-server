@@ -1,0 +1,27 @@
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T22:54:57.728Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-05T22:55:02.919Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-05T22:55:02.919Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-05T22:55:02.920Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-05T22:55:02.920Z"}
+{"level":"info","message":"Responding  with a 200 status code","timestamp":"2017-12-05T22:55:02.925Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-05T22:55:03.989Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-05T22:55:03.989Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-05T22:55:03.989Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-05T22:55:03.989Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-05T22:55:03.990Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-05T22:55:04.227Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-05T22:55:04.227Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-05T22:55:04.227Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-05T22:55:04.227Z"}
+{"level":"info","message":"Responding  with a 200 status code","timestamp":"2017-12-05T22:55:04.228Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-05T22:55:21.590Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-05T22:55:21.590Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-05T22:55:21.591Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-05T22:55:21.591Z"}
+{"level":"info","message":"Responding  with a 200 status code","timestamp":"2017-12-05T22:55:21.592Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T22:55:33.341Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-05T22:55:35.061Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-05T22:55:35.061Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-05T22:55:35.061Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-05T22:55:35.062Z"}
+{"level":"info","message":"Responding  with a 200 status code","timestamp":"2017-12-05T22:55:35.066Z"}
