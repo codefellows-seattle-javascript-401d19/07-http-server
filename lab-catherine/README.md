@@ -35,6 +35,7 @@ Standard JavaScript with ES6
 * Winston
 * Faker
 * Superagent
+* Cowsay
 
 ### How to use?
 
