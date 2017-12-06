@@ -12,7 +12,7 @@ describe('server.js', () => {
         .set({ 'Content-Type': 'text/html' })
         .then(response => {
           expect(response.status).toEqual(200);
-          expect(response.res).not.toBeNull();
+          expect(response.res.text).toBeDefined();
         });
     });
 
