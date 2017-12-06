@@ -1,19 +1,48 @@
 'use strict';
 
 const superagent = require('superagent');
+// server is defined for test suite coverage report
 const server = require('../lib/server');
+
 
 describe('server.js', () => {
   describe('HTTP GET requests', () => {
-    test('GET request should respond with a 200 status code and a body if there is no error', () => {
-      const url = 'http://localhost:3000/';
-      return superagent
-        .get(url)
-        .set({ 'Content-Type': 'text/html' })
-        .then(response => {
-          expect(response.status).toEqual(200);
-          expect(response.res.text).toBeDefined();
-        });
+    describe('Home Page: /', () => {
+      test('GET request should respond with a 200 status code and a body if there is no error', () => {
+        const url = 'http://localhost:3000/';
+        return superagent
+          .get(url)
+          .set({ 'Content-Type': 'text/html' })
+          .then(response => {
+            expect(response.status).toEqual(200);
+            expect(response.res.text).toBeDefined();
+          });
+      });
+    });
+
+    describe('Cowsay: /cowsay', () => {
+      test('GET request should respond with a 200 status code, and a body if there is no error', () => {
+        const url = 'http://localhost:3000/cowsay';
+        return superagent
+          .get(url)
+          .set({ 'Content-Type': 'text/html' })
+          .then(response => {
+            expect(response.status).toEqual(200);
+            expect(response.res.text).toBeDefined();
+          });
+      });
+
+      test('GET request should respond with a 200 status code and a query string object', () => {
+        const url = 'http://localhost:3000/cowsay';
+        return superagent
+          .get(url)
+          .set({ 'Content-Type': 'text/html' })
+          .query({ text: 'testing'})
+          .then(response => {
+            expect(response.status).toEqual(200);
+            expect(response.query).toEqual('test');
+          });
+      });
     });
 
     test('GET request should respond with a 404 status code if there is any error', () => {
