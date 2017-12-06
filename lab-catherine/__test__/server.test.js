@@ -1,7 +1,7 @@
 'use strict';
 
 const superagent = require('superagent');
-const server = require('../lib/server');
+const server = require('../lib/server'); //eslint-disable-line
 
 describe('server.test.js',() => {
   test('POST request should respond with a 200 status code and a body if there is no error', () => {
@@ -16,7 +16,7 @@ describe('server.test.js',() => {
   test('POST should respond with at 400 status code if there is any error', () => {
     return superagent.post('http://localhost:3000/echo')
       .set({'Content-Type' : 'application/json'})
-      .send('{')// vinicio - this is what returns a promise 
+      .send('{') 
       .then(response => Promise.reject(response))
       .catch(response => {
         expect(response.status).toEqual(400);

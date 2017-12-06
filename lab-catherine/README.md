@@ -8,19 +8,24 @@
 
 ### Motivation
 
-This project is a Transmisson Control Protocol (TCP) chatroom where clients can connect to a telnet client, update their user name, message all chat users, direct message a designated user, and exit the chatroom.
+In this project, I built a (Hypertext Transfer Protocol) HTTP server. This server handles GET and POST requests/responses.
 
 ### Build
 
-The only module that is being exported is the server module with start and stop properties - this is to keep the rest of the server.js code private. 
+#### Request Parser
 
-Inside server.js there is a Client class and constructor function that contains an id, name, and socket. The Client class is used to instantiate new users (once they have joined the chatroom).
+The request parser module returns a promise that parses the request url, querystring, and POST body (as JSON).
 
-The other functions include a parseCommand that handles messages based on whether a user is passing a command (such as @list) or whether they are simply sending a message to the chatroom. There is an app.on function that instantiates new users and handles when they exit the chat. Then there are the server.start and server.stop functions that are being exported and handle the server connection.
+#### Server Module
+
+The server module is creating an http server, defining route behavior and exporting an interface for starting and stopping the server. The server module exports an object containing start and stop methods - this is to keep the rest of the server.js code private. 
+
 
 ### Limitations
 
-In order to join the existing chatroom - you must request the IP address and port of the host and manually connect. 
+The POST request is only visible in the command line - it does not post to the browser. 
+
+To use this app - it is assumed that the user has familiarity with the tech and frameworks listed below. 
 
 ### Code Style
 
@@ -38,15 +43,17 @@ Standard JavaScript with ES6
 
 ### How to use?
 
-* Step 1. Connect to telnet server in terminal. ```telnet <IP address> <PORT>```
-* Step 2. Once you have connected to the chatroom you will be assigned a randomly generated username.
-* Step 3. Now that you have joined, you may message the chatroom attendees. If you would like to further interact there are 4 commands that you can run.
 
-#### Chatroom Commands:
-* ```@list``` - will print out a list of people in the chatroom.
-* ```@quit``` - will remove you from the chatroom.
-* ```@name <new-username>``` - allows you to change your username to a name of your choice.
-* ```@dm <to user-name> <message>``` - allows you to send a direct message to another member of the chatroom.
+* Step 1. Fork and Clone the Repository.
+* Step 2. npm install.
+* Step 3. Follow the specific instructions below for a GET or POST request.
+
+#### GET request:
+
+ A client can make a GET request to ```'/'``` or ```http://localhost:3000``` then the server sends back HTML with a project description and a link to ```/cowsay```. The user can then click the cowsay link and will be redirected to a page that contains an image of a cow and the default text "I need something good to say". To change this message, a user can add ```?text={message}``` where ```{message}``` is whatever the user types.
+
+#### For example:
+```http://localhost:3000/cowsay?text=hello```
 
 ### Credits
 
