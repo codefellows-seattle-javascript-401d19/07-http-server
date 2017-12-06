@@ -75,7 +75,7 @@ const app = http.createServer((request,response) => {
           return;
         }
         response.writeHead(200, { 'Content-Type' : 'application/json' });
-        response.write(JSON.stringify(request.body));
+        response.write(`{"content": "${request.body.text}"}`);
         response.end();
         return;
       }
@@ -88,7 +88,7 @@ const app = http.createServer((request,response) => {
       logger.log('info','Answering with a 400 status code');
       logger.log('info', error);
 
-      let errorMessage = 'Bad Request';
+      let errorMessage = '{"error": "invalid request: text query required"}';
       if(request.method === 'POST' && request.body === undefined) {
         errorMessage = '{"error" : "invalid request: body required"}';
       }
@@ -99,7 +99,6 @@ const app = http.createServer((request,response) => {
       return;
     });
 });
-
 
 const server = module.exports = {};
 

@@ -663,3 +663,60 @@
 {"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"user-agent\":\"HTTPie/0.9.9\",\"accept-encoding\":\"gzip, deflate\",\"accept\":\"application/json, */*\",\"connection\":\"keep-alive\",\"content-type\":\"application/json\",\"content-length\":\"2\"}","timestamp":"2017-12-06T02:23:24.725Z"}
 {"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T02:23:24.725Z"}
 {"message":"Unexpected token } in JSON at position 0","stack":"SyntaxError: Unexpected token } in JSON at position 0\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/catherinelooper/codefellows/401/lab-assignments/07-http-server/lab-catherine/lib/request-parser.js:42:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T02:23:24.725Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:36:18.403Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T02:36:18.403Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T02:36:18.404Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.8\",\"cookie\":\"gsScrollPos-409=0; gsScrollPos-286=0; gsScrollPos-1859=0; gsScrollPos-1866=0\"}","timestamp":"2017-12-06T02:36:18.404Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T02:36:18.411Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:36:24.616Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T02:36:24.616Z"}
+{"level":"info","message":"URL: /hey","timestamp":"2017-12-06T02:36:24.616Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.8\",\"cookie\":\"gsScrollPos-409=0; gsScrollPos-286=0; gsScrollPos-1859=0; gsScrollPos-1866=\"}","timestamp":"2017-12-06T02:36:24.616Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T02:36:24.617Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T02:36:32.570Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:36:36.795Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T02:36:36.795Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T02:36:36.795Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.8\",\"cookie\":\"gsScrollPos-409=0; gsScrollPos-286=0; gsScrollPos-1859=0; gsScrollPos-1866=\"}","timestamp":"2017-12-06T02:36:36.795Z"}
+{"level":"info","message":"Responding  with a 200 status code","timestamp":"2017-12-06T02:36:36.800Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:36:38.324Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T02:36:38.324Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T02:36:38.324Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.8\",\"cookie\":\"gsScrollPos-409=0; gsScrollPos-286=0; gsScrollPos-1859=0; gsScrollPos-1866=\"}","timestamp":"2017-12-06T02:36:38.324Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T02:36:38.326Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:36:42.318Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T02:36:42.318Z"}
+{"level":"info","message":"URL: /cowsay/helllooooo","timestamp":"2017-12-06T02:36:42.318Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.8\",\"cookie\":\"gsScrollPos-409=0; gsScrollPos-286=0; gsScrollPos-1859=0; gsScrollPos-1866=\"}","timestamp":"2017-12-06T02:36:42.318Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T02:36:42.318Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:36:56.645Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T02:36:56.645Z"}
+{"level":"info","message":"URL: /cowsay/?text=hellloo%20everyone","timestamp":"2017-12-06T02:36:56.645Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.8\",\"cookie\":\"gsScrollPos-409=0; gsScrollPos-286=0; gsScrollPos-1859=0; gsScrollPos-1866=\"}","timestamp":"2017-12-06T02:36:56.645Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T02:36:56.645Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:37:20.289Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T02:37:20.289Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T02:37:20.289Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.8\",\"cookie\":\"gsScrollPos-409=0; gsScrollPos-286=0; gsScrollPos-1859=0; gsScrollPos-1866=\"}","timestamp":"2017-12-06T02:37:20.289Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T02:37:20.289Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:37:30.354Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T02:37:30.354Z"}
+{"level":"info","message":"URL: /cowsay?text=aja;fojalsfkja","timestamp":"2017-12-06T02:37:30.354Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.8\",\"cookie\":\"gsScrollPos-409=0; gsScrollPos-286=0; gsScrollPos-1859=0; gsScrollPos-1866=\"}","timestamp":"2017-12-06T02:37:30.354Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T02:37:30.354Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:37:36.099Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T02:37:36.099Z"}
+{"level":"info","message":"URL: /cowsay?text=what%27saoija","timestamp":"2017-12-06T02:37:36.099Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.8\",\"cookie\":\"gsScrollPos-409=0; gsScrollPos-286=0; gsScrollPos-1859=0; gsScrollPos-1866=\"}","timestamp":"2017-12-06T02:37:36.100Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T02:37:36.100Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T02:41:42.246Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:41:55.302Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:41:55.302Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:41:55.302Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"user-agent\":\"HTTPie/0.9.9\",\"accept-encoding\":\"gzip, deflate\",\"accept\":\"application/json, */*\",\"connection\":\"keep-alive\",\"content-type\":\"application/json\",\"content-length\":\"19\"}","timestamp":"2017-12-06T02:41:55.302Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:42:16.829Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:42:16.829Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:42:16.829Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"user-agent\":\"HTTPie/0.9.9\",\"accept-encoding\":\"gzip, deflate\",\"accept\":\"application/json, */*\",\"connection\":\"keep-alive\",\"content-type\":\"application/json\",\"content-length\":\"3\"}","timestamp":"2017-12-06T02:42:16.829Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T02:42:16.835Z"}
+{"message":"Cannot create property 'text' on string ''","stack":"TypeError: Cannot create property 'text' on string ''\n    at IncomingMessage.request.on (/Users/catherinelooper/codefellows/401/lab-assignments/07-http-server/lab-catherine/lib/request-parser.js:43:27)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T02:42:16.835Z"}
