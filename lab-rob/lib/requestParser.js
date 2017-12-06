@@ -23,11 +23,11 @@ requestParser.parse = req => {
           if(!req.body.text)
             req.body = {error: 'invalid request: text required'};
           else
-            req.body = { content: req.body.text};
+            req.body = {content: cowsay.say({text: req.body.text})};
         }
         return resolve(req);
       } catch(err) {
-        req.body = {error: 'Invalid request: text query required'};
+        req.body = {error: 'Invalid request: object {text: <message>} required'};
         return reject(err);
       }
     });

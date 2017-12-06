@@ -2,7 +2,6 @@
 
 const http = require('http');
 const winston = require('winston');
-const faker = require('faker');
 const cowsay = require('cowsay');
 const requestParser = require('./requestParser');
 
@@ -54,7 +53,7 @@ const app = http.createServer((req, res) => {
               <h1>CodeFellows Code 401d19: Full-Stack JavaScript</h1>
               <h2>Lab 7: HTTP Server</h2>
               <h3>Robert Reed, 12/5/17</h3>
-              <p>The purpose of this project is to build an HTTP server from scratch using the http node package.</p>
+              <p>The purpose of this project is to build an HTTP server from scratch using the http node package. Additionally, we are practicing setting up routes for GET and POST requests, and defining how those requests should be handled.</p>
             </main>
           </body>
         </html>`);
@@ -78,7 +77,7 @@ const app = http.createServer((req, res) => {
           <body>
             <h1> cowsay </h1>
               <pre>
-                ${cowsay.say({ text: cowSpeak })}
+                ${cowsay.say({ text: cowSpeak, cow: DRAGON })}
               </pre>
           </body>
         </html>`);
@@ -89,7 +88,8 @@ const app = http.createServer((req, res) => {
         if(req.body.error) {
           res.writeHead(400, {
             'Content-Type': 'application/json',
-          });} else {
+          });
+        } else {
           res.writeHead(200, {
             'Content-Type': 'application/json',
           });}
