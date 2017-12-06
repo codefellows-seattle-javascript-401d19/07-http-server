@@ -3091,3 +3091,48 @@
 {"level":"info","message":"Original url is: /api/cowsay","timestamp":"2017-12-06T17:03:03.214Z"}
 {"level":"info","message":"The stringified buffer is: {\"type\":\"Buffer\",\"data\":[123,34,116,101,120,116,34,58,34,109,111,111,32,103,111,101,115,32,116,104,101,32,99,111,119,34,125]}","timestamp":"2017-12-06T17:03:03.215Z"}
 {"level":"info","message":"{\"text\":\"moo goes the cow\"} is the request body","timestamp":"2017-12-06T17:03:03.215Z"}
+{"level":"info","message":"The server is running on port: 3000","timestamp":"2017-12-06T18:14:55.336Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T18:15:02.783Z"}
+{"level":"info","message":"Original url is: \"/\"","timestamp":"2017-12-06T18:15:02.784Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-06T18:15:02.784Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:15:02.784Z"}
+{"level":"info","message":"The url received was : /","timestamp":"2017-12-06T18:15:02.784Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-06T18:15:02.786Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/\",\"path\":\"/\",\"href\":\"/\"}","timestamp":"2017-12-06T18:15:02.786Z"}
+{"level":"info","message":"[object Object]","timestamp":"2017-12-06T18:15:02.788Z"}
+{"level":"info","message":"Original url is: /","timestamp":"2017-12-06T18:15:02.784Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T18:15:02.798Z"}
+{"level":"info","message":"Original url is: \"/cowsay?text=word\"","timestamp":"2017-12-06T18:15:02.798Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-06T18:15:02.798Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:15:02.798Z"}
+{"level":"info","message":"The url received was : /cowsay?text=word","timestamp":"2017-12-06T18:15:02.798Z"}
+{"level":"info","message":"the request.url.query received was: {\"text\":\"word\"}","timestamp":"2017-12-06T18:15:02.799Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=word\",\"query\":{\"text\":\"word\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=word\",\"href\":\"/cowsay?text=word\"}","timestamp":"2017-12-06T18:15:02.799Z"}
+{"level":"info","message":"Original url is: /cowsay?text=word","timestamp":"2017-12-06T18:15:02.798Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T18:15:02.803Z"}
+{"level":"info","message":"Original url is: \"/cowsay\"","timestamp":"2017-12-06T18:15:02.803Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-06T18:15:02.803Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:15:02.803Z"}
+{"level":"info","message":"The url received was : /cowsay","timestamp":"2017-12-06T18:15:02.803Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-06T18:15:02.803Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cowsay\",\"path\":\"/cowsay\",\"href\":\"/cowsay\"}","timestamp":"2017-12-06T18:15:02.803Z"}
+{"level":"info","message":"Original url is: /cowsay","timestamp":"2017-12-06T18:15:02.803Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T18:15:02.806Z"}
+{"level":"info","message":"Original url is: \"/api/cowsay\"","timestamp":"2017-12-06T18:15:02.806Z"}
+{"level":"info","message":"The method received was : POST","timestamp":"2017-12-06T18:15:02.806Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"27\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:15:02.806Z"}
+{"level":"info","message":"The url received was : /api/cowsay","timestamp":"2017-12-06T18:15:02.806Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-06T18:15:02.807Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T18:15:02.807Z"}
+{"level":"info","message":"{} is the stringified url.query","timestamp":"2017-12-06T18:15:02.807Z"}
+{"level":"info","message":"Original url is: /api/cowsay","timestamp":"2017-12-06T18:15:02.806Z"}
+{"level":"info","message":"The stringified buffer is: {\"type\":\"Buffer\",\"data\":[123,34,116,101,120,116,34,58,34,109,111,111,32,103,111,101,115,32,116,104,101,32,99,111,119,34,125]}","timestamp":"2017-12-06T18:15:02.807Z"}
+{"level":"info","message":"{\"text\":\"moo goes the cow\"} is the request body","timestamp":"2017-12-06T18:15:02.807Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T18:15:02.810Z"}
+{"level":"info","message":"Original url is: \"/api/cowsay\"","timestamp":"2017-12-06T18:15:02.811Z"}
+{"level":"info","message":"The method received was : POST","timestamp":"2017-12-06T18:15:02.811Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"connection\":\"close\",\"content-length\":\"0\"}","timestamp":"2017-12-06T18:15:02.811Z"}
+{"level":"info","message":"The url received was : /api/cowsay","timestamp":"2017-12-06T18:15:02.811Z"}
+{"level":"info","message":"There was an error: SyntaxError: Unexpected end of JSON input","timestamp":"2017-12-06T18:15:02.811Z"}
+{"level":"info","message":"Responding with 400 error","timestamp":"2017-12-06T18:15:02.811Z"}
+{"level":"info","message":"Original url is: /api/cowsay","timestamp":"2017-12-06T18:15:02.811Z"}
