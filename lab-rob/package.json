@@ -1,0 +1,27 @@
+{
+  "name": "cf-401d19-lab-07",
+  "version": "1.0.0",
+  "description": "Code Fellows Code 401d19 - Full-Stack JavaScript - Lab-07-http-server",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest -i --coverage",
+    "lint": "eslint .",
+    "start": "node index.js"
+  },
+  "author": "Robert Reed",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1",
+    "superagent": "^3.8.1"
+  },
+  "dependencies": {
+    "cowsay": "^1.2.1",
+    "dotenv": "^4.0.0",
+    "faker": "^4.1.0",
+    "winston": "^2.4.0"
+  }
+}
