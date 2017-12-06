@@ -4,6 +4,9 @@ const http = require('http');
 const winston = require('winston');
 const requestParser = require('./request-parser');
 const faker = require('faker');
+const cowsay = require('cowsay');
+const getRoutes = require('./getRoutes');
+
 
 const winstonLevels = {error: 0, warn: 1, info: 2, verbose: 3, debug: 4};
 
@@ -28,28 +31,48 @@ const app = http.createServer((request, response) => {
 
       // ========== GET ROUTES =============
       if (request.method === 'GET') {
+        let cowSpeak = {};
         switch (request.url.pathname) {
-          
+
           case '/': 
             response.writeHead(200, { 'Content-Type': 'text/html' });
-            response.write(`<!DOCTYPE html>
-            <head><title>Hello World!</title></head>
-            <body>
-              <h1>Hello World</h1>
-              <h2>${faker.hacker.phrase()}</h2>
-            </body>
-            </html>`);
+            response.write(getRoutes.slash);
             logger.log('info', 'Responding with a 200 status code');
             response.end();
             return;
 
           case '/cowsays':
-            console.log('this shouldn\'t be reached');
+            response.writeHead(200, { 'Content-Type': 'text/plain' });
+            response.write(`${
+              cowsay.say({
+                text : 'Vinicio Is Awesome!',
+                e : 'oO',
+                T : 'U ',
+              })}`);
+            
+            logger.log('info', '/cowsays responding with 200 status code');
+            response.end();
+            logger.log('info', 'Cow Says: Vinicio Is Awesome!');
             return;
 
+          case '/cowsay':
+            console.log(`cow init`);
+            response.writeHead(200, { 'Content-Type': 'text/plain' });
+            if (!request.url.query.text) request.url.query.text = 'Ron is awesome!... err, I need something good to say!';
+            cowSpeak = {
+              text: request.url.query.text,
+              e: 'OO',
+              T: 'U',
+            };
+            response.write(`${cowsay.say(cowSpeak)}`);
+        
+            logger.log('info', `/cowsays ${cowSpeak.text}`);
+            response.end();
+            console.log(`cow said ${cowSpeak.text}`);
+            return;
         }
 
-
+        // =================== POST ROUTES ===================
       } else if (request.method === 'POST' && request.url.pathname === '/echo') {
         logger.log('info', `Responding with a 200 status code`);      
         response.writeHead(200, { 'Content-type': 'application/json' });

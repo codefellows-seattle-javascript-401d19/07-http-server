@@ -29,8 +29,8 @@ server.start(PORT, () => {
 // }));
 
 
-// let urf = url.parse('/cowsay?text=herro');
-// console.log(qs.parse('/cowsay?text=herro'));
-// console.log(urf);
-// console.log(qs.parse(urf.query));
+// let urf = url.parse('/cowsay?text=');
+// console.log('qs.parse /cowsay HERRO: ', qs.parse('/cowsay?text='));
+// console.log('url.parse /cowsay HERRO: ', urf);
+// console.log('qs.parse url.query: ', qs.parse(urf.query));
 
