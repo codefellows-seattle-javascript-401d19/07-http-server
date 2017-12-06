@@ -25,6 +25,7 @@ requestParser.parse = (request) => {
     logger.log('debug', `Original URL: ${JSON.stringify(request.url)}`);
     request.url = urlModule.parse(request.url);
     request.url.query = queryStringModule.parse(request.url.query);
+    console.log(request.url.query);
     logger.log('debug', `Parsed URL: ${JSON.stringify(request.url)}`);
 
     if(request.method !== 'POST' && request.method !== 'PUT')

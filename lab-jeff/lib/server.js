@@ -3,7 +3,7 @@
 const http = require('http');
 const winston = require('winston');
 const requestParser = require('./request-parser');
-const faker = require('faker');
+const cowsay = require('cowsay');
 
 
 const winstonLevels = {error: 0, warn : 1, info : 2, verbose: 3 , debug: 4};
@@ -30,19 +30,36 @@ const app = http.createServer((request,response) => {
       // vinicio - this is the same as having http://localhost:3000/
       if(request.method === 'GET' && request.url.pathname === '/'){
         // vinicio - 200 is 'OK'
-        response.writeHead(200,{ 'Content-Type' : 'text/html' });
+        response.writeHead(200, { 'Content-Type' : 'text/html' });
 
-        response.write(`<!DOCTYPE html>
-        <head><title>THIS IS A TITLE!</title></head>
-        <body>
-          <h1>HELLO WORLD FROM THE SERVER</h1>
-          <h2>${faker.hacker.phrase()}</h2>
-        </body>
-        </html>`);
+        response.write(`<!DOCTYPE html><html>
+  <head><title> cowsay </title></head>
+  <body><header><nav><ul><li><a href="/cowsay">cowsay</a></li></ul></nav><header>
+   <main>What does a cow say?</main></body></html>`);
         logger.log('info','Responding  with a 200 status code');
         response.end();
         return;
-      }else if(request.method === 'POST' && request.url.pathname === '/echo'){
+      } else if (request.method === 'GET' && request.url.pathname === '/cowsay'){
+        response.writeHead(200, { 'Content-Type' : 'text/html' });
+
+        let message = cowsay.say({text: 'I need something good to say!'});
+        if(request.url.query.text) message = cowsay.say(request.url.query);
+        console.log(message);
+        response.write(`<!DOCTYPE html>
+<html>
+  <head>
+    <title> cowsay </title>
+  </head>
+  <body>
+    <h1> cowsay </h1>
+    <pre> ${message}
+    </pre>
+  </body>
+</html>`);
+        logger.log('info','Responding  with a 200 status code');
+        response.end();
+        return;
+      } else if (request.method === 'POST' && request.url.pathname === '/echo'){
         response.writeHead(200,{ 'Content-Type' : 'application/json' });
         response.write(JSON.stringify(request.body));
         response.end();
@@ -52,7 +69,7 @@ const app = http.createServer((request,response) => {
       response.writeHead(404,{ 'Content-Type' : 'text/plain' });
       response.write('Not Found');
       logger.log('info','Responding with a 404 status code');
-      response.end(); 
+      response.end();
       return;
     }).catch(error => {
       // vinicio - 400 is 'bad request'
