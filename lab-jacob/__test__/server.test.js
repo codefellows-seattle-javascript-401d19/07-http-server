@@ -14,9 +14,10 @@ describe('server.test.js',() => {
 
         expect(response.status).toEqual(200);
         // vinicio - in your homework, you'll change the next line
-        expect(response.body).toEqual(requestParser.request.url.query);
+        expect(response.body).toEqual(testBody);
       });
   });
+
   test('POST should respond with at 400 status code if there is any error', () => {
     return superagent.post('http://localhost:3000/echo')
       .set({'Content-Type' : 'application/json'})
