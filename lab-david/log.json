@@ -41,3 +41,24 @@
 {"level":"info","message":"URL: /","timestamp":"2017-12-06T00:09:22.978Z"}
 {"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"dnt\":\"1\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-06T00:09:22.978Z"}
 {"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T00:09:22.978Z"}
+{"level":"info","message":"server is up on port 3000","timestamp":"2017-12-06T00:17:19.716Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T00:17:22.019Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T00:17:22.019Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T00:17:22.019Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"dnt\":\"1\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-06T00:17:22.019Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T00:17:22.022Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T00:17:24.483Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T00:17:24.483Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T00:17:24.483Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"dnt\":\"1\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-06T00:17:24.483Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T00:17:24.484Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T00:17:25.835Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T00:17:25.835Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T00:17:25.835Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"dnt\":\"1\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-06T00:17:25.835Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T00:17:25.835Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T00:53:05.402Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T00:53:05.403Z"}
+{"level":"info","message":"URL: /cowsay?hello","timestamp":"2017-12-06T00:53:05.403Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"dnt\":\"1\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-06T00:53:05.403Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T00:53:05.404Z"}

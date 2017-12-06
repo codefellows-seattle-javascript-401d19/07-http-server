@@ -55,7 +55,7 @@ const app = http.createServer((request, response) => {
         logger.log('info', 'Responding with a 200 status code');
         response.end();
         return;
-      }else if(request.method === 'GET' && request.url.pathname === `/cowsay?text={message}`) {
+      }if(request.method === 'GET' && request.url.pathname === `/cowsay?text={message}` && request.url.query !== null) {
         response.writeHead(200,{'Content-Type' : 'text/html' });
 
         response.write(`<!DOCTYPE html>
@@ -73,7 +73,26 @@ const app = http.createServer((request, response) => {
         logger.log('info', 'Responding with a 200 status code');
         response.end();
         return;
-      }else if(request.method === 'POST' && request.url.pathname === '/cowsay'){
+      }if(request.method === 'GET' && request.url.pathname === `/cowsay` && request.url.query === null) {
+        response.writeHead(200,{'Content-Type' : 'text/html' });
+
+        response.write(`<!DOCTYPE html>
+        <html>
+          <head>
+            <title> cowsay </title>  
+          </head>
+          <body>
+            <h1> cowsay </h1>
+            <pre>
+              <!-- cowsay.say({text: "I need something good to say!"}) -->
+            </pre>
+          </body>
+        </html>`);
+        logger.log('info', 'Responding with a 200 status code');
+        response.end();
+        return;
+      }
+      else if(request.method === 'POST' && request.url.pathname === '/cowsay'){
         response.writeHead(200,{'Content-Type' : 'application/json'});
         response.write(JSON.stringify(request.body));
         // response.write(JSON.stringify({"content": "<cowsay cow text>"}));
@@ -82,7 +101,7 @@ const app = http.createServer((request, response) => {
         return;
       }
       response.writeHead(404,{ 'Content-Type' : 'text/plain' });
-      response.write('Not Found');
+      response.write('The cowsay you are looking for has not been found');
       logger.log('info', 'Responding with a 404 status code');
       response.end();
       return;
