@@ -4,6 +4,7 @@ const http = require('http');
 const winston = require('winston');
 const requestParser = require('./request-parser');
 const faker = require('faker');
+const cowsay = require('cowsay');
 
 
 const winstonLevels = {error: 0, warn : 1, info : 2, verbose : 3, debug : 4};
@@ -54,7 +55,7 @@ const app = http.createServer((request, response) => {
         logger.log('info', 'Responding with a 200 status code');
         response.end();
         return;
-      }else if(request.method === 'GET' && request.url.pathname === '/cowsay?text={message}') {
+      }else if(request.method === 'GET' && request.url.pathname === `/cowsay?text={message}`) {
         response.writeHead(200,{'Content-Type' : 'text/html' });
 
         response.write(`<!DOCTYPE html>
@@ -76,7 +77,7 @@ const app = http.createServer((request, response) => {
         response.writeHead(200,{'Content-Type' : 'application/json'});
         response.write(JSON.stringify(request.body));
         // response.write(JSON.stringify({"content": "<cowsay cow text>"}));
-        console.log(request.body);
+        logger.log('debug', `${request.body}`);
         response.end();
         return;
       }
