@@ -19,9 +19,7 @@ const requestParser = module.exports = {};
 
 requestParser.parse = (request) => {
   return new Promise((resolve,reject) => {
-    //-------------------------------------------------------------
-    // This will be done for ALL requests
-    //-------------------------------------------------------------
+
     logger.log('debug', `Original URL: ${JSON.stringify(request.url)}`);
     request.url = urlModule.parse(request.url);
     request.url.query = queryStringModule.parse(request.url.query);
@@ -29,10 +27,7 @@ requestParser.parse = (request) => {
 
     if(request.method !== 'POST' && request.method !== 'PUT')
       return resolve(request);
-    //-------------------------------------------------------------
-    // Parsing a body is JUST for HTTP methods that include a body
-    //-------------------------------------------------------------
-    // vinicio - if I'm in this part of the code, I know it's a POST/PUT request
+
     let sentText = '';
     request.on('data',(buffer) => {
       sentText += buffer.toString();

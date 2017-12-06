@@ -73,3 +73,25 @@
 {"level":"info","message":"Method: GET","timestamp":"2017-12-05T23:57:05.377Z"}
 {"level":"info","message":"URL: /cowsay","timestamp":"2017-12-05T23:57:05.377Z"}
 {"level":"info","message":"Responding  with a 200 status code","timestamp":"2017-12-05T23:57:05.381Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T00:04:25.024Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T00:04:29.031Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T00:04:29.031Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T00:04:29.031Z"}
+{"level":"info","message":"Responding  with a 200 status code","timestamp":"2017-12-06T00:04:29.039Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T00:04:54.326Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T00:04:54.326Z"}
+{"level":"info","message":"URL: /cowsay?text=mooooooooooooooooooooo","timestamp":"2017-12-06T00:04:54.326Z"}
+{"level":"info","message":"Responding  with a 200 status code","timestamp":"2017-12-06T00:04:54.327Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T00:06:04.982Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T00:06:08.736Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T00:06:08.736Z"}
+{"level":"info","message":"URL: /cowsay?text=mooooooooooooooooooooo","timestamp":"2017-12-06T00:06:08.737Z"}
+{"level":"info","message":"Responding  with a 200 status code","timestamp":"2017-12-06T00:06:08.745Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T00:07:04.667Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T00:07:04.667Z"}
+{"level":"info","message":"URL: /cowsay?text=moooo%20ooooooo%20oo%20oooo%20%20ooo%20o","timestamp":"2017-12-06T00:07:04.667Z"}
+{"level":"info","message":"Responding  with a 200 status code","timestamp":"2017-12-06T00:07:04.668Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T00:07:29.632Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T00:07:29.632Z"}
+{"level":"info","message":"URL: /cowsay?text=don%27t%20eat%20me!","timestamp":"2017-12-06T00:07:29.632Z"}
+{"level":"info","message":"Responding  with a 200 status code","timestamp":"2017-12-06T00:07:29.633Z"}

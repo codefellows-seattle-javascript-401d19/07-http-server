@@ -41,7 +41,7 @@ const app = http.createServer((request, response) => {
                </nav>
              <header>
              <main>
-               Click the link to see what the cow 'say'!
+               <p>Click the link to see what the cow 'say'!</p>
              </main>
             </body>
           </html>`);
@@ -51,6 +51,7 @@ const app = http.createServer((request, response) => {
       } if (request.method === 'GET' && request.url.pathname === '/cowsay'){
         response.writeHead(200,{ 'Content-Type' : 'text/html' });
         let message = cowsay.say({text: 'I need something good to say!'});
+        if (request.url.query.text) message = cowsay.say(request.url.query);
         response.write(`<!DOCTYPE html>
           <html>
             <head>
@@ -58,10 +59,7 @@ const app = http.createServer((request, response) => {
             </head>
             <body>
               <h1> cowsay </h1>
-              <pre>
-                ${message}
-                <!-- cowsay.say({text: req.query.text}) -->
-              </pre>
+              <pre>${message}</pre>
             </body>
           </html>`);
         logger.log('info','Responding  with a 200 status code');
