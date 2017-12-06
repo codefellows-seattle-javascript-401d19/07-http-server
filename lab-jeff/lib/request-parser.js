@@ -22,11 +22,8 @@ requestParser.parse = (request) => {
     //-------------------------------------------------------------
     // This will be done for ALL requests
     //-------------------------------------------------------------
-    logger.log('debug', `Original URL: ${JSON.stringify(request.url)}`);
     request.url = urlModule.parse(request.url);
     request.url.query = queryStringModule.parse(request.url.query);
-    console.log(request.url.query);
-    logger.log('debug', `Parsed URL: ${JSON.stringify(request.url)}`);
 
     if(request.method !== 'POST' && request.method !== 'PUT')
       return resolve(request);
@@ -43,6 +40,9 @@ requestParser.parse = (request) => {
       try{
         // vinicio - this is mutating the request object, and creating an
         //           body property
+        console.log('sent text1:' + sentText + '!');
+        if(sentText === '\n') sentText = '{"error": "error"}';
+        console.log('sent text2:' + sentText + '!');
         request.body = JSON.parse(sentText);
         return resolve(request);
       }catch(error){

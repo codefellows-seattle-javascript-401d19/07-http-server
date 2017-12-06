@@ -44,7 +44,6 @@ const app = http.createServer((request,response) => {
 
         let message = cowsay.say({text: 'I need something good to say!'});
         if(request.url.query.text) message = cowsay.say(request.url.query);
-        console.log(message);
         response.write(`<!DOCTYPE html>
 <html>
   <head>
@@ -59,14 +58,28 @@ const app = http.createServer((request,response) => {
         logger.log('info','Responding  with a 200 status code');
         response.end();
         return;
-      } else if (request.method === 'POST' && request.url.pathname === '/echo'){
-        response.writeHead(200,{ 'Content-Type' : 'application/json' });
-        response.write(JSON.stringify(request.body));
-        response.end();
-        return;
+      } else if (request.method === 'POST' && request.url.pathname === '/api/cowsay'){
+        console.log(request.body);
+        if(request.body.error){
+          response.writeHead(400, {'Content-Type' : 'application/json'});
+          response.write(JSON.stringify({error: 'invalid request: body required'}));
+          response.end();
+          return;
+        }
+        if(!request.body.text) {
+          response.writeHead(400, {'Content-Type' : 'application/json'});
+          response.write(JSON.stringify({error: 'invalid request: text required'}));
+          response.end();
+          return;
+        } else {
+          response.writeHead(200,{'Content-Type': 'application/json' });
+          response.write(JSON.stringify({content: cowsay.say(request.body)}));
+          response.end();
+          return;
+        }
       }
       // vinicio - 404 is 'not found'
-      response.writeHead(404,{ 'Content-Type' : 'text/plain' });
+      response.writeHead(404,{'Content-Type': 'text/plain' });
       response.write('Not Found');
       logger.log('info','Responding with a 404 status code');
       response.end();
