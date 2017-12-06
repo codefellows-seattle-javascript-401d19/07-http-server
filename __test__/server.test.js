@@ -23,9 +23,7 @@ describe(`server.js`, () => {
       });
   });
   test(`POST should return a 200 status when /api/cowsay is hit and no errors are present`, () => {
-    console.log('line 26');
     let bodyToTest = { text : 'moo goes the cow'};
-    console.log('line 28');
     return superagent.post(`http://localhost:3000/api/cowsay`)
     .send(bodyToTest)
     .then(response => {
