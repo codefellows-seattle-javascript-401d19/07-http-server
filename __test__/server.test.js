@@ -23,29 +23,31 @@ describe(`server.js`, () => {
       });
   });
   test(`POST should return a 200 status when /api/cowsay is hit and no errors are present`, () => {
-    let bodyToTest = {text : 'moo goes the cow'};
+    console.log('line 26');
+    let bodyToTest = { text : 'moo goes the cow'};
+    console.log('line 28');
     return superagent.post(`http://localhost:3000/api/cowsay`)
-    .send(bodyToTest);
-    .then(response =>
+    .send(bodyToTest)
+    .then(response => {
       expect(reponse.status).toEqual(200);
+    });
+  });
+  test(`POST should respond with a 400 status when /api/cowsay is hit without a body provided`, () => {
+    return superagent.post(`http://localhost:3000/api/cowsay`)
+    .set({'Content-Type' : 'application/json'})
+    .send('}')
+    .then(response => Promise.reject(response))
+    .catch((response) => {
+      expect(reponse.status).toEqual(400);
     })
   })
-  // test(`POST should respond with a 400 status when /api/cowsay is hit without a body provided`, () => {
-  //   return superagent.post(`http://localhost:3000/api/cowsay`)
-  //   .set({'Content-Type' : 'application/json'})
-  //   .send('}')
-  //   .then(response => Promise.reject(response))
-  //   .catch((response) => {
-  //     expect(reponse.status).toEqual(400);
-  //   })
-  // })
-  // test(`POST should respond with a 400 status when /api/cowsay is hit without text provided`, () => {
-  //   return superagent.post(`http://localhost:3000/api/cowsay`)
-  //   .set({'Content-Type' : 'application/json'})
-  //   .send('}')
-  //   .then(response => Promise.reject(response))
-  //   .catch((response) => {
-  //     expect(reponse.status).toEqual(400);
-  //   })
-  // })
+  test(`POST should respond with a 400 status when /api/cowsay is hit without text provided`, () => {
+    return superagent.post(`http://localhost:3000/api/cowsay`)
+    .set({'Content-Type' : 'application/json'})
+    .send('}')
+    .then(response => Promise.reject(response))
+    .catch((response) => {
+      expect(reponse.status).toEqual(400);
+    })
+  })
 });
