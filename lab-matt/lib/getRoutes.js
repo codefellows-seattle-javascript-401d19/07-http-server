@@ -4,12 +4,12 @@ const cowsay = require('cowsay');
 
 const getRoutes = module.exports = {};
 
-// ____ '/' ____
+// =========== '/' ===========
 getRoutes.slash = (phrase) => {
   return `<!DOCTYPE html>
   <html>
     <head>
-      <title> cowsay </title>  
+      <title> Lab 07 - Matt LeBlanc </title>  
     </head>
     <body>
     <header>
@@ -35,7 +35,7 @@ getRoutes.slash = (phrase) => {
   </html>`;
 };
 
-// ____ '/cowsays' ____
+// =========== '/cowsays' ===========
 getRoutes.cowsays = `<!DOCTYPE html>
 <html>
   <head>
@@ -53,7 +53,7 @@ ${cowsay.say({
   </body>
 </html>`;
 
-// ____ '/cowsay?text=<text>' ____
+// =========== '/cowsay?text=<text>' ===========
 getRoutes.cowsay = (speak) => {
   let cow;
   if (!speak) {

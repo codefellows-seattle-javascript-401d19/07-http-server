@@ -18,7 +18,7 @@ This lab is a basic HTTP server that has GET and POST routes with test functions
 <u>**Dev List**</u>
   - `eslint`
   - `jest`
-3. create a `.env` file or `export PORT=<your port>`
+3. create a `.env` with 'PORT=<port#>' file OR `export PORT=<port#>`
 4. in the terminal, run `node index.js` to start the server
 5. then connect via browser http://localhost:3000 with any of the following extensions
   - `'/'`
