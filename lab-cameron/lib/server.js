@@ -32,7 +32,11 @@ const app = http.createServer((request, response) => {
               </header>
               <main>
                 <!-- project description -->
-                Cows taste good. And they're funny
+                This project allows you to make a cow say whatever it is you want.
+                Click the link above and then enter into the text input field whatever you
+                want.
+
+                Why? because cows taste good. And they're funny
               </main>
             </body>
           </html>`);
