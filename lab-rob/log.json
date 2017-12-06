@@ -1020,3 +1020,23 @@
 {"level":"info","message":"URL: /api/cowsayyyyyyyyy","timestamp":"2017-12-06T05:37:15.321Z"}
 {"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"connection\":\"close\",\"content-length\":\"0\"}","timestamp":"2017-12-06T05:37:15.321Z"}
 {"level":"info","message":"Bad route, responding with a 404","timestamp":"2017-12-06T05:37:15.321Z"}
+{"level":"info","message":"Processing request...","timestamp":"2017-12-06T05:45:39.173Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:45:39.173Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T05:45:39.173Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"user-agent\":\"HTTPie/0.9.9\",\"accept-encoding\":\"gzip, deflate\",\"accept\":\"application/json, */*\",\"connection\":\"keep-alive\",\"content-type\":\"application/json\",\"content-length\":\"1\"}","timestamp":"2017-12-06T05:45:39.173Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.req.on (/Users/robertreed/Documents/programming/cf/401/lab/07-http-server/lab-rob/lib/requestParser.js:22:27)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T05:45:39.173Z"}
+{"level":"info","message":"Processing request...","timestamp":"2017-12-06T05:45:52.185Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:45:52.185Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T05:45:52.185Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"user-agent\":\"HTTPie/0.9.9\",\"accept-encoding\":\"gzip, deflate\",\"accept\":\"application/json, */*\",\"connection\":\"keep-alive\",\"content-type\":\"application/json\",\"content-length\":\"1\"}","timestamp":"2017-12-06T05:45:52.185Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.req.on (/Users/robertreed/Documents/programming/cf/401/lab/07-http-server/lab-rob/lib/requestParser.js:22:27)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T05:45:52.185Z"}
+{"level":"info","message":"Processing request...","timestamp":"2017-12-06T05:52:00.894Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:52:00.894Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T05:52:00.894Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"dnt\":\"1\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-06T05:52:00.894Z"}
+{"level":"info","message":"Responding with a 200 status code.","timestamp":"2017-12-06T05:52:00.894Z"}
+{"level":"info","message":"Processing request...","timestamp":"2017-12-06T05:52:17.423Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:52:17.423Z"}
+{"level":"info","message":"URL: /cowsay?text=Noob%20Nub%20Doobey%20Dub","timestamp":"2017-12-06T05:52:17.423Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"dnt\":\"1\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-06T05:52:17.423Z"}
+{"level":"info","message":"Responding with a 200 status code.","timestamp":"2017-12-06T05:52:17.424Z"}
