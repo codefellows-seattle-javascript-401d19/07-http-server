@@ -21,7 +21,6 @@ const app = http.createServer((request, response) => {
   logger.log('info','Processing Request');
   logger.log('info',`Method: ${request.method}`);
   logger.log('info',`URL: ${request.url}`);
-  // logger.log('info',`HEADERS: ${JSON.stringify(request.headers)}`);
 
   requestParser.parse(request)
     .then(request => {
@@ -74,6 +73,7 @@ const app = http.createServer((request, response) => {
         }
         response.writeHead(200,{ 'Content-Type' : 'application/json' });
         response.write(`{"content": "${request.body.text}"}`);
+        response.body = cowsay.say({text: `${request.body.text}`});
         response.end();
         return;
       }
