@@ -17,20 +17,16 @@ const logger = new (winston.Logger)({
     }),
   ],
 });
-//-------------------------------------------------
+
 const app = http.createServer((request,response) => {
   logger.log('info','Processing Request');
   logger.log('info',`Method: ${request.method}`);
   logger.log('info',`URL: ${request.url}`);
   logger.log('info',`HEADERS: ${JSON.stringify(request.headers)}`);
-  //--------------------------------------------------------------
-  // PROCESS REQUEST
-  //--------------------------------------------------------------
+
   requestParser.parse(request)
     .then(request => {
-      // vinicio - this is the same as having http://localhost:3000/
       if(request.method === 'GET' && request.url.pathname === '/'){
-        // vinicio - 200 is 'OK'
         response.writeHead(200, { 'Content-Type' : 'text/html' });
 
         response.write(`<!DOCTYPE html>
@@ -56,8 +52,8 @@ const app = http.createServer((request,response) => {
         return;
       } else if(request.method === 'GET' && request.url.pathname === '/cowsay') {
         response.writeHead(200, { 'Content-Type' : 'text/html'});
-        let message = cowsay.say({text: 'Good day friend!'});
-        console.log(message);
+        let message = cowsay.say({text: 'I need something good to say'});
+        if(request.url.query.text) message = cowsay.say(request.url.query);
         response.write(`<!DOCTYPE html>
         <html>
           <head>
@@ -65,10 +61,7 @@ const app = http.createServer((request,response) => {
           </head>
           <body>
             <h1> cowsay </h1>
-            <pre>
-            ${message}
-              <!-- cowsay.say({text: req.query.text}) -->
-            </pre>
+            <pre>${message}</pre>
           </body>
         </html>`);
         logger.log('info', 'Responding with a 200 status code');
@@ -80,14 +73,12 @@ const app = http.createServer((request,response) => {
         response.end();
         return;
       }
-      // vinicio - 404 is 'not found'
       response.writeHead(404, { 'Content-Type' : 'text/plain' });
       response.write('Not Found');
       logger.log('info','Responding with a 404 status code');
       response.end(); 
       return;
     }).catch(error => {
-      // vinicio - 400 is 'bad request'
       logger.log('info','Answering with a 400 status code');
       logger.log('info',error);
 
@@ -97,7 +88,7 @@ const app = http.createServer((request,response) => {
       return;
     });
 });
-//-------------------------------------------------
+
 const server = module.exports = {};
 
 server.start = (port,callback) => {
