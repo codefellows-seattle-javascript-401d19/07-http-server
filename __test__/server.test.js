@@ -30,22 +30,22 @@ describe(`server.js`, () => {
       expect(response.status).toEqual(200);
     });
   });
-  // test(`POST should respond with a 400 status when /api/cowsay is hit without a body provided`, () => {
-  //   return superagent.post(`http://localhost:3000/api/cowsay`)
-  //   .set({'Content-Type' : 'application/json'})
-  //   .send()
-  //   .then(response => Promise.reject(response))
-  //   .catch((response) => {
-  //     expect(response.status).toEqual(400);
-  //   })
-  // })
-  test(`POST should respond with a 400 status when /api/cowsay is hit without text provided`, () => {
+  test(`POST should respond with a 400 status when /api/cowsay is hit without a body provided`, () => {
     return superagent.post(`http://localhost:3000/api/cowsay`)
     .set({'Content-Type' : 'application/json'})
-    .send('{')
+    .send()
     .then(response => Promise.reject(response))
     .catch((response) => {
       expect(response.status).toEqual(400);
     })
   })
+  // test(`POST should respond with a 400 status when /api/cowsay is hit without text provided`, () => {
+  //   return superagent.post(`http://localhost:3000/api/cowsay`)
+  //   .set({'Content-Type' : 'application/json'})
+  //   .send('{')
+  //   .then(response => Promise.reject(response))
+  //   .catch((response) => {
+  //     expect(response.status).toEqual(400);
+  //   })
+  // })
 });
