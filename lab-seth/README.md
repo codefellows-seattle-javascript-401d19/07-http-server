@@ -1,6 +1,6 @@
-# TCP Chat Server
+# Vanilla HTTP Server
 
-This TCP Chat Server allows users to connect to an ip via telnet and do basic chat with one another, change their displayd name, and direct message other users.
+This is a simple HTTP server that allows users to input a url to make a cow say something!
 
 ## Motivation
 
@@ -16,17 +16,20 @@ Status: Working
 
 js-standard-style
 
-## Screenshots
+<!-- ## Screenshots
 
-![Chat Room Example](https://raw.githubusercontent.com/SethDonohue/06-tcp-server/seth-lab/lab-seth/img/TCP-Chat-Server.png)
+![Chat Room Example](https://raw.githubusercontent.com/SethDonohue/06-tcp-server/seth-lab/lab-seth/img/TCP-Chat-Server.png) -->
 
 ## Tech/framework used
 - Eslint
 - Node
+- jest
+- superagent
+- dotenv
 - Winston
 - Faker
+- Cowsay
 - Javascript /ES6
-- telnet
 
 
 #### Built with
@@ -35,60 +38,101 @@ VScode
 
 ## Features
 
-TCP Chat Server is super easy to use and has just a few commands to keep it simple. It uses Winston Logger to keep track of logs.
+It uses Winston Logger to keep track of logs.
 
 ## Code Example
 ```
-    switch(commandWord){
-    case'@list':
-      socket.write(clients.map(client => client.name).join('\n') + '\n');
-      break;
-    case'@quit':
-      socket.end();
-      break;
-    case'@nickname':
-      if(!commandArgument1){
-        socket.write('You must enter something after @nickname \n');
-      }else{
-        socket.write(`Your new name is: ${commandArgument1} \n`);
-        for (let client of clients) { //vinicio - instead of doing clients[client] I can use directly client
-          if (client !== socket)
-            client.write(`${socket.name} has changed their name to ${commandArgument1} \n`);
-        }
+    requestParser.parse(request)
+    .then(request => {
+      if(request.method === 'GET' && request.url.pathname === '/'){
+        response.writeHead(200,{ 'Content-Type' : 'text/html' });
+
+        response.write(`<!DOCTYPE html>
+          <html>
+            <head>
+              <title> cowsay </title>  
+            </head>
+            <body>
+            <header>
+              <nav>
+                <ul> 
+                  <li><a href="/cowsay">cowsay</a></li>
+                </ul>
+              </nav>
+            <header>
+            <main>
+              <!-- project description -->
+            </main>
+            </body>
+          </html>`);
+        logger.log('info','Responding with a 200 status code');
+        response.end();
+        return;
+
+      } else if (request.method === 'GET' && request.url.pathname === '/cowsay') {
+        response.writeHead(200, { 'Content-Type': 'text/html' });
+
+        logger.log('info', `Original URL: ${JSON.stringify(request.url)}`);
+        let message = cowsay.think({ text: 'I need something good to say!' });
+
+        if(request.url.query.text) message = cowsay.think({text : request.url.query.text});          
+
+        response.write(`<!DOCTYPE html>
+          <html>
+            <head>
+              <title> cowsay </title>  
+            </head>
+            <body>
+              <h1> cowsay </h1>
+              <pre>${message}</pre>
+            </body>
+          </html>`);
+        logger.log('info', 'Responding with a 200 status code');
+        response.end();
+        return;
+
+      } else if (request.method === 'POST' && request.url.pathname === '/api/cowsay'){
+        response.writeHead(200,{ 'Content-Type' : 'application/json' });
+        response.write(JSON.stringify(request.body));
+        response.end();
+        return;
       }
-      socket.name = commandArgument1;
-      break;
-    case'@dm':// seth - if(commandWord === '@dm') // USE LOOP through clients THAT ONLY GOES TO DM USER
-      if (!commandArgument1) {
-        socket.write('You must enter a <name> after @dm \n');
-      }else if(!commandArgument2) {
-        socket.write('You must enter a <message> after @dm <username> \n');
+      response.writeHead(404,{ 'Content-Type' : 'text/plain' });
+      response.write('Not Found');
+      logger.log('info','Responding with a 404 status code');
+      response.end(); 
+      return;
+    }).catch(error => {
+      logger.log('info','Answering with a 400 status code');
+      logger.log('info',error);
+      let errorMessage = null;
+
+      if (request.method === 'POST' && request.body === undefined) {
+        errorMessage = `{ "error": "invalidrequest: body required" }`;
+
+      } else if (request.method === 'POST' && request.body.text === undefined) {
+        errorMessage = `{ "error": "invalidrequest: text query required" }`;
+
       } else {
-        for (let client of clients) {
-          if (client.name === commandArgument1){
-            console.log('hitting clinet loop');
-            client.write(`Direct Message from ${socket.name}: ${commandArgument2}`); //}
-          }
-        }
+        errorMessage = 'Bad Request';
       }
-      break;
-    default:
-      socket.write('Valid commands: @list, @quit, @nickname <new-name>, @dm <to-username> <message> \n');
-      break;
-    }
-    return true;
+      response.writeHead(400,{ 'Content-Type' : 'application/json' });
+      response.write(errorMessage);
+      response.end();
+      return;
+    });
 ```
 
 ## Installation
-- get source code from github (https://github.com/SethDonohue/06-tcp-server/tree/seth-lab/lab-seth)
-- npm install
-- npm install -s winston
-- npm install -faker
-
-1. start server with command: node index.js
-2. connect to server from another terminal using server host ip and port: telnet 127.0.0.1 3000
-3. type away to send messages to the chatroom
-4. type @command to see list of commands.
+1. ) Get source code from github (https://github.com/SethDonohue/07-http-server/tree/seth-lab-7)
+2. ) In terminal navigate to 'lab-seth' folder and run following commands:
+```
+npm init -y
+npm install
+npm install -D jest eslint 
+npm install -s winston 
+npm install -s dotenv
+```
 
 <!-- Provide step by step series of examples and explanations about how to get a development env running. -->
 
@@ -98,16 +142,18 @@ Docs in Progress
 
 ## Tests
 
-No test at this time
+- Confirms a 200 status code on a proper POST request
+- Confirms a 400 status code when an improper POST request is made
 
 ## How to use?
 
-In Chat Commands:
-- @: shows list of commands
-- @list: list users
-- @quit: quits chatroom and closes telnet connection
-- @nickname <new-name>: changes your displayed name
-- @dm <to-name> <message>: allows user to direct message another user
+1. ) In terminal navigate to lab-seth folder
+2. ) In terminal run 'npm start' to execute server startup script
+3. ) In your browser navigate to localhost:3000/cowsay?text=<your message here>
+  - <your message here> should contain anything you want the cow to say! Be sure to exclude the <>
+  - example url: 
+  ```localhost:3000/cowsay?text=mooooooooo```
+
 <!-- If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project. -->
 
 ## Contribute
@@ -118,6 +164,7 @@ In Chat Commands:
 
 - Winston
 - Node
+- dotenv
 - Classmates that helped me!
 <!-- Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project.
 
