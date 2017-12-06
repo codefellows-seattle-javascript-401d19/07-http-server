@@ -43,7 +43,8 @@ const app = http.createServer((request,response) => {
              </nav>
            <header>
            <main>
-             The cow says hello from the server!
+             <h2>The cow says hello from the server!</h2>
+             <p>In this project, I built a (Hypertext Transfer Protocol) HTTP server. This server handles GET and POST requests/responses.</p>
            </main>
           </body>
         </html>`);
