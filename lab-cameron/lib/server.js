@@ -26,7 +26,7 @@ const app = http.createServer((request, response) => {
               <header>
                 <nav>
                   <ul>
-                    <li><a href="/cowsay?text=I%need%something%good%to%say!">cowsay</a></li>
+                    <li><a href="/cowsay?text=I need something good to say!">cowsay</a></li>
                   </ul>
                 </nav>
               </header>
