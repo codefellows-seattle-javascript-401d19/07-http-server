@@ -77,7 +77,7 @@ const app = http.createServer((req, res) => {
           <body>
             <h1> cowsay </h1>
               <pre>
-                ${cowsay.say({ text: cowSpeak, cow: DRAGON })}
+                ${cowsay.say({ text: cowSpeak})}
               </pre>
           </body>
         </html>`);
@@ -89,12 +89,14 @@ const app = http.createServer((req, res) => {
           res.writeHead(400, {
             'Content-Type': 'application/json',
           });
+          logger.log('info', 'Responding with a 400 status code.');
         } else {
           res.writeHead(200, {
             'Content-Type': 'application/json',
-          });}
+          });
+          logger.log('info', 'Responding with a 200 status code.');
+        }
         res.write(JSON.stringify(req.body));
-        logger.log('info', 'Responding with a 200 status code.');
         res.end();
         return;
       }
