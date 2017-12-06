@@ -1,7 +1,7 @@
 'use strict';
 
 const http = require('http');
-const faker = require('faker');
+const cowsay = require('cowsay');
 
 const logger = require('./winston-logger');
 const requestParser = require('./request-parser');
@@ -26,7 +26,7 @@ const app = http.createServer((request, response) => {
               <header>
                 <nav>
                   <ul>
-                    <li><a href="/cowsay">cowsay</a></li>
+                    <li><a href="/cowsay?text=I%need%something%good%to%say!">cowsay</a></li>
                   </ul>
                 </nav>
               </header>
@@ -44,14 +44,32 @@ const app = http.createServer((request, response) => {
         response.write(`
           <!DOCTYPE html>
           <html>
+            <head>
+              <title>cowsay</title>
+            </head>
+            <body>
+              <h1>cowsay</h1>
+              <pre>
+                ${cowsay.say({ text: request.url.query.text })}
+              </pre>
+            </body>
           </html>`);
         response.end();
         return;
-      } else if (request.method === 'POST' && request.url.pathname === '/echo') {
+      } else if (request.method === 'POST' && request.url.pathname === '/api/cowsay') {
         response.writeHead(200, { 'Content-Type': 'application/json' });
-        response.write(JSON.stringify(request.body));
-        response.end();
-        return;
+        response.body = request.body;
+        if (request.url.query.text) {
+          const validRequest = {
+            'content': `${request.url.query.text}`,
+          };
+          response.write(JSON.stringify(validRequest));
+          response.end();
+          return;
+        } else {
+          console.log('rejected');
+          return Promise.reject(response);
+        }
       }
 
       response.writeHead(404, { 'Content-Type': 'text/plain' });
@@ -64,6 +82,16 @@ const app = http.createServer((request, response) => {
       logger.log('info', error);
 
       response.writeHead(400, { 'Content-Type': 'text/plain' });
+
+      console.log(request.method);
+
+      if (request.method === 'POST') {
+        const badRequest = { 'error': '<cowsay text required>'};
+        response.write(JSON.stringify(badRequest));
+        response.end();
+        return;
+      }
+
       response.write('Bad Request');
       response.end();
       return;
