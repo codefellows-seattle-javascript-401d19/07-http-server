@@ -3,6 +3,7 @@
 const http = require('http');
 const winston = require('winston');
 const faker = require('faker');
+const cowsay = require('cowsay');
 const requestParser = require('./requestParser');
 
 const winstonLevels = {
@@ -32,18 +33,53 @@ const app = http.createServer((req, res) => {
 
   requestParser.parse(req)
     .then(req => {
-      if(req.method === 'GET' && req.url.pathname === '/') { //someone has requested the main page
+      if(req.method === 'GET' && req.url.pathname === '/') {
         res.writeHead(200, {
           'Content-Type': 'text/html',
         });
         res.write(`<!DOCTYPE html>
         <html>
           <head>
-            <title>This is a title!</title>
+            <title> cowsay </title>
           </head>
           <body>
-            <h1>Hello World from Server!</h1>
-            <h2>${faker.hacker.phrase()}</h2>
+            <header>
+              <nav>
+                <ul>
+                  <li><a href="/cowsay">cowsay</a></li>
+                </ul>
+              </nav>
+            </header>
+            <main>
+              <h1>CodeFellows Code 401d19: Full-Stack JavaScript</h1>
+              <h2>Lab 7: HTTP Server</h2>
+              <h3>Robert Reed, 12/5/17</h3>
+              <p>The purpose of this project is to build an HTTP server from scratch using the http node package.</p>
+            </main>
+          </body>
+        </html>`);
+        logger.log('info', 'Responding with a 200 status code.');
+        res.end();
+        return;
+      } else if(req.method === 'GET' && req.url.pathname === '/cowsay') {
+        res.writeHead(200, {
+          'Content-Type': 'text/html',
+        });
+        let cowSpeak;
+        if(req.url.query.text)
+          cowSpeak = req.url.query.text;
+        else
+          cowSpeak = 'I need something good to say!';
+        res.write(`<!DOCTYPE html>
+        <html>
+          <head>
+            <title> cowsay </title>
+          <head>
+          <body>
+            <h1> cowsay </h1>
+              <pre>
+                ${cowsay.say({ text: cowSpeak })}
+              </pre>
           </body>
         </html>`);
         logger.log('info', 'Responding with a 200 status code.');
