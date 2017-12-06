@@ -5,8 +5,6 @@ const winston = require('winston');
 const requestParser = require('./request-parser');
 const faker = require('faker');
 const cowsay = require('cowsay');
-
-
 const winstonLevels = {error: 0, warn : 1, info : 2, verbose: 3 , debug: 4};
 
 const logger = new (winston.Logger)({
@@ -17,15 +15,13 @@ const logger = new (winston.Logger)({
     }),
   ],
 });
-//-------------------------------------------------
+
 const app = http.createServer((request,response) => {
   logger.log('info','Processing Request');
   logger.log('info',`Method: ${request.method}`);
   logger.log('info',`URL: ${request.url}`);
   logger.log('info',`HEADERS: ${JSON.stringify(request.headers)}`);
-  //--------------------------------------------------------------
-  // PROCESS REQUEST
-  //--------------------------------------------------------------
+
   requestParser.parse(request)
     .then(request => {
       if(request.method === 'GET' && request.url.pathname === '/'){
@@ -78,13 +74,6 @@ const app = http.createServer((request,response) => {
       } else if (request.method === 'POST' && request.url.pathname === '/api/cowsay'){
         response.writeHead(200,{ 'Content-Type' : 'application/json' });
         response.write(JSON.stringify(request.body));
-
-        // response.write(`
-        // {
-        //   "error": "invalid request: text query required"
-        // }`
-        // );
-
         response.end();
         return;
       }
@@ -113,7 +102,7 @@ const app = http.createServer((request,response) => {
       return;
     });
 });
-//-------------------------------------------------
+
 const server = module.exports = {};
 
 server.start = (port,callback) => {
