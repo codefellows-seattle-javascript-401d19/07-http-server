@@ -28,9 +28,7 @@ const app = http.createServer((request,response) => {
   //--------------------------------------------------------------
   requestParser.parse(request)
     .then(request => {
-      // vinicio - this is the same as having http://localhost:3000/
       if(request.method === 'GET' && request.url.pathname === '/'){
-        // vinicio - 200 is 'OK'
         response.writeHead(200,{ 'Content-Type' : 'text/html' });
 
         response.write(`<!DOCTYPE html>
@@ -55,7 +53,7 @@ const app = http.createServer((request,response) => {
         response.end();
         return;
 
-      }else if(request.method === 'GET' && request.url.pathname === '/cowsay') {
+      } else if (request.method === 'GET' && request.url.pathname === '/cowsay') {
         response.writeHead(200, { 'Content-Type': 'text/html' });
 
         logger.log('info', `Original URL: ${JSON.stringify(request.url)}`);
@@ -77,25 +75,40 @@ const app = http.createServer((request,response) => {
         response.end();
         return;
 
-      }else if(request.method === 'POST' && request.url.pathname === '/echo'){
+      } else if (request.method === 'POST' && request.url.pathname === '/api/cowsay'){
         response.writeHead(200,{ 'Content-Type' : 'application/json' });
         response.write(JSON.stringify(request.body));
+
+        // response.write(`
+        // {
+        //   "error": "invalid request: text query required"
+        // }`
+        // );
+
         response.end();
         return;
       }
-      // vinicio - 404 is 'not found'
       response.writeHead(404,{ 'Content-Type' : 'text/plain' });
       response.write('Not Found');
       logger.log('info','Responding with a 404 status code');
       response.end(); 
       return;
     }).catch(error => {
-      // vinicio - 400 is 'bad request'
       logger.log('info','Answering with a 400 status code');
       logger.log('info',error);
+      let errorMessage = null;
 
-      response.writeHead(400,{ 'Content-Type' : 'text/plain' });
-      response.write('Bad Request');
+      if (request.method === 'POST' && request.body === undefined) {
+        errorMessage = `{ "error": "invalidrequest: body required" }`;
+
+      } else if (request.method === 'POST' && request.body.text === undefined) {
+        errorMessage = `{ "error": "invalidrequest: text query required" }`;
+
+      } else {
+        errorMessage = 'Bad Request';
+      }
+      response.writeHead(400,{ 'Content-Type' : 'application/json' });
+      response.write(errorMessage);
       response.end();
       return;
     });
