@@ -1,10 +1,5 @@
 'use strict';
 
-const cowsay = require('cowsay');
-const qs = require('querystring');
-const url = require('url');
-
-
 require('dotenv').config();
 const server = require('./lib/server');
 
