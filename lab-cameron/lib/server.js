@@ -19,11 +19,20 @@ const app = http.createServer((request, response) => {
         response.write(`
           <!DOCTYPE html>
             <head>
-              <title>This is Title</title>
+              <title>cowsay</title>
             </head>
             <body>
-              <h1>Hello world. This is the Server speaking!</h1>
-              <h2>${faker.hacker.phrase()}</h2>
+              <header>
+                <nav>
+                  <ul>
+                    <li><a href="/cowsay">cowsay</a></li>
+                  </ul>
+                </nav>
+              </header>
+              <main>
+                <!-- project description -->
+                Cows taste good. And they're funny
+              </main>
             </body>
           </html>`);
         logger.log('info', 'Responding with a 200 status code');
