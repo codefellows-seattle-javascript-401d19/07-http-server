@@ -75,6 +75,8 @@ const app = http.createServer((request,response) => {
           return;
         }
         response.writeHead(200, { 'Content-Type' : 'application/json' });
+        response.body = cowsay.say({text:`${request.body.text}`});
+        console.log(response.body);
         response.write(`{"content": "${request.body.text}"}`);
         response.end();
         return;
