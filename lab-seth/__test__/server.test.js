@@ -33,7 +33,7 @@ describe('server.test.js',() => {
       });
   });
 
-  test('GET should return a 200 status code and html if there is not an error', () => {
+  test('GET should return a 200 status code if there is not an error', () => {
     return superagent.get('http://localhost:3000/cowsay?text=moo')
       .set({ 'Content-Type': 'text/html' })    
       .then(response => {
