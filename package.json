@@ -1,0 +1,40 @@
+{
+  "name": "lab-kerry",
+  "version": "1.0.0",
+  "description": "HTTP Server and Test",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest -i --coverage",
+    "lint": "eslint .",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kerrynordstrom/07-http-server.git"
+  },
+  "keywords": [
+    "HTTP-Server",
+    "Server-Test",
+    "HTTP-over-TCP"
+  ],
+  "author": "Kerry Nordstrom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kerrynordstrom/07-http-server/issues"
+  },
+  "homepage": "https://github.com/kerrynordstrom/07-http-server#readme",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "faker": "^4.1.0",
+    "jest": "^21.2.1",
+    "superagent": "^3.8.1"
+  },
+  "dependencies": {
+    "cowsay": "^1.2.1",
+    "dotenv": "^4.0.0",
+    "winston": "^2.4.0"
+  }
+}

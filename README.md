@@ -1,40 +1,55 @@
-![cf](https://i.imgur.com/7v5ASc8.png) Lab 07: Vanilla HTTP Server
+Lab 07: Vanilla HTTP Server
 ======
 
-## Submission Instructions
-* Work in a fork of this repository
-* Work in a branch on your fork
-* Write all of your code in a directory named `lab-` + `<your name>` **e.g.** `lab-susan`
-* Open a pull request to this repository
-* Submit on canvas a question and observation, how long you spent, and a link to your pull request
+## Motivation
+To build an HTTP server which will use GET and POST paths to render data in the browser or respond to API calls.
 
-## Resources
-* [Cowsay docs](https://github.com/piuccio/cowsay)
+## Technologies Used
+-Node.js (ES6 notation where possible)
+-NPM packages (winston, dotenv, and cowsay)
 
-## Configuration 
-Configure the root of your repository with the following files and directories. Thoughtfully name and organize any additional configuration or module files.
-* **README.md** - contains documentation
-* **.env** - contains env variables **(should be git ignored)**
-* **.gitignore** - contains a [robust](http://gitignore.io) `.gitignore` file 
-* **.eslintrc.json** - contains the course linter configuratoin
-* **.eslintignore** - contains the course linter ignore configuration
-* **package.json** - contains npm package config
-  * create a `lint` script for running eslint
-  * create a `test` script for running tests
-  * create a `start` script for running your server
-* **lib/** - contains module definitions
-* **\_\_test\_\_/** - contains unit tests
+## How to Use
 
-## Feature Tasks  
-For this assignment you will be building a HTTP server. 
-#### Request Parser
-The request parser module should return a promise that parses the request url, querystring, and  POST or PUT body (as JSON).
+To start this app, clone this repo from 
 
-#### Server Module 
-The server module is responsible for creating an http server defining all route behavior and exporting an interface for starting and stopping the server. It should export an object with `start` and `stop` methods. 
+  `http://www.github.com/kerrynordstrom/07-http-server`
 
-###### GET /
-When a client makes a GET request to / the server should send back html with a project description and an anchor to /cowsay.
+install all necessary packages with 
+
+  `npm install`
+
+  Then start your node server with index as the starting point
+
+  `node index.js`
+
+  And you will then be able to navigate to `http://localhost:3000/` where you will find a hyperlink to access the cowsay page.
+
+  From here, type a query string in the address bar to have the cow repeat your phrase!  Example below:
+
+  `http://localhost:3000/?text=<your text here>`
+
+                   _______
+< moooo > 
+ -------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+              
+
+## Modules
+
+### Server Module 
+The server module is responsible for creating an http server defining all route behavior and exporting an interface for starting and stopping the server. It exports an object with `start` and `stop` methods. 
+
+### Request Parser Module
+The request parser module is responsible for parsing incoming data and concatenating it, once parsed to send as a result to the server. It exports an object with this parsed information.
+
+## Routes
+
+#### GET 
+When a client makes a GET request to `/` the server sends back html with a project description and a link to /cowsay.
 ``` html
 <!DOCTYPE html>
 <html>
@@ -56,8 +71,8 @@ When a client makes a GET request to / the server should send back html with a p
 </html>
 ```
 
-###### GET /cowsay?text={message}
-When a client makes a GET request to /cowsay?text={message} the server should parse the querystring for a text key. It should then send a rendered HTML page with a cowsay cow speaking the value of the text query. If there is no text query the cow message should say `'I need something good to say!'`. 
+#### GET /cowsay?text={message}
+When a client makes a GET request to /cowsay?text={message} the server parses the querystring and passes this message as an object with a text key and string value to the cowsay .say method. This is represented by a rendered HTML page with a cowsay cow speaking the value of the text query. If there is no text query the cow message says `'Give me something to say!'`. 
 ``` html
 <!DOCTYPE html>
 <html>
@@ -73,10 +88,13 @@ When a client makes a GET request to /cowsay?text={message} the server should pa
 </html>
 ```
 
-###### POST /api/cowsay 
-When a client makes a POST request to /api/cowsay it should send JSON that includes `{"text": "<message>"}`. 
+#### POST /api/cowsay 
+When a client makes a POST request to /api/cowsay a JSON object is sent that includes `{"text": "<message>"}`. 
 
-* A response for a valid Request should have a status code of 200 and the JSON body:   
+#### Server Responses
+
+
+* A response for a valid Request has a status code of 200 and the JSON body will say:
 
 ``` json 
 {
@@ -84,7 +102,7 @@ When a client makes a POST request to /api/cowsay it should send JSON that inclu
 }
 ```
 
-* A response for an invalid Request should have a status code of 400 and the JSON body:
+* A response for an invalid Request has a status code of 400 and the JSON body:
 ```
 {
   "error": "invalid request: text query required"
@@ -98,8 +116,6 @@ When a client makes a POST request to /api/cowsay it should send JSON that inclu
 | With text body | 200 | JSON | `{"content": "<cowsay cow text>"}` |
 
 
-## TEST
-Write a 200 and 400 test for your POST request to `/api/cowsay`
+## Tests
 
-## Bonus
-**1pts:** add the ability to change the cowfile on GET /api/cowsay, and POST /api/cowsay - **ex: dragon, sheep, etc**
+Write a 200 and 400 test for your POST request to `/api/cowsay`
