@@ -145,6 +145,11 @@ Docs in Progress
 - Confirms a 200 status code on a proper POST request
 - Confirms a 400 status code when an improper POST request is made
 
+#### To Run Tests, run these commands in terminal from lab-seth folder
+
+1. ) npm start
+2. ) npm test
+
 ## How to use?
 
 1. ) In terminal navigate to lab-seth folder
