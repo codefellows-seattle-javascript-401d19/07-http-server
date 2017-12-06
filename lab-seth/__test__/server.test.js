@@ -24,4 +24,20 @@ describe('server.test.js',() => {
         expect(response.status).toEqual(400);
       });
   });
+
+  test('GET should respond with at 404 status code if there is an incorrect url entered', () => {
+    return superagent.get('http://localhost:3000/cows')
+      .then(response => Promise.reject(response))
+      .catch(response => {
+        expect(response.status).toEqual(404);
+      });
+  });
+
+  test('GET should return a 200 status code and html if there is not an error', () => {
+    return superagent.get('http://localhost:3000/cowsay?text=moo')
+      .set({ 'Content-Type': 'text/html' })    
+      .then(response => {
+        expect(response.status).toEqual(200);
+      });
+  });
 });

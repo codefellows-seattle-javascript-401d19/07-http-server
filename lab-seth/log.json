@@ -580,3 +580,343 @@
 {"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T17:09:48.588Z"}
 {"message":"Unexpected token b in JSON at position 2","stack":"SyntaxError: Unexpected token b in JSON at position 2\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/seth/codefellows/401/lab/07-http-server/lab-seth/lib/request-parser.js:38:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T17:09:48.588Z"}
 {"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T17:09:48.588Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T17:33:16.189Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:33:21.041Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T17:33:21.041Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T17:33:21.041Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"25\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:33:21.041Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T17:33:21.042Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T17:33:21.043Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:33:21.055Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T17:33:21.055Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T17:33:21.055Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T17:33:21.055Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"22\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:33:21.055Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T17:33:21.056Z"}
+{"message":"Unexpected token b in JSON at position 2","stack":"SyntaxError: Unexpected token b in JSON at position 2\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/seth/codefellows/401/lab/07-http-server/lab-seth/lib/request-parser.js:38:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T17:33:21.056Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T17:33:21.056Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:33:21.060Z"}
+{"level":"info","message":"Original URL: \"/cows\"","timestamp":"2017-12-06T17:33:21.060Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T17:33:21.060Z"}
+{"level":"info","message":"URL: /cows","timestamp":"2017-12-06T17:33:21.060Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:33:21.060Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T17:33:21.060Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cows\",\"path\":\"/cows\",\"href\":\"/cows\"}","timestamp":"2017-12-06T17:33:21.060Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:33:39.244Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T17:33:39.244Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T17:33:39.244Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T17:33:39.244Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"25\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:33:39.244Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T17:33:39.244Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:33:39.255Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T17:33:39.256Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T17:33:39.256Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T17:33:39.256Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"22\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:33:39.256Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T17:33:39.256Z"}
+{"message":"Unexpected token b in JSON at position 2","stack":"SyntaxError: Unexpected token b in JSON at position 2\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/seth/codefellows/401/lab/07-http-server/lab-seth/lib/request-parser.js:38:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T17:33:39.256Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T17:33:39.256Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:33:39.258Z"}
+{"level":"info","message":"Original URL: \"/cows\"","timestamp":"2017-12-06T17:33:39.259Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T17:33:39.258Z"}
+{"level":"info","message":"URL: /cows","timestamp":"2017-12-06T17:33:39.258Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"text/plain\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:33:39.258Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T17:33:39.259Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cows\",\"path\":\"/cows\",\"href\":\"/cows\"}","timestamp":"2017-12-06T17:33:39.259Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T17:33:56.146Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:34:00.301Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T17:34:00.301Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T17:34:00.301Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"25\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:34:00.302Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T17:34:00.302Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T17:34:00.303Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:34:00.316Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T17:34:00.316Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T17:34:00.316Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T17:34:00.316Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"22\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:34:00.316Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T17:34:00.316Z"}
+{"message":"Unexpected token b in JSON at position 2","stack":"SyntaxError: Unexpected token b in JSON at position 2\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/seth/codefellows/401/lab/07-http-server/lab-seth/lib/request-parser.js:38:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T17:34:00.316Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T17:34:00.316Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:34:00.319Z"}
+{"level":"info","message":"Original URL: \"/cows\"","timestamp":"2017-12-06T17:34:00.319Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T17:34:00.319Z"}
+{"level":"info","message":"URL: /cows","timestamp":"2017-12-06T17:34:00.319Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"text/plain\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:34:00.319Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T17:34:00.319Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cows\",\"path\":\"/cows\",\"href\":\"/cows\"}","timestamp":"2017-12-06T17:34:00.319Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T17:34:13.849Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:34:17.751Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T17:34:17.751Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T17:34:17.751Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"25\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:34:17.751Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T17:34:17.752Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T17:34:17.753Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:34:17.765Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T17:34:17.765Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T17:34:17.765Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T17:34:17.765Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"22\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:34:17.765Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T17:34:17.766Z"}
+{"message":"Unexpected token b in JSON at position 2","stack":"SyntaxError: Unexpected token b in JSON at position 2\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/seth/codefellows/401/lab/07-http-server/lab-seth/lib/request-parser.js:38:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T17:34:17.766Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T17:34:17.765Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:34:17.769Z"}
+{"level":"info","message":"Original URL: \"/cows\"","timestamp":"2017-12-06T17:34:17.769Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T17:34:17.769Z"}
+{"level":"info","message":"URL: /cows","timestamp":"2017-12-06T17:34:17.769Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:34:17.769Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T17:34:17.770Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cows\",\"path\":\"/cows\",\"href\":\"/cows\"}","timestamp":"2017-12-06T17:34:17.770Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:40:24.548Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T17:40:24.548Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T17:40:24.548Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T17:40:24.548Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"25\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:40:24.548Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T17:40:24.548Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:40:24.559Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T17:40:24.559Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T17:40:24.559Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T17:40:24.559Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"22\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:40:24.559Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T17:40:24.559Z"}
+{"message":"Unexpected token b in JSON at position 2","stack":"SyntaxError: Unexpected token b in JSON at position 2\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/seth/codefellows/401/lab/07-http-server/lab-seth/lib/request-parser.js:38:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T17:40:24.559Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T17:40:24.559Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:40:24.561Z"}
+{"level":"info","message":"Original URL: \"/cows\"","timestamp":"2017-12-06T17:40:24.562Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T17:40:24.562Z"}
+{"level":"info","message":"URL: /cows","timestamp":"2017-12-06T17:40:24.562Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:40:24.562Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T17:40:24.562Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cows\",\"path\":\"/cows\",\"href\":\"/cows\"}","timestamp":"2017-12-06T17:40:24.562Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:40:24.564Z"}
+{"level":"info","message":"Original URL: \"/cowsay?text=moo\"","timestamp":"2017-12-06T17:40:24.564Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T17:40:24.564Z"}
+{"level":"info","message":"URL: /cowsay?text=moo","timestamp":"2017-12-06T17:40:24.564Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/x-www-form-urlencoded\",\"content-length\":\"229\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:40:24.564Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T17:40:24.564Z"}
+{"message":"Unexpected token < in JSON at position 0","stack":"SyntaxError: Unexpected token < in JSON at position 0\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/seth/codefellows/401/lab/07-http-server/lab-seth/lib/request-parser.js:38:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T17:40:24.564Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=moo\",\"query\":{\"text\":\"moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=moo\",\"href\":\"/cowsay?text=moo\"}","timestamp":"2017-12-06T17:40:24.564Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:42:45.564Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T17:42:45.564Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T17:42:45.564Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T17:42:45.564Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"25\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:42:45.564Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T17:42:45.565Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:42:45.576Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T17:42:45.576Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T17:42:45.576Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T17:42:45.576Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"22\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:42:45.576Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T17:42:45.576Z"}
+{"message":"Unexpected token b in JSON at position 2","stack":"SyntaxError: Unexpected token b in JSON at position 2\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/seth/codefellows/401/lab/07-http-server/lab-seth/lib/request-parser.js:38:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T17:42:45.576Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T17:42:45.576Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:42:45.579Z"}
+{"level":"info","message":"Original URL: \"/cows\"","timestamp":"2017-12-06T17:42:45.579Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T17:42:45.579Z"}
+{"level":"info","message":"URL: /cows","timestamp":"2017-12-06T17:42:45.579Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:42:45.579Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T17:42:45.579Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cows\",\"path\":\"/cows\",\"href\":\"/cows\"}","timestamp":"2017-12-06T17:42:45.579Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:42:45.581Z"}
+{"level":"info","message":"Original URL: \"/cowsay?text=moo\"","timestamp":"2017-12-06T17:42:45.581Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T17:42:45.581Z"}
+{"level":"info","message":"URL: /cowsay?text=moo","timestamp":"2017-12-06T17:42:45.581Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/x-www-form-urlencoded\",\"content-length\":\"229\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:42:45.581Z"}
+{"level":"info","message":"Original URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=moo\",\"query\":{\"text\":\"moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=moo\",\"href\":\"/cowsay?text=moo\"}","timestamp":"2017-12-06T17:42:45.581Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T17:42:45.585Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=moo\",\"query\":{\"text\":\"moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=moo\",\"href\":\"/cowsay?text=moo\"}","timestamp":"2017-12-06T17:42:45.581Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:43:55.861Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T17:43:55.861Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T17:43:55.861Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T17:43:55.861Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"25\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:43:55.861Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T17:43:55.861Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:43:55.871Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T17:43:55.871Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T17:43:55.871Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T17:43:55.871Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"22\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:43:55.871Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T17:43:55.871Z"}
+{"message":"Unexpected token b in JSON at position 2","stack":"SyntaxError: Unexpected token b in JSON at position 2\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/seth/codefellows/401/lab/07-http-server/lab-seth/lib/request-parser.js:38:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T17:43:55.871Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T17:43:55.871Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:43:55.873Z"}
+{"level":"info","message":"Original URL: \"/cows\"","timestamp":"2017-12-06T17:43:55.874Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T17:43:55.874Z"}
+{"level":"info","message":"URL: /cows","timestamp":"2017-12-06T17:43:55.874Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:43:55.874Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T17:43:55.874Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cows\",\"path\":\"/cows\",\"href\":\"/cows\"}","timestamp":"2017-12-06T17:43:55.874Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T17:43:55.876Z"}
+{"level":"info","message":"Original URL: \"/cowsay?text=moo\"","timestamp":"2017-12-06T17:43:55.876Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T17:43:55.876Z"}
+{"level":"info","message":"URL: /cowsay?text=moo","timestamp":"2017-12-06T17:43:55.876Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/x-www-form-urlencoded\",\"content-length\":\"229\",\"connection\":\"close\"}","timestamp":"2017-12-06T17:43:55.876Z"}
+{"level":"info","message":"Original URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=moo\",\"query\":{\"text\":\"moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=moo\",\"href\":\"/cowsay?text=moo\"}","timestamp":"2017-12-06T17:43:55.876Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T17:43:55.876Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=moo\",\"query\":{\"text\":\"moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=moo\",\"href\":\"/cowsay?text=moo\"}","timestamp":"2017-12-06T17:43:55.876Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:11:46.449Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T18:11:46.449Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T18:11:46.449Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T18:11:46.449Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"25\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:11:46.449Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T18:11:46.449Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:11:46.458Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T18:11:46.458Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T18:11:46.458Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T18:11:46.458Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"22\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:11:46.458Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T18:11:46.459Z"}
+{"message":"Unexpected token b in JSON at position 2","stack":"SyntaxError: Unexpected token b in JSON at position 2\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/seth/codefellows/401/lab/07-http-server/lab-seth/lib/request-parser.js:38:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T18:11:46.459Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T18:11:46.458Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:11:46.461Z"}
+{"level":"info","message":"Original URL: \"/cows\"","timestamp":"2017-12-06T18:11:46.461Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T18:11:46.461Z"}
+{"level":"info","message":"URL: /cows","timestamp":"2017-12-06T18:11:46.461Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:11:46.461Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T18:11:46.461Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cows\",\"path\":\"/cows\",\"href\":\"/cows\"}","timestamp":"2017-12-06T18:11:46.461Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:11:46.463Z"}
+{"level":"info","message":"Original URL: \"/cowsay?text=moo\"","timestamp":"2017-12-06T18:11:46.463Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T18:11:46.463Z"}
+{"level":"info","message":"URL: /cowsay?text=moo","timestamp":"2017-12-06T18:11:46.463Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"text/html\",\"content-length\":\"229\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:11:46.463Z"}
+{"level":"info","message":"Original URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=moo\",\"query\":{\"text\":\"moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=moo\",\"href\":\"/cowsay?text=moo\"}","timestamp":"2017-12-06T18:11:46.464Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T18:11:46.464Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=moo\",\"query\":{\"text\":\"moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=moo\",\"href\":\"/cowsay?text=moo\"}","timestamp":"2017-12-06T18:11:46.464Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:11:57.558Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T18:11:57.558Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T18:11:57.558Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T18:11:57.558Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"25\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:11:57.558Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T18:11:57.558Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:11:57.568Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T18:11:57.568Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T18:11:57.568Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T18:11:57.568Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"22\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:11:57.568Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T18:11:57.568Z"}
+{"message":"Unexpected token b in JSON at position 2","stack":"SyntaxError: Unexpected token b in JSON at position 2\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/seth/codefellows/401/lab/07-http-server/lab-seth/lib/request-parser.js:38:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T18:11:57.568Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T18:11:57.568Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:11:57.571Z"}
+{"level":"info","message":"Original URL: \"/cows\"","timestamp":"2017-12-06T18:11:57.571Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T18:11:57.571Z"}
+{"level":"info","message":"URL: /cows","timestamp":"2017-12-06T18:11:57.571Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:11:57.571Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T18:11:57.571Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cows\",\"path\":\"/cows\",\"href\":\"/cows\"}","timestamp":"2017-12-06T18:11:57.571Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:11:57.573Z"}
+{"level":"info","message":"Original URL: \"/cowsay?text=moo\"","timestamp":"2017-12-06T18:11:57.573Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T18:11:57.573Z"}
+{"level":"info","message":"URL: /cowsay?text=moo","timestamp":"2017-12-06T18:11:57.573Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"text/html\",\"content-length\":\"229\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:11:57.573Z"}
+{"level":"info","message":"Original URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=moo\",\"query\":{\"text\":\"moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=moo\",\"href\":\"/cowsay?text=moo\"}","timestamp":"2017-12-06T18:11:57.573Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T18:11:57.574Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=moo\",\"query\":{\"text\":\"moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=moo\",\"href\":\"/cowsay?text=moo\"}","timestamp":"2017-12-06T18:11:57.573Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:12:19.858Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T18:12:19.858Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T18:12:19.858Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T18:12:19.858Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"25\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:12:19.858Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T18:12:19.858Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:12:19.872Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T18:12:19.873Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T18:12:19.873Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T18:12:19.873Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"22\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:12:19.873Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T18:12:19.873Z"}
+{"message":"Unexpected token b in JSON at position 2","stack":"SyntaxError: Unexpected token b in JSON at position 2\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/seth/codefellows/401/lab/07-http-server/lab-seth/lib/request-parser.js:38:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T18:12:19.873Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T18:12:19.873Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:12:19.875Z"}
+{"level":"info","message":"Original URL: \"/cows\"","timestamp":"2017-12-06T18:12:19.876Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T18:12:19.875Z"}
+{"level":"info","message":"URL: /cows","timestamp":"2017-12-06T18:12:19.876Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:12:19.876Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T18:12:19.876Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cows\",\"path\":\"/cows\",\"href\":\"/cows\"}","timestamp":"2017-12-06T18:12:19.876Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:12:19.878Z"}
+{"level":"info","message":"Original URL: \"/cowsay?text=moo\"","timestamp":"2017-12-06T18:12:19.878Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T18:12:19.878Z"}
+{"level":"info","message":"URL: /cowsay?text=moo","timestamp":"2017-12-06T18:12:19.878Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"text/html\",\"content-length\":\"229\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:12:19.878Z"}
+{"level":"info","message":"Original URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=moo\",\"query\":{\"text\":\"moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=moo\",\"href\":\"/cowsay?text=moo\"}","timestamp":"2017-12-06T18:12:19.878Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T18:12:19.878Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=moo\",\"query\":{\"text\":\"moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=moo\",\"href\":\"/cowsay?text=moo\"}","timestamp":"2017-12-06T18:12:19.878Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:13:28.405Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T18:13:28.406Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T18:13:28.405Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T18:13:28.405Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"25\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:13:28.406Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T18:13:28.406Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:13:28.415Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T18:13:28.416Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T18:13:28.416Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T18:13:28.416Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"22\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:13:28.416Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T18:13:28.416Z"}
+{"message":"Unexpected token b in JSON at position 2","stack":"SyntaxError: Unexpected token b in JSON at position 2\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/seth/codefellows/401/lab/07-http-server/lab-seth/lib/request-parser.js:38:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T18:13:28.416Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T18:13:28.416Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:13:28.418Z"}
+{"level":"info","message":"Original URL: \"/cows\"","timestamp":"2017-12-06T18:13:28.418Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T18:13:28.418Z"}
+{"level":"info","message":"URL: /cows","timestamp":"2017-12-06T18:13:28.418Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:13:28.418Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T18:13:28.419Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cows\",\"path\":\"/cows\",\"href\":\"/cows\"}","timestamp":"2017-12-06T18:13:28.418Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:13:28.420Z"}
+{"level":"info","message":"Original URL: \"/cowsay?text=moo\"","timestamp":"2017-12-06T18:13:28.420Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T18:13:28.420Z"}
+{"level":"info","message":"URL: /cowsay?text=moo","timestamp":"2017-12-06T18:13:28.420Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"text/html\",\"content-length\":\"434\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:13:28.420Z"}
+{"level":"info","message":"Original URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=moo\",\"query\":{\"text\":\"moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=moo\",\"href\":\"/cowsay?text=moo\"}","timestamp":"2017-12-06T18:13:28.421Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T18:13:28.421Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=moo\",\"query\":{\"text\":\"moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=moo\",\"href\":\"/cowsay?text=moo\"}","timestamp":"2017-12-06T18:13:28.421Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:14:35.225Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T18:14:35.225Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T18:14:35.225Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T18:14:35.225Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"25\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:14:35.225Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T18:14:35.225Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:14:35.234Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T18:14:35.235Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T18:14:35.234Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T18:14:35.234Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"22\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:14:35.234Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T18:14:35.235Z"}
+{"message":"Unexpected token b in JSON at position 2","stack":"SyntaxError: Unexpected token b in JSON at position 2\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/seth/codefellows/401/lab/07-http-server/lab-seth/lib/request-parser.js:38:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T18:14:35.235Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T18:14:35.235Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:14:35.237Z"}
+{"level":"info","message":"Original URL: \"/cows\"","timestamp":"2017-12-06T18:14:35.237Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T18:14:35.237Z"}
+{"level":"info","message":"URL: /cows","timestamp":"2017-12-06T18:14:35.237Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:14:35.237Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T18:14:35.238Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cows\",\"path\":\"/cows\",\"href\":\"/cows\"}","timestamp":"2017-12-06T18:14:35.238Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:14:55.561Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T18:14:55.561Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T18:14:55.561Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T18:14:55.561Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"25\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:14:55.561Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T18:14:55.561Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:14:55.569Z"}
+{"level":"info","message":"Original URL: \"/api/cowsay\"","timestamp":"2017-12-06T18:14:55.569Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T18:14:55.569Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T18:14:55.569Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"22\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:14:55.569Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T18:14:55.570Z"}
+{"message":"Unexpected token b in JSON at position 2","stack":"SyntaxError: Unexpected token b in JSON at position 2\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/seth/codefellows/401/lab/07-http-server/lab-seth/lib/request-parser.js:38:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T18:14:55.570Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/api/cowsay\",\"path\":\"/api/cowsay\",\"href\":\"/api/cowsay\"}","timestamp":"2017-12-06T18:14:55.569Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:14:55.572Z"}
+{"level":"info","message":"Original URL: \"/cows\"","timestamp":"2017-12-06T18:14:55.572Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T18:14:55.572Z"}
+{"level":"info","message":"URL: /cows","timestamp":"2017-12-06T18:14:55.572Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:14:55.572Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T18:14:55.572Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cows\",\"path\":\"/cows\",\"href\":\"/cows\"}","timestamp":"2017-12-06T18:14:55.572Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T18:14:55.574Z"}
+{"level":"info","message":"Original URL: \"/cowsay?text=moo\"","timestamp":"2017-12-06T18:14:55.574Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T18:14:55.574Z"}
+{"level":"info","message":"URL: /cowsay?text=moo","timestamp":"2017-12-06T18:14:55.574Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"text/html\",\"connection\":\"close\"}","timestamp":"2017-12-06T18:14:55.574Z"}
+{"level":"info","message":"Original URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=moo\",\"query\":{\"text\":\"moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=moo\",\"href\":\"/cowsay?text=moo\"}","timestamp":"2017-12-06T18:14:55.575Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T18:14:55.575Z"}
+{"level":"info","message":"Parsed URL: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=moo\",\"query\":{\"text\":\"moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=moo\",\"href\":\"/cowsay?text=moo\"}","timestamp":"2017-12-06T18:14:55.574Z"}
