@@ -1217,3 +1217,31 @@
 {"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-06T05:46:51.037Z"}
 {"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/favicon.ico\",\"path\":\"/favicon.ico\",\"href\":\"/favicon.ico\"}","timestamp":"2017-12-06T05:46:51.037Z"}
 {"level":"info","message":"Original url is: /favicon.ico","timestamp":"2017-12-06T05:46:51.037Z"}
+{"level":"info","message":"The server is running on port: 3000","timestamp":"2017-12-06T05:50:01.965Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T05:50:10.794Z"}
+{"level":"info","message":"Original url is: \"/\"","timestamp":"2017-12-06T05:50:10.795Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-06T05:50:10.794Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:50:10.795Z"}
+{"level":"info","message":"The url received was : /","timestamp":"2017-12-06T05:50:10.795Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-06T05:50:10.798Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/\",\"path\":\"/\",\"href\":\"/\"}","timestamp":"2017-12-06T05:50:10.798Z"}
+{"level":"info","message":"[object Object]","timestamp":"2017-12-06T05:50:10.800Z"}
+{"level":"info","message":"Original url is: /","timestamp":"2017-12-06T05:50:10.796Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T05:50:10.810Z"}
+{"level":"info","message":"Original url is: \"/cowsay?text=word\"","timestamp":"2017-12-06T05:50:10.810Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-06T05:50:10.810Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:50:10.810Z"}
+{"level":"info","message":"The url received was : /cowsay?text=word","timestamp":"2017-12-06T05:50:10.810Z"}
+{"level":"info","message":"the request.url.query received was: {\"text\":\"word\"}","timestamp":"2017-12-06T05:50:10.810Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=word\",\"query\":{\"text\":\"word\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=word\",\"href\":\"/cowsay?text=word\"}","timestamp":"2017-12-06T05:50:10.810Z"}
+{"level":"info","message":"Original url is: /cowsay?text=word","timestamp":"2017-12-06T05:50:10.810Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T05:50:10.814Z"}
+{"level":"info","message":"Original url is: \"/cowsay\"","timestamp":"2017-12-06T05:50:10.814Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-06T05:50:10.814Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:50:10.814Z"}
+{"level":"info","message":"The url received was : /cowsay","timestamp":"2017-12-06T05:50:10.814Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-06T05:50:10.814Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cowsay\",\"path\":\"/cowsay\",\"href\":\"/cowsay\"}","timestamp":"2017-12-06T05:50:10.814Z"}
+{"level":"info","message":"Original url is: /cowsay","timestamp":"2017-12-06T05:50:10.814Z"}
+{"level":"info","message":"The server is running on port: 3000","timestamp":"2017-12-06T06:06:47.970Z"}
+{"level":"info","message":"The server is running on port: 3000","timestamp":"2017-12-06T06:18:26.401Z"}
