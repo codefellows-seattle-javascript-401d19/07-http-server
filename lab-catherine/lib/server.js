@@ -67,7 +67,13 @@ const app = http.createServer((request,response) => {
         logger.log('info', 'Responding with a 200 status code');
         response.end();
         return;
-      } else if(request.method === 'POST' && request.url.pathname === '/echo'){
+      } else if(request.method === 'POST' && request.url.pathname === '/api/cowsay'){
+        if(request.body.text === undefined) {
+          response.writeHead(400, { 'Content-Type' : 'text/plain' });
+          response.write('{"error" : "invalid request: text required"}');
+          response.end();
+          return;
+        }
         response.writeHead(200, { 'Content-Type' : 'application/json' });
         response.write(JSON.stringify(request.body));
         response.end();
@@ -80,14 +86,20 @@ const app = http.createServer((request,response) => {
       return;
     }).catch(error => {
       logger.log('info','Answering with a 400 status code');
-      logger.log('info',error);
+      logger.log('info', error);
+
+      let errorMessage = 'Bad Request';
+      if(request.method === 'POST' && request.body === undefined) {
+        errorMessage = '{"error" : "invalid request: body required"}';
+      }
 
       response.writeHead(400, { 'Content-Type' : 'text/plain' });
-      response.write('Bad Request');
+      response.write(`${errorMessage}`);
       response.end();
       return;
     });
 });
+
 
 const server = module.exports = {};
 

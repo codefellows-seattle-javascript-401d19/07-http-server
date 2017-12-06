@@ -40,6 +40,7 @@ requestParser.parse = (request) => {
     request.on('end',() => {
       try {
         request.body = JSON.parse(sentText);
+        request.body.text = request.body[Object.keys(request.body)[0]];
         return resolve(request);
       } catch(error){
         return reject(error);
