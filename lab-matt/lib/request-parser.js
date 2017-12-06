@@ -18,7 +18,7 @@ requestParser.parse = (request) => {
     request.on('data', (buffer) => {
       sentText += buffer.toString();
     });
-
+    
     request.on('end', () => {
       try {
         request.body = JSON.parse(sentText);

@@ -41,7 +41,7 @@ const app = http.createServer((request, response) => {
       } else if (request.method === 'POST' && request.url.pathname === '/echo') {
         logger.log('info', `Responding with a 200 status code`);      
         response.writeHead(200, { 'Content-type': 'application/json' });
-        response.write(`%j`, request.body);        
+        response.write(JSON.stringify(request.body));        
         response.end();
         return;
 
