@@ -16,4 +16,10 @@ describe(`server.js`, () => {
         expect(response.status).toEqual(200);
       })
   })
+  test(`GET should respond with a 200 status when /cowsay is hit with a string provided in the request query`, () => {
+    return superagent.get(`http://localhost:3000/cowsay`)
+      .then(response => {
+        expect(response.status).toEqual(400);
+      })
+  })
 })
