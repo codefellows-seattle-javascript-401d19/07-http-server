@@ -52,6 +52,10 @@ const app = http.createServer((request, response) => {
               <pre>
                 ${cowsay.say({ text: request.url.query.text })}
               </pre>
+              <form>
+                The Cow Says: <input type="text" name="text"><br>
+                <input type="submit" value="Submit">
+              </form>
             </body>
           </html>`);
         response.end();
