@@ -4,6 +4,7 @@ const http = require('http');
 const winston = require('winston');
 const requestParser = require('./request-parser');
 const faker = require('faker');
+const cowsay = require('cowsay');
 
 
 const winstonLevels = {error: 0, warn : 1, info : 2, verbose: 3 , debug: 4};
@@ -33,15 +34,49 @@ const app = http.createServer((request,response) => {
         response.writeHead(200,{ 'Content-Type' : 'text/html' });
 
         response.write(`<!DOCTYPE html>
-        <head><title>THIS IS A TITLE!</title></head>
-        <body>
-          <h1>HELLO WORLD FROM THE SERVER</h1>
-          <h2>${faker.hacker.phrase()}</h2>
-        </body>
-        </html>`);
-        logger.log('info','Responding  with a 200 status code');
+          <html>
+            <head>
+              <title> cowsay </title>  
+            </head>
+            <body>
+            <header>
+              <nav>
+                <ul> 
+                  <li><a href="/cowsay">cowsay</a></li>
+                </ul>
+              </nav>
+            <header>
+            <main>
+              <!-- project description -->
+            </main>
+            </body>
+          </html>`);
+        logger.log('info','Responding with a 200 status code');
         response.end();
         return;
+
+      }else if(request.method === 'GET' && request.url.pathname === '/cowsay') {
+        response.writeHead(200, { 'Content-Type': 'text/html' });
+
+        logger.log('info', `Original URL: ${JSON.stringify(request.url)}`);
+        let message = cowsay.think({ text: 'I need something good to say!' });
+
+        if(request.url.query.text) message = cowsay.think({text : request.url.query.text});          
+
+        response.write(`<!DOCTYPE html>
+          <html>
+            <head>
+              <title> cowsay </title>  
+            </head>
+            <body>
+              <h1> cowsay </h1>
+              <pre>${message}</pre>
+            </body>
+          </html>`);
+        logger.log('info', 'Responding with a 200 status code');
+        response.end();
+        return;
+
       }else if(request.method === 'POST' && request.url.pathname === '/echo'){
         response.writeHead(200,{ 'Content-Type' : 'application/json' });
         response.write(JSON.stringify(request.body));
