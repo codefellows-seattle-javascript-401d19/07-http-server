@@ -43,13 +43,7 @@ const app = http.createServer((request, response) => {
 
           case '/cowsays':
             response.writeHead(200, { 'Content-Type': 'text/plain' });
-            response.write(`${
-              cowsay.say({
-                text : 'Vinicio Is Awesome!',
-                e : 'oO',
-                T : 'U ',
-              })}`);
-            
+            response.write(getRoutes.cowsays);
             logger.log('info', '/cowsays responding with 200 status code');
             response.end();
             logger.log('info', 'Cow Says: Vinicio Is Awesome!');

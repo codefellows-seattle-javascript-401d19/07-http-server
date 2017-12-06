@@ -13,13 +13,15 @@ getRoutes.slash = `<!DOCTYPE html>
 </body>
 </html>`;
 
-getRoutes.cowsays = `${cowsay.say({
+getRoutes.cowsays = cowsay.say({
   text : 'Vinicio Is Awesome!',
   e : 'oO',     
   T : 'U ',
-})}`;
+});
 
 getRoutes.cowsay = (speak) => {
+  if (!speak) speak = 'Ron is awesome!... err, I need something good to say!';
+
   return `${cowsay.say({
     text : speak,
     e : 'oO',     
