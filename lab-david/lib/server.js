@@ -3,7 +3,6 @@
 const http = require('http');
 const winston = require('winston');
 const requestParser = require('./request-parser');
-const faker = require('faker');
 const cowsay = require('cowsay');
 
 
@@ -55,7 +54,7 @@ const app = http.createServer((request, response) => {
         logger.log('info', 'Responding with a 200 status code');
         response.end();
         return;
-      }if(request.method === 'GET' && request.url.pathname === `/cowsay?text={message}` && request.url.query !== null) {
+      }if(request.method === 'GET' && request.url.pathname === `/cowsay` && request.url.query !== `null`) {
         response.writeHead(200,{'Content-Type' : 'text/html' });
 
         response.write(`<!DOCTYPE html>
@@ -66,14 +65,14 @@ const app = http.createServer((request, response) => {
           <body>
             <h1> cowsay </h1>
             <pre>
-              <!-- cowsay.say({text: req.query.text}) -->
+              cowsay.say({text: req.query.text})
             </pre>
           </body>
         </html>`);
         logger.log('info', 'Responding with a 200 status code');
         response.end();
         return;
-      }if(request.method === 'GET' && request.url.pathname === `/cowsay` && request.url.query === null) {
+      }if(request.method === 'GET' && request.url.pathname === `/cowsay` && request.url.query === `null`) {
         response.writeHead(200,{'Content-Type' : 'text/html' });
 
         response.write(`<!DOCTYPE html>
@@ -84,7 +83,7 @@ const app = http.createServer((request, response) => {
           <body>
             <h1> cowsay </h1>
             <pre>
-              <!-- cowsay.say({text: "I need something good to say!"}) -->
+              cowsay.say({text: 'I need something good to say!'})
             </pre>
           </body>
         </html>`);
