@@ -9,6 +9,15 @@ describe('http.js', () => {
       .then(response => {
         expect(response.status).toEqual(200);        
         expect(response.text).toContain(`<!DOCTYPE html>`);
+        expect(response.text).toContain(`<title>Hello World!</title>`);        
+      });
+  });
+
+  test('GET /cowsays request should respond with a 200 status code and a body if there is no error', () => {
+    return superagent.get('http://localhost:3000/')
+      .then(response => {
+        expect(response.status).toEqual(200);        
+        expect(response.text).toContain(`<!DOCTYPE html>`);
       });
   });
 

@@ -25,18 +25,30 @@ const app = http.createServer((request, response) => {
 
   requestParser.parse(request)
     .then(request => {
-      if (request.method === 'GET' && request.url.pathname == '/') {
-        response.writeHead(200, { 'Content-Type': 'text/html' });
-        response.write(`<!DOCTYPE html>
-        <head><title>Hello World!</title></head>
-        <body>
-          <h1>Hello World</h1>
-          <h2>${faker.hacker.phrase()}</h2>
-        </body>
-        </html>`);
-        logger.log('info', 'Responding with a 200 status code');
-        response.end();
-        return;
+
+      // ========== GET ROUTES =============
+      if (request.method === 'GET') {
+        switch (request.url.pathname) {
+          
+          case '/': 
+            response.writeHead(200, { 'Content-Type': 'text/html' });
+            response.write(`<!DOCTYPE html>
+            <head><title>Hello World!</title></head>
+            <body>
+              <h1>Hello World</h1>
+              <h2>${faker.hacker.phrase()}</h2>
+            </body>
+            </html>`);
+            logger.log('info', 'Responding with a 200 status code');
+            response.end();
+            return;
+
+          case '/cowsays':
+            console.log('this shouldn\'t be reached');
+            return;
+
+        }
+
 
       } else if (request.method === 'POST' && request.url.pathname === '/echo') {
         logger.log('info', `Responding with a 200 status code`);      

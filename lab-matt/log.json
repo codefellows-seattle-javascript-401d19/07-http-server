@@ -855,3 +855,191 @@
 {"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:38:14.835Z"}
 {"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T05:38:14.835Z"}
 {"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T05:38:14.835Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:08.281Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:39:08.281Z"}
+{"level":"info","message":"URL: /s","timestamp":"2017-12-06T05:39:08.281Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:39:08.281Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T05:39:08.281Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:08.287Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:39:08.287Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:39:08.287Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:39:08.287Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:39:08.287Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:08.291Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:39:08.291Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T05:39:08.291Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:39:08.291Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:39:08.291Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:08.293Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:39:08.293Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T05:39:08.293Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:39:08.293Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T05:39:08.293Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T05:39:08.293Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:19.864Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:39:19.864Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:39:19.864Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:39:19.864Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:39:19.865Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:19.871Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:39:19.871Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:39:19.871Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:39:19.871Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:39:19.871Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:19.874Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:39:19.874Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T05:39:19.874Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:39:19.874Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:39:19.874Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:19.876Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:39:19.876Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T05:39:19.876Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:39:19.876Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T05:39:19.876Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T05:39:19.876Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:26.360Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:39:26.360Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:39:26.360Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T05:39:26.360Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:39:26.360Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:27.596Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:39:27.596Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:39:27.596Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T05:39:27.596Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:39:27.597Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:27.915Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:39:27.915Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:39:27.915Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T05:39:27.915Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:39:27.915Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:28.238Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:39:28.238Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:39:28.238Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T05:39:28.238Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:39:28.239Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:28.417Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:39:28.417Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:39:28.418Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T05:39:28.418Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:39:28.418Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:28.562Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:39:28.562Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:39:28.562Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T05:39:28.562Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:39:28.562Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:28.742Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:39:28.742Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:39:28.742Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T05:39:28.742Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:39:28.742Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:39:28.884Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:39:28.884Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:39:28.885Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T05:39:28.885Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:39:28.885Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T05:42:37.669Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:42:39.756Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:42:39.756Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:42:39.756Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:42:39.757Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:42:39.760Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:42:39.768Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:42:39.768Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:42:39.768Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:42:39.769Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:42:39.769Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:42:39.772Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:42:39.772Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T05:42:39.772Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:42:39.772Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:42:39.773Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:42:39.775Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:42:39.775Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T05:42:39.775Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:42:39.775Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T05:42:39.776Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T05:42:39.776Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:15.568Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:43:15.569Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:43:15.569Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:15.569Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:43:15.569Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:15.577Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:43:15.577Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:43:15.577Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:15.577Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:43:15.577Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:15.580Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:43:15.580Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T05:43:15.580Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:15.580Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:43:15.580Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:15.583Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:43:15.583Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T05:43:15.583Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:15.583Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T05:43:15.583Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T05:43:15.583Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:21.913Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:43:21.913Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:43:21.913Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:21.913Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:43:21.913Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:21.921Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:43:21.921Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:43:21.921Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:21.921Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:43:21.921Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:21.924Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:43:21.924Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T05:43:21.924Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:21.924Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:43:21.924Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:21.926Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:43:21.926Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T05:43:21.926Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:21.926Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T05:43:21.926Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T05:43:21.926Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:29.189Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:43:29.189Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:43:29.189Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:29.189Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:43:29.189Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:29.196Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:43:29.196Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:43:29.196Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:29.196Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:43:29.197Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:29.199Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:43:29.199Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T05:43:29.199Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:29.199Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:43:29.200Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:29.202Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:43:29.202Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T05:43:29.202Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:29.202Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T05:43:29.202Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T05:43:29.202Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:56.680Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:43:56.680Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:43:56.680Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:56.680Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:43:56.680Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:56.687Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T05:43:56.687Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T05:43:56.687Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:56.687Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:43:56.687Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:56.690Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:43:56.690Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T05:43:56.690Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:56.690Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T05:43:56.690Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T05:43:56.692Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T05:43:56.692Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T05:43:56.692Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T05:43:56.692Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T05:43:56.692Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T05:43:56.692Z"}
