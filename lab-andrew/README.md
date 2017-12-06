@@ -6,11 +6,9 @@ To get started using this application, familiarity with node and npm, as well as
 
 ## Modules
 
-There is an index.js file which simply requires in the server file and uses .env to set the port, and begins listening on the port. server.js contains most of the functionality of this app. All that is exported from the server.js file is server.start and server.stop. Server.start takes two parameters: the port and a callback, and server.stop only takes a callback. The server.js file however, is also using net to listen to events from the network, and several things happen upon certain events. On connection, a constructor class of Client is instantiated, which takes the socket as an argument. Upon instantiation, it creates using faker a randomly generated unique id, as well as a random name and assigns that to the Client object, and the entire Client object is pushed into an array. As each message event takes place, either a message is sent and displayed to each of the clients, or if a command is detected, that command is parsed and another method is invoked.
-
-## Functionality
+There is an index.js file which simply requires in the server file and uses .env to set the port, and begins listening on the port. server.js contains most of the functionality of this app. All that is exported from the server.js file is server.start and server.stop. Server.start takes two parameters: the port and a callback, and server.stop only takes a callback. The request parser (only function exported from the requestParser module) takes the http request, parses the request and returns the type of query and the route. In the server.js file, if the request made is a GET request, either the server will return a cowsay with a default saying, or if a query string is present, it will return a cowsay saying that. If a POST request is made, the request parser will parse the request and determine if the input is correct or incorrect, displaying the appropriate status message.
 
 
 ## Technology/Credits
 
-This app is being logged with winston and is using faker to generate random names. Net is providing the event listeners on the server.
+This app is being logged with winston and is using cowsay to generate cow speech.
