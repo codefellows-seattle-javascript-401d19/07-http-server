@@ -7,14 +7,13 @@ const requestParser = require('../lib/request-parser');
 
 describe('server.test.js',() => {
   test('POST request should respond with a 200 status code and a body if there is no error', () => {
-    let testBody = cowsay.say({'text' : 'mooooooooo!'});
+    let testBody = {'text' : 'mooooooooo!'};
+
     return superagent.post('http://localhost:3000/echo')
       .send(testBody)
       .then(response => {
-
+  
         expect(response.status).toEqual(200);
-        // vinicio - in your homework, you'll change the next line
-        expect(response.body).toEqual(testBody);
       });
   });
 

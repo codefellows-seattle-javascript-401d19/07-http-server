@@ -26,10 +26,7 @@ const app = http.createServer((request,response) => {
   
   requestParser.parse(request)
     .then(request => {
-      console.log(request.method);
-      console.log('====================================');
-      console.log(request.url.pathname);
-      console.log('====================================');
+
       if(request.method === 'GET' && request.url.pathname === '/'){
         response.writeHead(200,{ 'Content-Type' : 'text/html' });
         response.write(`<!DOCTYPE html>
