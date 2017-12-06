@@ -1,0 +1,50 @@
+{"level":"info","message":"The server is running on port: 3000","timestamp":"2017-12-06T00:28:35.359Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T00:28:45.595Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-06T00:28:45.595Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T00:28:45.595Z"}
+{"level":"info","message":"The url received was : /","timestamp":"2017-12-06T00:28:45.595Z"}
+{"level":"info","message":"The server is running on port: 3000","timestamp":"2017-12-06T00:32:43.676Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T00:32:52.116Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-06T00:32:52.116Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T00:32:52.116Z"}
+{"level":"info","message":"The url received was : /","timestamp":"2017-12-06T00:32:52.117Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T00:33:49.572Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-06T00:33:49.572Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T00:33:49.572Z"}
+{"level":"info","message":"The url received was : /","timestamp":"2017-12-06T00:33:49.572Z"}
+{"level":"info","message":"The server is running on port: 3000","timestamp":"2017-12-06T00:42:29.668Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T00:42:34.294Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-06T00:42:34.294Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T00:42:34.294Z"}
+{"level":"info","message":"The url received was : /","timestamp":"2017-12-06T00:42:34.294Z"}
+{"level":"info","message":"The server is running on port: 3000","timestamp":"2017-12-06T00:59:13.725Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T00:59:23.499Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-06T00:59:23.499Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T00:59:23.499Z"}
+{"level":"info","message":"The url received was : /","timestamp":"2017-12-06T00:59:23.499Z"}
+{"level":"info","message":"The server is running on port: 3000","timestamp":"2017-12-06T01:00:55.822Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T01:01:00.250Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-06T01:01:00.250Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T01:01:00.250Z"}
+{"level":"info","message":"The url received was : /","timestamp":"2017-12-06T01:01:00.250Z"}
+{"level":"info","message":"The server is running on port: 3000","timestamp":"2017-12-06T01:03:29.084Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T01:03:36.261Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-06T01:03:36.261Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T01:03:36.262Z"}
+{"level":"info","message":"The url received was : /","timestamp":"2017-12-06T01:03:36.262Z"}
+{"level":"info","message":"The server is running on port: 3000","timestamp":"2017-12-06T01:23:57.516Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T01:24:03.631Z"}
+{"level":"info","message":"Original url is: \"/\"","timestamp":"2017-12-06T01:24:03.643Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-06T01:24:03.631Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T01:24:03.631Z"}
+{"level":"info","message":"The url received was : /","timestamp":"2017-12-06T01:24:03.632Z"}
+{"level":"info","message":"[object Object]","timestamp":"2017-12-06T01:24:03.647Z"}
+{"level":"info","message":"Original url is: /","timestamp":"2017-12-06T01:24:03.643Z"}
+{"level":"info","message":"The server is running on port: 3000","timestamp":"2017-12-06T01:24:46.179Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-06T01:24:51.789Z"}
+{"level":"info","message":"Original url is: \"/\"","timestamp":"2017-12-06T01:24:51.791Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-06T01:24:51.791Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T01:24:51.791Z"}
+{"level":"info","message":"The url received was : /","timestamp":"2017-12-06T01:24:51.791Z"}
+{"level":"info","message":"[object Object]","timestamp":"2017-12-06T01:24:51.794Z"}
+{"level":"info","message":"Original url is: /","timestamp":"2017-12-06T01:24:51.791Z"}
