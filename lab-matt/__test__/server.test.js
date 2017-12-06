@@ -8,7 +8,7 @@ describe('http.js', () => {
     return superagent.get('http://localhost:3000/')
       .then(response => {
         expect(response.status).toEqual(200);        
-        expect(response.text).not.toEqual('body');
+        expect(response.text).toContain(`<!DOCTYPE html>`);
       });
   });
 
