@@ -1,0 +1,17 @@
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:58:34.464Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:58:41.301Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T01:58:41.301Z"}
+{"level":"info","message":"URL: /cowsay?text=hi","timestamp":"2017-12-06T01:58:41.301Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-06T01:58:41.301Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:58:47.279Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T01:58:47.279Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20how%20are%20you","timestamp":"2017-12-06T01:58:47.279Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-06T01:58:47.279Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:59:13.063Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T01:59:13.063Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20how%20are%20youcool","timestamp":"2017-12-06T01:59:13.063Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-06T01:59:13.063Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:59:22.757Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T01:59:22.757Z"}
+{"level":"info","message":"URL: /cowsay?text=neat%20this%20works","timestamp":"2017-12-06T01:59:22.757Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-06T01:59:22.757Z"}

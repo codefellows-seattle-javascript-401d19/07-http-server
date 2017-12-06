@@ -1,0 +1,33 @@
+{
+  "name": "07-http-server-1",
+  "version": "1.0.0",
+  "description": "![cf](https://i.imgur.com/7v5ASc8.png) Lab 07: Vanilla HTTP Server ======",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twandalon/07-http-server-1.git"
+  },
+  "author": "Anthony Robinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Twandalon/07-http-server-1/issues"
+  },
+  "homepage": "https://github.com/Twandalon/07-http-server-1#readme",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1",
+    "superagent": "^3.8.1"
+  },
+  "dependencies": {
+    "cowsay": "^1.2.1",
+    "dotenv": "^4.0.0",
+    "faker": "^4.1.0",
+    "winston": "^2.4.0"
+  }
+}
