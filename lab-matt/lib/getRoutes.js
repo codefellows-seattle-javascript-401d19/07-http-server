@@ -20,11 +20,17 @@ getRoutes.cowsays = cowsay.say({
 });
 
 getRoutes.cowsay = (speak) => {
-  if (!speak) speak = 'Ron is awesome!... err, I need something good to say!';
+  if (!speak) {
+    return cowsay.think({
+      text : 'Ron is awesome!... err, I need something good to say!',
+      e : 'oO',     
+      T : 'U ',
+    });
+  }
 
-  return `${cowsay.say({
+  return cowsay.say({
     text : speak,
     e : 'oO',     
     T : 'U ',
-  })}`;
+  });
 };

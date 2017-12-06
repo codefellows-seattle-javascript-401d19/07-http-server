@@ -2097,3 +2097,508 @@
 {"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:51:04.449Z"}
 {"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T06:51:04.449Z"}
 {"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T06:51:04.449Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T06:52:58.134Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:53:03.603Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:53:03.603Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T06:53:03.603Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:53:03.603Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T06:53:03.606Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:53:03.614Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:53:03.614Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T06:53:03.614Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:53:03.614Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T06:53:03.615Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T06:53:03.615Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:53:03.617Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:53:03.617Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-06T06:53:03.617Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:53:03.617Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-06T06:53:03.618Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:53:03.619Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:53:03.619Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-06T06:53:03.619Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:53:03.619Z"}
+{"level":"info","message":"/cowsays ","timestamp":"2017-12-06T06:53:03.620Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:53:03.622Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T06:53:03.622Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T06:53:03.622Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:53:03.622Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T06:53:03.623Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:53:03.625Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T06:53:03.625Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T06:53:03.625Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:53:03.625Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T06:53:03.625Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T06:53:03.626Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:54:48.561Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:54:48.561Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T06:54:48.561Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:54:48.561Z"}
+{"level":"info","message":"/cowsays undefined","timestamp":"2017-12-06T06:54:48.562Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:54:48.605Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:54:48.605Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T06:54:48.605Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:54:48.606Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:55:00.370Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:55:00.370Z"}
+{"level":"info","message":"URL: /cowsay?text=hello%20there","timestamp":"2017-12-06T06:55:00.370Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:55:00.370Z"}
+{"level":"info","message":"/cowsays hello there","timestamp":"2017-12-06T06:55:00.370Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:55:00.409Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:55:00.409Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T06:55:00.409Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay?text=hello%20there\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:55:00.409Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:57:00.410Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:57:00.411Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T06:57:00.411Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay?text=hello%20there\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:57:00.411Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T06:57:05.045Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:57:07.064Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:57:07.065Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T06:57:07.065Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:57:07.065Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T06:57:07.068Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:57:07.077Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:57:07.077Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T06:57:07.077Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:57:07.077Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T06:57:07.077Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T06:57:07.077Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:57:07.080Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:57:07.080Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-06T06:57:07.080Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:57:07.080Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-06T06:57:07.081Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:57:07.082Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:57:07.082Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-06T06:57:07.082Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:57:07.082Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T06:57:07.083Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:57:07.085Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T06:57:07.085Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T06:57:07.085Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:57:07.085Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T06:57:07.086Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:57:07.088Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T06:57:07.088Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T06:57:07.088Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:57:07.088Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T06:57:07.088Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T06:57:07.088Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:57:58.545Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:57:58.545Z"}
+{"level":"info","message":"URL: /cowsay?text=what%20it%20do","timestamp":"2017-12-06T06:57:58.545Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:57:58.546Z"}
+{"level":"info","message":"/cowsays what it do","timestamp":"2017-12-06T06:57:58.546Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:57:58.583Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:57:58.583Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T06:57:58.583Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay?text=what%20it%20do\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:57:58.583Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:58:08.330Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:58:08.330Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-06T06:58:08.330Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:58:08.330Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T06:58:08.331Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:58:08.371Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:58:08.371Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T06:58:08.371Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay?text=\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:58:08.371Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:58:13.058Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:58:13.059Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T06:58:13.059Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:58:13.059Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T06:58:13.060Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:58:13.099Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:58:13.099Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T06:58:13.099Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:58:13.100Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:58:17.218Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:58:17.219Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T06:58:17.219Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:58:17.219Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T06:58:17.219Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T06:58:17.219Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:58:17.256Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:58:17.256Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T06:58:17.256Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsays\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:58:17.256Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:58:22.478Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:58:22.478Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T06:58:22.478Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:58:22.478Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T06:58:22.478Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:58:22.518Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:58:22.518Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T06:58:22.518Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:58:22.518Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:58:25.720Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:58:25.720Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T06:58:25.720Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:58:25.720Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T06:58:25.720Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T06:58:25.720Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:58:25.759Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:58:25.759Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T06:58:25.759Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsays\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:58:25.759Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T06:59:23.563Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:59:26.255Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:59:26.255Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T06:59:26.255Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:59:26.255Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T06:59:26.258Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:59:26.266Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:59:26.266Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T06:59:26.266Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:59:26.267Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T06:59:26.267Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T06:59:26.267Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:59:26.269Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:59:26.269Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-06T06:59:26.269Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:59:26.269Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-06T06:59:26.270Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:59:26.272Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:59:26.272Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-06T06:59:26.272Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:59:26.272Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T06:59:26.272Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:59:26.275Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T06:59:26.275Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T06:59:26.275Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:59:26.275Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T06:59:26.275Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:59:26.277Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T06:59:26.277Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T06:59:26.277Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T06:59:26.277Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T06:59:26.278Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T06:59:26.278Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:59:30.605Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:59:30.605Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T06:59:30.605Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:59:30.605Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T06:59:30.606Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T06:59:30.606Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:59:30.646Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:59:30.646Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T06:59:30.646Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsays\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:59:30.646Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:59:32.985Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:59:32.985Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T06:59:32.985Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:59:32.985Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T06:59:32.986Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:59:33.031Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:59:33.031Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T06:59:33.031Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:59:33.031Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:59:42.221Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:59:42.222Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T06:59:42.222Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:59:42.222Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T06:59:42.222Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:59:42.266Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:59:42.266Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T06:59:42.266Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:59:42.266Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:59:55.448Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:59:55.448Z"}
+{"level":"info","message":"URL: /cowsay?text=hello%20there%20stranger","timestamp":"2017-12-06T06:59:55.448Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:59:55.448Z"}
+{"level":"info","message":"/cowsays hello there stranger","timestamp":"2017-12-06T06:59:55.448Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T06:59:55.491Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T06:59:55.491Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T06:59:55.492Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay?text=hello%20there%20stranger\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T06:59:55.492Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:00.093Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:00.093Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:00:00.093Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:00.093Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:00:00.094Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:00.131Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:00.131Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:00:00.131Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:00.131Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:00:11.127Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:13.430Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:13.430Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:00:13.431Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:00:13.431Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:00:13.434Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:13.443Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:13.443Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:00:13.443Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:00:13.443Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:00:13.443Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:00:13.443Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:13.446Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:13.446Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-06T07:00:13.446Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:00:13.446Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-06T07:00:13.446Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:13.448Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:13.448Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-06T07:00:13.448Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:00:13.448Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:00:13.448Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:13.450Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:00:13.450Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T07:00:13.450Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:00:13.451Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:00:13.451Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:13.453Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:00:13.453Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T07:00:13.453Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:00:13.453Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T07:00:13.454Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T07:00:13.454Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:16.706Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:16.706Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:00:16.706Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:16.706Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:00:16.707Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:16.743Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:16.743Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:00:16.743Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:16.743Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:17.943Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:17.943Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:00:17.943Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:17.943Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:00:17.943Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:17.987Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:17.987Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:00:17.987Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:17.987Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:33.201Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:33.201Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:00:33.201Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:33.201Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:00:33.201Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:33.241Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:33.242Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:00:33.242Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:33.242Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:00:39.989Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:42.684Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:42.684Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:00:42.684Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:42.685Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:00:42.688Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:42.727Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:42.727Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:00:42.727Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:42.727Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:43.472Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:43.472Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:00:43.472Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:43.472Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:00:43.473Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:43.514Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:43.515Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:00:43.515Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:43.515Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:00:54.306Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:56.350Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:56.350Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:00:56.350Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:56.350Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:00:56.354Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:56.395Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:56.395Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:00:56.395Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:56.395Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:57.569Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:57.569Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:00:57.569Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:57.569Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:00:57.570Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:00:57.606Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:00:57.606Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:00:57.607Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:00:57.607Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:01:57.786Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:01:57.786Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:01:57.786Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:01:57.786Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:01:57.787Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:01:57.787Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:02:02.257Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:02:02.257Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:02:02.257Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:02:02.257Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:02:02.258Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:02:22.713Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:02:22.713Z"}
+{"level":"info","message":"URL: /cowsay?text=%20text%20goes%20here","timestamp":"2017-12-06T07:02:22.713Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:02:22.713Z"}
+{"level":"info","message":"/cowsays  text goes here","timestamp":"2017-12-06T07:02:22.714Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:02:57.608Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:02:57.609Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:02:57.609Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:02:57.609Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:03:51.625Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:01.625Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:01.625Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:04:01.625Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:01.626Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:04:01.629Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:01.637Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:01.637Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:04:01.637Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:01.637Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:04:01.638Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:04:01.638Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:01.640Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:01.640Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-06T07:04:01.640Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:01.640Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-06T07:04:01.641Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:01.642Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:01.642Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-06T07:04:01.643Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:01.643Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:04:01.643Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:01.645Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:04:01.645Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T07:04:01.645Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:01.645Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:04:01.646Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:01.648Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:04:01.648Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T07:04:01.648Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:01.649Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T07:04:01.649Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T07:04:01.649Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:04:20.502Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:22.219Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:22.219Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:04:22.219Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:22.219Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:04:22.222Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:22.230Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:22.230Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:04:22.230Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:22.230Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:04:22.230Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:04:22.230Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:22.232Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:22.232Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-06T07:04:22.232Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:22.232Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-06T07:04:22.233Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:22.234Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:22.234Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-06T07:04:22.234Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:22.234Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:04:22.235Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:22.237Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:04:22.237Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T07:04:22.237Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:22.237Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:04:22.238Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:22.240Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:04:22.240Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T07:04:22.240Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:22.240Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T07:04:22.240Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T07:04:22.240Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:04:46.545Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:48.668Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:48.669Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:04:48.669Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:48.669Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:04:48.673Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:48.713Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:48.714Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:04:48.714Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:48.714Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:04:48.714Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:04:48.714Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:48.719Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:48.719Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-06T07:04:48.719Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:48.719Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-06T07:04:48.720Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:48.722Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:48.723Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-06T07:04:48.723Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:48.723Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:04:48.723Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:48.726Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:04:48.726Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T07:04:48.726Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:48.726Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:04:48.727Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:48.729Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:04:48.729Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T07:04:48.729Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:48.729Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T07:04:48.729Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T07:04:48.729Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:51.460Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:51.460Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:04:51.460Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:51.460Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:04:51.460Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:51.467Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:51.467Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:04:51.467Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:51.467Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:04:51.468Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:04:51.468Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:51.469Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:51.469Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-06T07:04:51.469Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:51.469Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-06T07:04:51.470Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:51.471Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:04:51.471Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-06T07:04:51.471Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:51.471Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:04:51.471Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:51.473Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:04:51.473Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T07:04:51.473Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:51.473Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:04:51.473Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:04:51.475Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:04:51.475Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T07:04:51.475Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:04:51.475Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T07:04:51.475Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T07:04:51.475Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:06:45.179Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:06:47.094Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:06:47.094Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:06:47.094Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:06:47.094Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:06:47.097Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:06:47.105Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:06:47.105Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:06:47.105Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:06:47.105Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:06:47.105Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:06:47.105Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:06:47.108Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:06:47.108Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-06T07:06:47.108Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:06:47.108Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-06T07:06:47.108Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:06:47.110Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:06:47.110Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-06T07:06:47.110Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:06:47.110Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:06:47.111Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:06:47.113Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:06:47.113Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T07:06:47.113Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:06:47.113Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:06:47.113Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:06:47.115Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:06:47.115Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T07:06:47.116Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:06:47.116Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T07:06:47.116Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T07:06:47.116Z"}

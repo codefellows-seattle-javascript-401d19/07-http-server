@@ -3,8 +3,6 @@
 const http = require('http');
 const winston = require('winston');
 const requestParser = require('./request-parser');
-const faker = require('faker');
-const cowsay = require('cowsay');
 const getRoutes = require('./getRoutes');
 
 
@@ -31,7 +29,6 @@ const app = http.createServer((request, response) => {
 
       // ========== GET ROUTES =============
       if (request.method === 'GET') {
-        let cowSpeak = {};
         switch (request.url.pathname) {
 
           case '/': 
@@ -50,19 +47,13 @@ const app = http.createServer((request, response) => {
             return;
 
           case '/cowsay':
-            console.log(`cow init`);
             response.writeHead(200, { 'Content-Type': 'text/plain' });
-            if (!request.url.query.text) request.url.query.text = 'Ron is awesome!... err, I need something good to say!';
-            cowSpeak = {
-              text: request.url.query.text,
-              e: 'OO',
-              T: 'U',
-            };
-            response.write(`${cowsay.say(cowSpeak)}`);
+            if (!request.url.query.text) request.url.query.text = 'Ron is awesome!... err, I need something good to say!';            
+            response.write(getRoutes.cowsay(request.url.query.text));
         
-            logger.log('info', `/cowsays ${cowSpeak.text}`);
+            logger.log('info', `/cowsays ${request.url.query.text}`);
             response.end();
-            console.log(`cow said ${cowSpeak.text}`);
+            winston.info(`cow said ${request.url.query.text}`);
             return;
         }
 
