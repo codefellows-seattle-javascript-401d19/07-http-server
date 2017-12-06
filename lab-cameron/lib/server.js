@@ -40,9 +40,7 @@ const app = http.createServer((request, response) => {
         response.end();
         return;
       } else if (request.method === 'GET' && request.url.pathname === '/cowsay') {
-        response.setHeader('XXX', 'bar');
         response.writeHead(200, { 'Content-Type': 'text/html' });
-        console.log(response._header);
         response.write(`
           <!DOCTYPE html>
           <html>

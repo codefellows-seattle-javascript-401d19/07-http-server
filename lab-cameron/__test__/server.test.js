@@ -40,7 +40,7 @@ describe('server.js', () => {
           .query({ text: 'testing'})
           .then(response => {
             expect(response.status).toEqual(200);
-            expect(response.query).toEqual('test');
+            expect(response.req.path).toEqual('/cowsay?text=testing');
           });
       });
     });
