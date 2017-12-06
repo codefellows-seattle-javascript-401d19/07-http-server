@@ -1,6 +1,7 @@
 'use strict';
 
 const urlMod = require('url');
+const cowsay = require('cowsay');
 const requestParser = module.exports = {};
 
 requestParser.parse = req => {
@@ -15,11 +16,21 @@ requestParser.parse = req => {
 
     req.on('end', () => {
       try {
-        req.body = JSON.parse(sentText);
+        if(!sentText)
+          req.body = {error: 'invalid request: body required'};
+        else {
+          req.body = JSON.parse(sentText);
+          if(!req.body.text)
+            req.body = {error: 'invalid request: text required'};
+          else
+            req.body = { content: req.body.text};
+        }
         return resolve(req);
       } catch(err) {
+        req.body = {error: 'Invalid request: text query required'};
         return reject(err);
       }
     });
   });
 };
+

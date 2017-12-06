@@ -85,10 +85,14 @@ const app = http.createServer((req, res) => {
         logger.log('info', 'Responding with a 200 status code.');
         res.end();
         return;
-      } else if(req.method === 'POST' && req.url.pathname === '/echo') {
-        res.writeHead(200, {
-          'Content-Type': 'application/json',
-        });
+      } else if(req.method === 'POST' && req.url.pathname === '/api/cowsay') {
+        if(req.body.error) {
+          res.writeHead(400, {
+            'Content-Type': 'application/json',
+          });} else {
+          res.writeHead(200, {
+            'Content-Type': 'application/json',
+          });}
         res.write(JSON.stringify(req.body));
         logger.log('info', 'Responding with a 200 status code.');
         res.end();
