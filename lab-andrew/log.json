@@ -95,3 +95,233 @@
 {"level":"info","message":"Method: GET","timestamp":"2017-12-06T00:07:29.632Z"}
 {"level":"info","message":"URL: /cowsay?text=don%27t%20eat%20me!","timestamp":"2017-12-06T00:07:29.632Z"}
 {"level":"info","message":"Responding  with a 200 status code","timestamp":"2017-12-06T00:07:29.633Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:10:23.918Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:10:59.637Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:10:59.638Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T01:10:59.638Z"}
+{"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T01:10:59.645Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:11:22.531Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:11:22.531Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:11:22.531Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:14:53.015Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:14:53.015Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:14:53.015Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:14:53.015Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:14:53.015Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:15:03.126Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:15:07.614Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:15:07.614Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:15:07.614Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:15:07.617Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:15:07.617Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:15:18.147Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:15:18.147Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:15:18.147Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:15:18.147Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:15:18.147Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:15:39.729Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:15:42.603Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:15:42.603Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:15:42.603Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:15:42.606Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:15:42.606Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:15:57.421Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:15:57.421Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:15:57.421Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:15:57.421Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:15:57.422Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:16:20.963Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:16:24.360Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:16:24.360Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:16:24.360Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:16:24.363Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:16:24.363Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:16:32.673Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:16:32.673Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:16:32.673Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:16:32.674Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:16:32.674Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:16:40.621Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:16:40.621Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:16:40.621Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:16:40.621Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:16:40.621Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:16:49.801Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:16:49.801Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:16:49.801Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:16:49.801Z"}
+{"message":"Unexpected token u in JSON at position 0","stack":"SyntaxError: Unexpected token u in JSON at position 0\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:16:49.801Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:17:46.455Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:18:34.982Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:18:34.982Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:18:34.982Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:19:01.596Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:19:01.596Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:19:01.597Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:19:14.906Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:19:14.906Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:19:14.907Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:19:14.907Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:19:14.907Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:20:07.784Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:20:11.030Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:20:11.030Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:20:11.030Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:20:11.035Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:20:11.035Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:21:38.094Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:21:40.502Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:21:40.503Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:21:40.503Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:23:28.298Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:23:28.299Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:23:28.299Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:25:14.014Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:25:14.015Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:25:14.015Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:26:06.403Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:26:08.758Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:26:08.759Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:26:08.759Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:26:08.786Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:26:08.786Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:30:57.762Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:31:01.684Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:31:01.684Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:31:01.684Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:31:01.688Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:31:01.688Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:32:04.686Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:32:07.566Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:32:07.566Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:32:07.566Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:32:07.573Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:32:07.573Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:35:37.541Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:35:41.805Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:35:41.805Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:35:41.805Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:35:41.811Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:35:41.811Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:41:08.491Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:41:08.491Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:41:08.491Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:41:08.491Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:41:08.491Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:41:15.868Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:41:19.721Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:41:19.721Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:41:19.721Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:41:19.725Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:41:19.725Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:41:44.566Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:41:48.655Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:41:48.655Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:41:48.655Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:41:48.659Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:41:48.659Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:48:59.035Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:49:03.108Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:49:03.108Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:49:03.108Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:49:03.112Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:49:03.112Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T01:50:06.065Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T01:50:08.973Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T01:50:08.973Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T01:50:08.973Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T01:50:08.977Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T01:50:08.977Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T02:08:49.573Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:08:52.607Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:08:52.607Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:08:52.607Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T02:08:52.611Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T02:08:52.612Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T02:14:02.798Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:14:06.442Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:14:06.443Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:14:06.443Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T02:14:06.446Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T02:14:06.447Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:14:23.157Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:14:23.157Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:14:23.157Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T02:14:23.158Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T02:14:23.158Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T02:14:30.009Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:14:32.655Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:14:32.655Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:14:32.655Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T02:14:32.659Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T02:14:32.659Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:16:02.186Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:16:02.186Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:16:02.187Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T02:16:02.187Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:40:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T02:16:02.187Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T02:16:22.261Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:16:25.848Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:16:25.848Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:16:25.848Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T02:16:25.852Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:41:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T02:16:25.852Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:16:52.264Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:16:52.264Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:16:52.264Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T02:19:22.286Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:19:25.021Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:19:25.021Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:19:25.021Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:21:55.106Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:21:55.107Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:21:55.107Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T02:21:55.109Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:41:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T02:21:55.109Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:22:04.403Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:22:04.403Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:22:04.403Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:22:26.014Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:22:26.015Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:22:26.015Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T02:22:26.015Z"}
+{"message":"Unexpected token t in JSON at position 1","stack":"SyntaxError: Unexpected token t in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:41:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T02:22:26.015Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:22:40.512Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:22:40.512Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:22:40.512Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:22:49.425Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:22:49.425Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:22:49.425Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T02:22:49.426Z"}
+{"message":"Unexpected token } in JSON at position 3","stack":"SyntaxError: Unexpected token } in JSON at position 3\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:41:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T02:22:49.426Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:24:01.770Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:24:01.770Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:24:01.770Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T02:24:01.770Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:41:29)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T02:24:01.770Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:24:12.657Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:24:12.657Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:24:12.657Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T02:24:12.657Z"}
+{"message":"Cannot create property 'text' on string ''","stack":"TypeError: Cannot create property 'text' on string ''\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:42:27)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T02:24:12.657Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:27:09.172Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:27:09.172Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:27:09.172Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T02:31:25.798Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T02:31:46.826Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:32:02.808Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:32:02.808Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:32:02.808Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-06T02:32:02.812Z"}
+{"message":"Cannot create property 'text' on string ''","stack":"TypeError: Cannot create property 'text' on string ''\n    at IncomingMessage.request.on (/Users/Andrew/cf/401/labs/07-http-server/lab-andrew/lib/request-parser.js:42:27)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T02:32:02.812Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:35:32.244Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:35:32.244Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:35:32.244Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:36:18.574Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T02:36:18.574Z"}
+{"level":"info","message":"URL: /cowsay?text=don%27t%20eat%20me!","timestamp":"2017-12-06T02:36:18.574Z"}
+{"level":"info","message":"Responding  with a 200 status code","timestamp":"2017-12-06T02:36:18.583Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-06T02:40:39.872Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T02:40:53.088Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T02:40:53.088Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T02:40:53.089Z"}

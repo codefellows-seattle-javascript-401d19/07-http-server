@@ -65,9 +65,15 @@ const app = http.createServer((request, response) => {
         logger.log('info','Responding  with a 200 status code');
         response.end();
         return;
-      } if (request.method === 'POST' && request.url.pathname === '/echo'){
+      } if (request.method === 'POST' && request.url.pathname === '/api/cowsay'){
+        if (request.body.text === undefined){
+          response.writeHead(400,{ 'Content-Type' : 'application/json' });
+          response.write('{"error" : "invalid request: text required"}');
+          response.end();
+          return;
+        }
         response.writeHead(200,{ 'Content-Type' : 'application/json' });
-        response.write(JSON.stringify(request.body));
+        response.write(`{"content": "${request.body.text}"}`);
         response.end();
         return;
       }
@@ -78,9 +84,13 @@ const app = http.createServer((request, response) => {
       return;
     }).catch(error => {
       logger.log('info','Answering with a 400 status code');
-      logger.log('info',error);
+      logger.log('info', error);
+      let message = '{"error": invalid request: text query required}';
+      if (request.method === 'POST' && request.body === undefined){
+        message = '{"error" : "invalid request: body required"}';
+      }
       response.writeHead(400,{ 'Content-Type' : 'text/plain' });
-      response.write('Bad Request');
+      response.write(`${message}`);
       response.end();
       return;
     });
@@ -88,9 +98,9 @@ const app = http.createServer((request, response) => {
 
 const server = module.exports = {};
 
-server.start = (port,callback) => {
+server.start = (port, callback) => {
   logger.log('info', `Server is up on port ${port}`);
-  return app.listen(port,callback);
+  return app.listen(port, callback);
 };
 
 server.stop = (callback) => {

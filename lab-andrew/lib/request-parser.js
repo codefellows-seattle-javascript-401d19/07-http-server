@@ -37,7 +37,9 @@ requestParser.parse = (request) => {
       try{
         // vinicio - this is mutating the request object, and creating an
         //           body property
+        console.log(sentText);
         request.body = JSON.parse(sentText);
+        request.body.text = request.body[Object.keys(request.body)[0]];
         return resolve(request);
       }catch(error){
         return reject(error);
