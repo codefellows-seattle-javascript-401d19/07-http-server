@@ -6,7 +6,7 @@ want.
 
 # Screenshots
 
-![Alt text](https://raw.githubusercontent.com/CameronMoorehead/07-http-server/master/lab-cameron/images/Selection_102.png)
+![Alt text](https://raw.githubusercontent.com/CameronMoorehead/07-http-server/master/lab-cameron/images/Selection_101.png)
 
 # Tech Used
 
