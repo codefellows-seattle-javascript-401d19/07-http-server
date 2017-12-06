@@ -4,6 +4,7 @@ const http = require('http');
 const winston = require('winston');
 const requestParser = require('./request-parser');
 const getRoutes = require('./getRoutes');
+const faker = require('faker');
 
 
 const winstonLevels = {error: 0, warn: 1, info: 2, verbose: 3, debug: 4};
@@ -33,13 +34,13 @@ const app = http.createServer((request, response) => {
 
           case '/': 
             response.writeHead(200, { 'Content-Type': 'text/html' });
-            response.write(getRoutes.slash);
+            response.write(getRoutes.slash(faker.hacker.phrase()));
             logger.log('info', 'Responding with a 200 status code');
             response.end();
             return;
 
           case '/cowsays':
-            response.writeHead(200, { 'Content-Type': 'text/plain' });
+            response.writeHead(200, { 'Content-Type': 'text/html' });
             response.write(getRoutes.cowsays);
             logger.log('info', '/cowsays responding with 200 status code');
             response.end();
@@ -47,8 +48,8 @@ const app = http.createServer((request, response) => {
             return;
 
           case '/cowsay':
-            response.writeHead(200, { 'Content-Type': 'text/plain' });
-            if (!request.url.query.text) request.url.query.text = 'Ron is awesome!... err, I need something good to say!';            
+            response.writeHead(200, { 'Content-Type': 'text/html' });
+            if (!request.url.query.text) request.url.query.text = 'Ron is awesome!... err, \'I need something good to say!\'';            
             response.write(getRoutes.cowsay(request.url.query.text));
         
             logger.log('info', `/cowsays ${request.url.query.text}`);
@@ -58,7 +59,7 @@ const app = http.createServer((request, response) => {
         }
 
         // =================== POST ROUTES ===================
-      } else if (request.method === 'POST' && request.url.pathname === '/echo') {
+      } else if (request.method === 'POST' && request.url.pathname === '/api/cowsay') {
         logger.log('info', `Responding with a 200 status code`);      
         response.writeHead(200, { 'Content-type': 'application/json' });
         response.write(JSON.stringify(request.body));        

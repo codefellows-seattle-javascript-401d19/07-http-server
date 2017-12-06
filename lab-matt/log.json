@@ -2602,3 +2602,554 @@
 {"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:06:47.116Z"}
 {"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T07:06:47.116Z"}
 {"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T07:06:47.116Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:09:19.642Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:09:22.091Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:09:22.091Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:09:22.091Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:09:22.091Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:09:22.094Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:09:22.103Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:09:22.103Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:09:22.104Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:09:22.104Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:09:22.104Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:09:22.104Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:09:22.106Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:09:22.106Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-06T07:09:22.106Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:09:22.106Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-06T07:09:22.107Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:09:22.109Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:09:22.109Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-06T07:09:22.109Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:09:22.109Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:09:22.109Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:09:22.111Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:09:22.111Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T07:09:22.112Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:09:22.112Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:09:22.113Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:09:22.115Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:09:22.115Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-06T07:09:22.115Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-06T07:09:22.115Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T07:09:22.115Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-06T07:09:22.115Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:09:37.245Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:09:37.246Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:09:37.246Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:09:37.246Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:09:37.246Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:09:38.950Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:09:38.950Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:09:38.950Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"referer\":\"http://127.0.0.1:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:09:38.950Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:09:38.951Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:10:20.228Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:10:20.228Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:10:20.228Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:10:20.228Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:10:20.229Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:10:36.518Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:10:36.518Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:10:36.518Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"referer\":\"http://127.0.0.1:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:10:36.518Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, I need something good to say!","timestamp":"2017-12-06T07:10:36.519Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:11:06.616Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:11:11.151Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:11:11.151Z"}
+{"level":"info","message":"URL: /cowsay?text=%20text%20goes%20here","timestamp":"2017-12-06T07:11:11.152Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:11:11.152Z"}
+{"level":"info","message":"/cowsays  text goes here","timestamp":"2017-12-06T07:11:11.155Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:11:15.323Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:11:15.323Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:11:15.323Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:11:15.323Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:11:15.323Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:11:17.027Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:11:17.027Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:11:17.027Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"referer\":\"http://127.0.0.1:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:11:17.027Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-06T07:11:17.029Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:11:29.524Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:11:29.524Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:11:29.524Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:11:29.524Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:11:29.525Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:11:29.525Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:11:33.216Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:11:33.216Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:11:33.216Z"}
+{"level":"info","message":"Headers: {\"host\":\"127.0.0.1:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:11:33.216Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-06T07:11:33.217Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:14:30.920Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:14:36.105Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:14:36.105Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:14:36.106Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:14:36.106Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:14:36.110Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:14:36.203Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:14:36.203Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:14:36.203Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:14:36.203Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:14:38.659Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:14:38.659Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:14:38.659Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:14:38.659Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:14:38.660Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:14:38.704Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:14:38.704Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:14:38.704Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:14:38.704Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:14:40.667Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:14:40.667Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:14:40.668Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:14:40.668Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:14:40.668Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:14:40.707Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:14:40.707Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:14:40.707Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:14:40.707Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:14:53.236Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:14:55.034Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:14:55.034Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:14:55.034Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:14:55.034Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:14:55.039Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:14:55.089Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:14:55.089Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:14:55.089Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:14:55.089Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:14:56.431Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:14:56.431Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:14:56.431Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:14:56.431Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:14:56.432Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:14:56.475Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:14:56.476Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:14:56.476Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:14:56.476Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:14:57.511Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:14:57.511Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:14:57.511Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:14:57.511Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:14:57.511Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:14:57.557Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:14:57.557Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:14:57.557Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:14:57.557Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:14:58.595Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:14:58.595Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:14:58.595Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:14:58.595Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:14:58.595Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:14:58.635Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:14:58.635Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:14:58.635Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:14:58.635Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:15:07.256Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:15:07.256Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:15:07.256Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:15:07.256Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:15:07.256Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:15:07.333Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:15:07.333Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:15:07.333Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:15:07.333Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:15:10.211Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:15:10.211Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:15:10.211Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:15:10.211Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-06T07:15:10.213Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:15:10.252Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:15:10.253Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:15:10.253Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:15:10.253Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:15:11.401Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:15:11.401Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:15:11.401Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:15:11.402Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:15:12.521Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:15:12.521Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:15:12.521Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:15:12.521Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:15:12.947Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:15:12.948Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:15:12.948Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:15:12.948Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:15:13.666Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:15:13.666Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:15:13.666Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:15:13.666Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:15:13.984Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:15:13.984Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:15:13.984Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:15:13.985Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:15:15.797Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:15:15.797Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:15:15.797Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:15:15.797Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:16:54.041Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:16:58.299Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:16:58.299Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:16:58.299Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:16:58.299Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:16:58.303Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:16:58.343Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:16:58.343Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:16:58.343Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:16:58.343Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:17:00.772Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:17:00.772Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:17:00.772Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:17:00.772Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:17:00.773Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:17:00.817Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:17:00.817Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:17:00.817Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:17:00.817Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:17:01.462Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:17:01.462Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:17:01.462Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:17:01.462Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:17:01.462Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:17:01.499Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:17:01.499Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:17:01.499Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:17:01.499Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:17:01.987Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:17:01.987Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:17:01.987Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:17:01.987Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:17:01.988Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:17:02.029Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:17:02.029Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:17:02.029Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:17:02.029Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:17:02.404Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:17:02.405Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:17:02.405Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:17:02.405Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:17:02.407Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:17:02.445Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:17:02.446Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:17:02.446Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:17:02.446Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:17:02.912Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:17:02.912Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:17:02.912Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:17:02.912Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:17:02.912Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:17:02.953Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:17:02.953Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:17:02.953Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:17:02.953Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:17:03.249Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:17:03.249Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:17:03.249Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:17:03.249Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:17:03.250Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:17:03.292Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:17:03.292Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:17:03.292Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:17:03.292Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:17:03.716Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:17:03.716Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:17:03.716Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:17:03.716Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:17:03.716Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:17:03.759Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:17:03.759Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:17:03.759Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:17:03.759Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:24:40.015Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:24:45.981Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:24:45.981Z"}
+{"level":"info","message":"URL: /beef","timestamp":"2017-12-06T07:24:45.982Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:24:45.982Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:26:46.029Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:26:46.029Z"}
+{"level":"info","message":"URL: /beef","timestamp":"2017-12-06T07:26:46.029Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:26:46.029Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:26:51.270Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:26:51.270Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:26:51.270Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:26:51.270Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:26:51.274Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:26:51.395Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:26:51.395Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:26:51.395Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:26:51.395Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:26:53.353Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:26:53.353Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:26:53.353Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:26:53.353Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-06T07:26:53.355Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:26:53.381Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:26:53.381Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:26:53.381Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:26:53.381Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:30:50.290Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:30:50.290Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T07:30:50.290Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"content-length\":\"27\",\"accept-encoding\":\"gzip, deflate\",\"accept\":\"application/json\",\"user-agent\":\"HTTPie/0.9.2\",\"connection\":\"keep-alive\",\"content-type\":\"application/json\"}","timestamp":"2017-12-06T07:30:50.290Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-06T07:30:50.291Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:31:34.548Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:31:36.691Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:31:36.691Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T07:31:36.691Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"content-length\":\"27\",\"accept-encoding\":\"gzip, deflate\",\"accept\":\"application/json\",\"user-agent\":\"HTTPie/0.9.2\",\"connection\":\"keep-alive\",\"content-type\":\"application/json\"}","timestamp":"2017-12-06T07:31:36.691Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:31:36.694Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:33:28.954Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-06T07:33:28.954Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-06T07:33:28.954Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"content-length\":\"30\",\"accept-encoding\":\"gzip, deflate\",\"accept\":\"application/json\",\"user-agent\":\"HTTPie/0.9.2\",\"connection\":\"keep-alive\",\"content-type\":\"application/json\"}","timestamp":"2017-12-06T07:33:28.954Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:33:28.954Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:40:40.711Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:40:40.711Z"}
+{"level":"info","message":"URL: /beef","timestamp":"2017-12-06T07:40:40.711Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:40:40.711Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:45:58.718Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:46:01.830Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:46:01.830Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:46:01.830Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:46:01.830Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:46:01.835Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:46:01.934Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:46:01.934Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:46:01.934Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:46:01.934Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:46:28.137Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:46:29.745Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:46:29.745Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:46:29.745Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:46:29.745Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:46:29.749Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:46:29.775Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:46:29.775Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:46:29.775Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"pragma\":\"no-cache\",\"cache-control\":\"no-cache\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:46:29.775Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:47:00.334Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:47:01.320Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:47:01.321Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:47:01.321Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:47:01.321Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:47:01.328Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:47:01.368Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:47:01.368Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:47:01.368Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"pragma\":\"no-cache\",\"cache-control\":\"no-cache\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:47:01.368Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:47:34.265Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:47:36.901Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:47:36.901Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:47:36.901Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:47:36.901Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:47:36.905Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:47:36.943Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:47:36.943Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:47:36.944Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"pragma\":\"no-cache\",\"cache-control\":\"no-cache\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:47:36.944Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:47:37.615Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:47:37.615Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:47:37.615Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:47:37.616Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:47:37.616Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:47:37.645Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:47:37.645Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:47:37.645Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"pragma\":\"no-cache\",\"cache-control\":\"no-cache\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:47:37.645Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:47:38.074Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:47:38.074Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:47:38.074Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:47:38.075Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:47:38.075Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:47:38.111Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:47:38.111Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:47:38.111Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"pragma\":\"no-cache\",\"cache-control\":\"no-cache\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:47:38.111Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:47:38.397Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:47:38.397Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:47:38.397Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:47:38.397Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:47:38.397Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:47:38.425Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:47:38.425Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:47:38.425Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"pragma\":\"no-cache\",\"cache-control\":\"no-cache\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:47:38.425Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:47:39.361Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:47:39.361Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:47:39.361Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:47:39.361Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-06T07:47:39.363Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:47:39.389Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:47:39.389Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:47:39.389Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:47:39.389Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:48:14.121Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:48:16.253Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:48:16.253Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:48:16.253Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:48:16.253Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-06T07:48:16.258Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:48:16.295Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:48:16.295Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:48:16.295Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"pragma\":\"no-cache\",\"cache-control\":\"no-cache\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:48:16.295Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:48:19.366Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:48:19.366Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:48:19.366Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:48:19.366Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:48:19.367Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:48:19.367Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:48:19.394Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:48:19.394Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:48:19.394Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsays\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:48:19.395Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:51:17.557Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:51:22.949Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:51:22.949Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-06T07:51:22.949Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:51:22.949Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-06T07:51:22.953Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:51:23.051Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:51:23.051Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:51:23.051Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:51:23.051Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:51:25.026Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:51:25.026Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:51:25.026Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:51:25.026Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-06T07:51:25.027Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:51:25.050Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:51:25.050Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:51:25.050Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:51:25.050Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:51:28.215Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:51:28.215Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:51:28.215Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:51:28.215Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:51:28.216Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:51:28.216Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:51:28.237Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:51:28.237Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:51:28.237Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsays\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:51:28.237Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:51:53.170Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:51:54.299Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:51:54.299Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:51:54.299Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:51:54.300Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:51:54.305Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:51:54.305Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:51:54.346Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:51:54.346Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:51:54.346Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"pragma\":\"no-cache\",\"cache-control\":\"no-cache\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsays\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:51:54.346Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:51:57.918Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:51:57.918Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:51:57.918Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:51:57.918Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-06T07:51:57.919Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:51:57.945Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:51:57.946Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:51:57.946Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:51:57.946Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:52:05.234Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:52:05.234Z"}
+{"level":"info","message":"URL: /cowsay?text=hello%20stranger","timestamp":"2017-12-06T07:52:05.234Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:52:05.234Z"}
+{"level":"info","message":"/cowsays hello stranger","timestamp":"2017-12-06T07:52:05.235Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:52:05.272Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:52:05.273Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:52:05.273Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay?text=hello%20stranger\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:52:05.273Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:52:29.549Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:52:29.550Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:52:29.550Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:52:29.550Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:52:29.550Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:52:29.550Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:52:29.576Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:52:29.576Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:52:29.576Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsays\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:52:29.576Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:53:03.824Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:53:04.795Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:53:04.795Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:53:04.795Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:53:04.796Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:53:04.800Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:53:04.800Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:53:04.840Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:53:04.840Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:53:04.840Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"pragma\":\"no-cache\",\"cache-control\":\"no-cache\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsays\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:53:04.840Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:53:05.485Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:53:05.486Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:53:05.486Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:53:05.486Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:53:05.486Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:53:05.486Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:53:05.513Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:53:05.513Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:53:05.513Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"pragma\":\"no-cache\",\"cache-control\":\"no-cache\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsays\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:53:05.513Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:53:07.554Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:53:07.555Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:53:07.555Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:53:07.555Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-06T07:53:07.556Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:53:07.581Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:53:07.581Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:53:07.581Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:53:07.581Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:53:29.642Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:53:31.760Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:53:31.760Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:53:31.761Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:53:31.761Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-06T07:53:31.764Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:53:31.804Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:53:31.804Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:53:31.804Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"pragma\":\"no-cache\",\"cache-control\":\"no-cache\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:53:31.804Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:53:48.203Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:53:51.919Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:53:51.919Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:53:51.919Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:53:51.919Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-06T07:53:51.923Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:53:51.962Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:53:51.962Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:53:51.962Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"pragma\":\"no-cache\",\"cache-control\":\"no-cache\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:53:51.962Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:53:54.212Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:53:54.212Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:53:54.212Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:53:54.212Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:53:54.213Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:53:54.213Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:53:54.242Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:53:54.242Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:53:54.242Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsays\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:53:54.242Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-06T07:54:13.708Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:54:15.956Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:54:15.957Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-06T07:54:15.957Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:54:15.957Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-06T07:54:15.960Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-06T07:54:15.960Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:54:15.998Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:54:15.998Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:54:15.998Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"pragma\":\"no-cache\",\"cache-control\":\"no-cache\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsays\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:54:15.998Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:54:19.154Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:54:19.154Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-06T07:54:19.154Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:54:19.154Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-06T07:54:19.155Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-06T07:54:19.182Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-06T07:54:19.182Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T07:54:19.182Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T07:54:19.182Z"}
