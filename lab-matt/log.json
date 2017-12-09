@@ -3322,3 +3322,538 @@
 {"level":"info","message":"Method: GET","timestamp":"2017-12-06T08:02:27.661Z"}
 {"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-06T08:02:27.661Z"}
 {"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-06T08:02:27.661Z"}
+{"level":"info","message":"server up on port: 3000","timestamp":"2017-12-09T01:57:37.830Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T01:57:40.775Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T01:57:40.775Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-09T01:57:40.775Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T01:57:40.775Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-09T01:57:40.779Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T01:57:40.790Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T01:57:40.790Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-09T01:57:40.790Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T01:57:40.790Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T01:57:40.791Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T01:57:40.791Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T01:57:40.797Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T01:57:40.797Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-09T01:57:40.797Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T01:57:40.797Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-09T01:57:40.797Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T01:57:40.800Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T01:57:40.800Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-09T01:57:40.800Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T01:57:40.800Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-09T01:57:40.801Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T01:57:40.804Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T01:57:40.804Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T01:57:40.804Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T01:57:40.804Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T01:57:40.805Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T01:57:40.807Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T01:57:40.807Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T01:57:40.807Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T01:57:40.807Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T01:57:40.808Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T01:57:40.808Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:01:20.123Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:01:20.123Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-09T02:01:20.123Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:01:20.123Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-09T02:01:20.124Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:01:20.131Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:01:20.131Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-09T02:01:20.131Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:01:20.131Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T02:01:20.131Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T02:01:20.131Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:01:20.138Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:01:20.138Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-09T02:01:20.138Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:01:20.138Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-09T02:01:20.138Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:01:20.140Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:01:20.140Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-09T02:01:20.140Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:01:20.140Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-09T02:01:20.141Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:01:20.143Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:01:20.143Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:01:20.144Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:01:20.144Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:01:20.144Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:01:20.146Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:01:20.146Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:01:20.146Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:01:20.146Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:01:20.146Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:01:20.146Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:01:55.085Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:01:55.085Z"}
+{"level":"info","message":"URL: /cowsayshello!","timestamp":"2017-12-09T02:01:55.085Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-09T02:01:55.085Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:02:11.852Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:02:11.852Z"}
+{"level":"info","message":"URL: /cowsays?text=hello","timestamp":"2017-12-09T02:02:11.852Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-09T02:02:11.852Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T02:02:11.853Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T02:02:11.853Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:02:12.208Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:02:12.208Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-09T02:02:12.208Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsays?text=hello\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-09T02:02:12.208Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:02:17.725Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:02:17.725Z"}
+{"level":"info","message":"URL: /cowsays?text=hello","timestamp":"2017-12-09T02:02:17.725Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-09T02:02:17.725Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T02:02:17.725Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T02:02:17.725Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:02:17.772Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:02:17.772Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-09T02:02:17.772Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"pragma\":\"no-cache\",\"cache-control\":\"no-cache\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsays?text=hello\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-09T02:02:17.772Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:02:21.994Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:02:21.995Z"}
+{"level":"info","message":"URL: /cowsay?text=hello","timestamp":"2017-12-09T02:02:21.995Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-09T02:02:21.995Z"}
+{"level":"info","message":"/cowsays hello","timestamp":"2017-12-09T02:02:21.995Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:02:22.188Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:02:22.188Z"}
+{"level":"info","message":"URL: /favicon.ico","timestamp":"2017-12-09T02:02:22.188Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay?text=hello\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-09T02:02:22.188Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:03:42.021Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:03:42.021Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-09T02:03:42.021Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:03:42.021Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-09T02:03:42.021Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:03:42.029Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:03:42.029Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-09T02:03:42.029Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:03:42.029Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T02:03:42.029Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T02:03:42.029Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:03:42.033Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:03:42.033Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-09T02:03:42.033Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:03:42.033Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-09T02:03:42.033Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:03:42.035Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:03:42.035Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-09T02:03:42.035Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:03:42.035Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-09T02:03:42.035Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:03:42.038Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:03:42.038Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:03:42.038Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:03:42.038Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:03:42.038Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:03:42.040Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:03:42.040Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:03:42.041Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:03:42.041Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:03:42.041Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:03:42.041Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:04:28.709Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:04:28.709Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-09T02:04:28.709Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:04:28.709Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-09T02:04:28.709Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:04:28.716Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:04:28.716Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-09T02:04:28.716Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:04:28.716Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T02:04:28.716Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T02:04:28.716Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:04:28.718Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:04:28.718Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-09T02:04:28.718Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:04:28.718Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-09T02:04:28.719Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:04:28.720Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:04:28.720Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-09T02:04:28.720Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:04:28.720Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-09T02:04:28.721Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:04:28.725Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:04:28.725Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:04:28.725Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:04:28.725Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:04:28.725Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:04:28.727Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:04:28.727Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:04:28.727Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:04:28.727Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:04:28.727Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:04:28.727Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:04:36.551Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:04:36.551Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-09T02:04:36.552Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:04:36.552Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-09T02:04:36.552Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:04:36.559Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:04:36.559Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-09T02:04:36.559Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:04:36.559Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T02:04:36.560Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T02:04:36.560Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:04:36.563Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:04:36.563Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-09T02:04:36.563Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:04:36.563Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-09T02:04:36.564Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:04:36.566Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:04:36.566Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-09T02:04:36.566Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:04:36.566Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-09T02:04:36.566Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:04:36.569Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:04:36.569Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:04:36.569Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:04:36.569Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:04:36.569Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:04:36.571Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:04:36.571Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:04:36.571Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:04:36.572Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:04:36.572Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:04:36.572Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:05:14.993Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:05:14.993Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-09T02:05:14.993Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:05:14.993Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-09T02:05:14.993Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:05:15.001Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:05:15.001Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-09T02:05:15.001Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:05:15.001Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T02:05:15.001Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T02:05:15.001Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:05:15.003Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:05:15.003Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-09T02:05:15.004Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:05:15.004Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-09T02:05:15.004Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:05:15.006Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:05:15.006Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-09T02:05:15.006Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:05:15.006Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-09T02:05:15.006Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:05:15.010Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:05:15.010Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:05:15.010Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:05:15.010Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:05:15.010Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:05:15.012Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:05:15.012Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:05:15.012Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:05:15.012Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:05:15.013Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:05:15.013Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:08:07.567Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:08:07.567Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-09T02:08:07.567Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:08:07.568Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-09T02:08:07.568Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:08:07.575Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:08:07.575Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-09T02:08:07.575Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:08:07.575Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T02:08:07.576Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T02:08:07.576Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:08:07.578Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:08:07.578Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-09T02:08:07.578Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:08:07.578Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-09T02:08:07.578Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:08:07.580Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:08:07.580Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-09T02:08:07.580Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:08:07.580Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-09T02:08:07.580Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:08:07.584Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:08:07.584Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:08:07.584Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:08:07.584Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:08:07.584Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:08:07.586Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:08:07.586Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:08:07.586Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:08:07.586Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:08:07.586Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:08:07.586Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:08:21.273Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:08:21.273Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-09T02:08:21.273Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:08:21.273Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-09T02:08:21.273Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:08:21.285Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:08:21.285Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-09T02:08:21.285Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:08:21.285Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T02:08:21.285Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T02:08:21.285Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:08:21.287Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:08:21.287Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-09T02:08:21.287Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:08:21.287Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-09T02:08:21.287Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:08:21.289Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:08:21.289Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-09T02:08:21.289Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:08:21.289Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-09T02:08:21.289Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:08:21.292Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:08:21.292Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:08:21.292Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:08:21.292Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:08:21.292Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:08:21.294Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:08:21.294Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:08:21.295Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:08:21.295Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:08:21.295Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:08:21.295Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:11:55.067Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:11:55.067Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-09T02:11:55.067Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:11:55.067Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-09T02:11:55.068Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:11:55.076Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:11:55.076Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-09T02:11:55.076Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:11:55.076Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T02:11:55.076Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T02:11:55.076Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:11:55.078Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:11:55.078Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-09T02:11:55.078Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:11:55.078Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-09T02:11:55.078Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:11:55.080Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:11:55.080Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-09T02:11:55.080Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:11:55.080Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-09T02:11:55.081Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:11:55.083Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:11:55.083Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:11:55.083Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:11:55.083Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:11:55.083Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:11:55.085Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:11:55.085Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:11:55.086Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:11:55.086Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:11:55.086Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:11:55.086Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:14:16.455Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:14:16.456Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-09T02:14:16.456Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:14:16.456Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-09T02:14:16.456Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:14:16.464Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:14:16.464Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-09T02:14:16.464Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:14:16.464Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T02:14:16.464Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T02:14:16.464Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:14:16.467Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:14:16.467Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-09T02:14:16.467Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:14:16.467Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-09T02:14:16.467Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:14:16.468Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:14:16.469Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-09T02:14:16.469Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:14:16.469Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-09T02:14:16.469Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:14:16.471Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:14:16.471Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:14:16.471Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:14:16.471Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:14:16.471Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:14:16.474Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:14:16.474Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:14:16.474Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:14:16.474Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:14:16.474Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:14:16.474Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:14:28.206Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:14:28.207Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-09T02:14:28.207Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:14:28.207Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-09T02:14:28.207Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:14:28.214Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:14:28.214Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-09T02:14:28.215Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:14:28.215Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T02:14:28.215Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T02:14:28.215Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:14:28.217Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:14:28.217Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-09T02:14:28.217Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:14:28.217Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-09T02:14:28.217Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:14:28.219Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:14:28.219Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-09T02:14:28.219Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:14:28.219Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-09T02:14:28.220Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:14:28.222Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:14:28.222Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:14:28.222Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:14:28.222Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:14:28.222Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:14:28.224Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:14:28.224Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:14:28.224Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:14:28.224Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:14:28.225Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:14:28.225Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:15:27.534Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:15:27.534Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-09T02:15:27.534Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:15:27.534Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-09T02:15:27.534Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:15:27.545Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:15:27.545Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-09T02:15:27.545Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:15:27.545Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T02:15:27.545Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T02:15:27.545Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:15:27.547Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:15:27.547Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-09T02:15:27.547Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:15:27.547Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-09T02:15:27.548Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:15:27.549Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:15:27.549Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-09T02:15:27.549Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:15:27.549Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-09T02:15:27.550Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:15:27.552Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:15:27.552Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:15:27.552Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:15:27.552Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:15:27.552Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:15:27.575Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:15:27.575Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:15:27.576Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:15:27.576Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:15:27.576Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:15:27.576Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:16:49.087Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:16:49.087Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:16:49.087Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:16:49.088Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:16:49.088Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:17:03.544Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:17:03.544Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:17:03.544Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:17:03.544Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:17:03.544Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:18:24.073Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:18:24.073Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:18:24.074Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:18:24.074Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:18:24.074Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:18:32.446Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:18:32.447Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:18:32.447Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:18:32.447Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:18:32.447Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:22:43.084Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:22:43.084Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:22:43.084Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:22:43.084Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:22:43.084Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:22:59.288Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:22:59.288Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-09T02:22:59.288Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:22:59.288Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-09T02:22:59.288Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:22:59.295Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:22:59.296Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-09T02:22:59.296Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:22:59.296Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T02:22:59.296Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T02:22:59.296Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:22:59.298Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:22:59.298Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-09T02:22:59.298Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:22:59.298Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-09T02:22:59.298Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:22:59.300Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:22:59.300Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-09T02:22:59.300Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:22:59.300Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-09T02:22:59.300Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:22:59.302Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:22:59.302Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:22:59.302Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:22:59.302Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:22:59.302Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:22:59.309Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:22:59.309Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:22:59.309Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:22:59.309Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:22:59.309Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:22:59.309Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:23:29.666Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:23:29.666Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:23:29.666Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:23:29.666Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:23:29.666Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:25:18.774Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:25:18.775Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:25:18.775Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:25:18.775Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:25:18.775Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:25:18.775Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:25:34.353Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:25:34.353Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:25:34.353Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:25:34.353Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:25:34.354Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:25:34.354Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:25:58.110Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:25:58.110Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:25:58.111Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:25:58.111Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:25:58.111Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:25:58.111Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:26:24.107Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:26:24.108Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:26:24.108Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:26:24.108Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:26:24.108Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:27:01.821Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:27:01.821Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-09T02:27:01.821Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:27:01.821Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-09T02:27:01.821Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:27:01.829Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:27:01.829Z"}
+{"level":"info","message":"URL: /cowsays","timestamp":"2017-12-09T02:27:01.829Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:27:01.829Z"}
+{"level":"info","message":"/cowsays responding with 200 status code","timestamp":"2017-12-09T02:27:01.829Z"}
+{"level":"info","message":"Cow Says: Vinicio Is Awesome!","timestamp":"2017-12-09T02:27:01.829Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:27:01.832Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:27:01.832Z"}
+{"level":"info","message":"URL: /cowsay?text=hi%20there!","timestamp":"2017-12-09T02:27:01.832Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:27:01.832Z"}
+{"level":"info","message":"/cowsays hi there!","timestamp":"2017-12-09T02:27:01.832Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:27:01.834Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-09T02:27:01.834Z"}
+{"level":"info","message":"URL: /cowsay?text=","timestamp":"2017-12-09T02:27:01.834Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:27:01.834Z"}
+{"level":"info","message":"/cowsays Ron is awesome!... err, 'I need something good to say!'","timestamp":"2017-12-09T02:27:01.834Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:27:01.836Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:27:01.836Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:27:01.836Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"17\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:27:01.836Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:27:01.837Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-09T02:27:01.843Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-09T02:27:01.843Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-09T02:27:01.843Z"}
+{"level":"info","message":"Headers: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-09T02:27:01.843Z"}
+{"level":"info","message":"Responding with a 400 status code","timestamp":"2017-12-09T02:27:01.843Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/home/snobeard/code/401/projects/07-http-server/lab-matt/lib/request-parser.js:24:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-09T02:27:01.843Z"}

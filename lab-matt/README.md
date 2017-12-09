@@ -8,7 +8,7 @@ This lab is a basic HTTP server that has GET and POST routes with test functions
 
 #### Usage
 1. `cd` into the lab-matt repository
-2. Make sure to install all the required packaged - `npm install`
+2. Make sure to install all the required packages - `npm install`
   - `dotenv`
   - `faker`
   - `cowsay`
