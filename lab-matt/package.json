@@ -1,0 +1,27 @@
+{
+  "name": "lab-matt",
+  "version": "1.0.0",
+  "description": "07 lab from code fellows javascript 401d19",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest -i --coverage",
+    "lint": "eslint ./"
+  },
+  "author": "Matthew LeBlanc",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1",
+    "superagent": "^3.8.1"
+  },
+  "dependencies": {
+    "cowsay": "^1.2.1",
+    "dotenv": "^4.0.0",
+    "faker": "^4.1.0",
+    "http": "0.0.0",
+    "winston": "^2.4.0"
+  }
+}
