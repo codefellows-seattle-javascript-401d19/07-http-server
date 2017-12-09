@@ -68,11 +68,6 @@ const app = http.createServer((request, response) => {
             response.write(JSON.stringify(request.body));        
             response.end();
             return;
-            // response.writeHead(200, { 'Content-Type': 'text/html' });
-            // response.write(getRoutes.slash(faker.hacker.phrase()));
-            // logger.log('info', 'Responding with a 200 status code');
-            // response.end();
-            // return;
 
           case '/api/cowsay':
             logger.log('info', `Responding with a 200 status code`);      
@@ -80,31 +75,7 @@ const app = http.createServer((request, response) => {
             response.write(JSON.stringify(request.body));        
             response.end();
             return;
-
-          // case '/cowsay':
-          //   response.writeHead(200, { 'Content-Type': 'text/html' });
-          //   if (!request.url.query.text) request.url.query.text = 'Ron is awesome!... err, \'I need something good to say!\'';            
-          //   response.write(getRoutes.cowsay(request.url.query.text));
-        
-          //   logger.log('info', `/cowsays ${request.url.query.text}`);
-          //   response.end();
-          //   winston.info(`cow said ${request.url.query.text}`);
-          //   return;
         }
-        // -------------------------------------------------------------------
-      // } else if (request.method === 'POST' && request.url.pathname === '/api/cowsay') {
-      //   logger.log('info', `Responding with a 200 status code`);      
-      //   response.writeHead(200, { 'Content-type': 'application/json' });
-      //   response.write(JSON.stringify(request.body));        
-      //   response.end();
-      //   return;
-
-      // } else if (request.method === 'POST' && request.url.pathname === '/echo') {
-      //   logger.log('info', `Responding with a 200 status code`);      
-      //   response.writeHead(200, { 'Content-type': 'application/json' });
-      //   response.write(request.body);        
-      //   response.end();
-      //   return;
 
       } else {
         logger.log('info', `Responding with a 400 status code`);      

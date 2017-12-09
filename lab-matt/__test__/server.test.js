@@ -44,8 +44,7 @@ describe('http.js', () => {
       .then(response => {
         expect(response.status).toEqual(200);        
         expect(response.body).toEqual(bodyToTest);
-      })
-      .catch(error => console.log(error));
+      });
   });
 
   test('POST should respond with a 400 if there is any error', () => {
