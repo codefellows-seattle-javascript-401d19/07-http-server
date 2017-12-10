@@ -3229,3 +3229,182 @@
 {"level":"info","message":"There was an error: SyntaxError: Unexpected end of JSON input","timestamp":"2017-12-10T21:20:59.899Z"}
 {"level":"info","message":"Responding with 400 error","timestamp":"2017-12-10T21:20:59.899Z"}
 {"level":"info","message":"Original url is: /api/cowsay","timestamp":"2017-12-10T21:20:59.899Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:22:42.080Z"}
+{"level":"info","message":"Original url is: \"/\"","timestamp":"2017-12-10T21:22:42.080Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:22:42.080Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:22:42.080Z"}
+{"level":"info","message":"The url received was : /","timestamp":"2017-12-10T21:22:42.080Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:22:42.081Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/\",\"path\":\"/\",\"href\":\"/\"}","timestamp":"2017-12-10T21:22:42.081Z"}
+{"level":"info","message":"[object Object]","timestamp":"2017-12-10T21:22:42.081Z"}
+{"level":"info","message":"Original url is: /","timestamp":"2017-12-10T21:22:42.081Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:22:42.278Z"}
+{"level":"info","message":"Original url is: \"/favicon.ico\"","timestamp":"2017-12-10T21:22:42.278Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:22:42.278Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:22:42.278Z"}
+{"level":"info","message":"The url received was : /favicon.ico","timestamp":"2017-12-10T21:22:42.278Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:22:42.278Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/favicon.ico\",\"path\":\"/favicon.ico\",\"href\":\"/favicon.ico\"}","timestamp":"2017-12-10T21:22:42.278Z"}
+{"level":"info","message":"Original url is: /favicon.ico","timestamp":"2017-12-10T21:22:42.278Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:23:21.937Z"}
+{"level":"info","message":"Original url is: \"/cowsay\"","timestamp":"2017-12-10T21:23:21.937Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:23:21.937Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:23:21.937Z"}
+{"level":"info","message":"The url received was : /cowsay","timestamp":"2017-12-10T21:23:21.937Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:23:21.938Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cowsay\",\"path\":\"/cowsay\",\"href\":\"/cowsay\"}","timestamp":"2017-12-10T21:23:21.938Z"}
+{"level":"info","message":"Original url is: /cowsay","timestamp":"2017-12-10T21:23:21.937Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:23:21.994Z"}
+{"level":"info","message":"Original url is: \"/favicon.ico\"","timestamp":"2017-12-10T21:23:21.994Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:23:21.994Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:23:21.994Z"}
+{"level":"info","message":"The url received was : /favicon.ico","timestamp":"2017-12-10T21:23:21.994Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:23:21.995Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/favicon.ico\",\"path\":\"/favicon.ico\",\"href\":\"/favicon.ico\"}","timestamp":"2017-12-10T21:23:21.995Z"}
+{"level":"info","message":"Original url is: /favicon.ico","timestamp":"2017-12-10T21:23:21.994Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:25:22.009Z"}
+{"level":"info","message":"Original url is: \"/favicon.ico\"","timestamp":"2017-12-10T21:25:22.009Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:25:22.009Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:25:22.009Z"}
+{"level":"info","message":"The url received was : /favicon.ico","timestamp":"2017-12-10T21:25:22.009Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:25:22.009Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/favicon.ico\",\"path\":\"/favicon.ico\",\"href\":\"/favicon.ico\"}","timestamp":"2017-12-10T21:25:22.009Z"}
+{"level":"info","message":"Original url is: /favicon.ico","timestamp":"2017-12-10T21:25:22.009Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:39:26.909Z"}
+{"level":"info","message":"Original url is: \"/\"","timestamp":"2017-12-10T21:39:26.909Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:39:26.909Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:39:26.909Z"}
+{"level":"info","message":"The url received was : /","timestamp":"2017-12-10T21:39:26.909Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:39:26.909Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/\",\"path\":\"/\",\"href\":\"/\"}","timestamp":"2017-12-10T21:39:26.910Z"}
+{"level":"info","message":"[object Object]","timestamp":"2017-12-10T21:39:26.910Z"}
+{"level":"info","message":"Original url is: /","timestamp":"2017-12-10T21:39:26.909Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:39:26.976Z"}
+{"level":"info","message":"Original url is: \"/favicon.ico\"","timestamp":"2017-12-10T21:39:26.976Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:39:26.976Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:39:26.976Z"}
+{"level":"info","message":"The url received was : /favicon.ico","timestamp":"2017-12-10T21:39:26.976Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:39:26.976Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/favicon.ico\",\"path\":\"/favicon.ico\",\"href\":\"/favicon.ico\"}","timestamp":"2017-12-10T21:39:26.976Z"}
+{"level":"info","message":"Original url is: /favicon.ico","timestamp":"2017-12-10T21:39:26.976Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:40:35.865Z"}
+{"level":"info","message":"Original url is: \"/\"","timestamp":"2017-12-10T21:40:35.865Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:40:35.865Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:40:35.865Z"}
+{"level":"info","message":"The url received was : /","timestamp":"2017-12-10T21:40:35.865Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:40:35.866Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/\",\"path\":\"/\",\"href\":\"/\"}","timestamp":"2017-12-10T21:40:35.866Z"}
+{"level":"info","message":"[object Object]","timestamp":"2017-12-10T21:40:35.866Z"}
+{"level":"info","message":"Original url is: /","timestamp":"2017-12-10T21:40:35.866Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:40:36.072Z"}
+{"level":"info","message":"Original url is: \"/favicon.ico\"","timestamp":"2017-12-10T21:40:36.073Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:40:36.072Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:40:36.073Z"}
+{"level":"info","message":"The url received was : /favicon.ico","timestamp":"2017-12-10T21:40:36.073Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:40:36.073Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/favicon.ico\",\"path\":\"/favicon.ico\",\"href\":\"/favicon.ico\"}","timestamp":"2017-12-10T21:40:36.073Z"}
+{"level":"info","message":"Original url is: /favicon.ico","timestamp":"2017-12-10T21:40:36.073Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:40:37.286Z"}
+{"level":"info","message":"Original url is: \"/cowsay\"","timestamp":"2017-12-10T21:40:37.286Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:40:37.286Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:40:37.286Z"}
+{"level":"info","message":"The url received was : /cowsay","timestamp":"2017-12-10T21:40:37.286Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:40:37.287Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/cowsay\",\"path\":\"/cowsay\",\"href\":\"/cowsay\"}","timestamp":"2017-12-10T21:40:37.287Z"}
+{"level":"info","message":"Original url is: /cowsay","timestamp":"2017-12-10T21:40:37.286Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:40:37.342Z"}
+{"level":"info","message":"Original url is: \"/favicon.ico\"","timestamp":"2017-12-10T21:40:37.342Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:40:37.342Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:40:37.342Z"}
+{"level":"info","message":"The url received was : /favicon.ico","timestamp":"2017-12-10T21:40:37.342Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:40:37.342Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/favicon.ico\",\"path\":\"/favicon.ico\",\"href\":\"/favicon.ico\"}","timestamp":"2017-12-10T21:40:37.342Z"}
+{"level":"info","message":"Original url is: /favicon.ico","timestamp":"2017-12-10T21:40:37.342Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:41:01.369Z"}
+{"level":"info","message":"Original url is: \"/cowsay?text=wordsGoingMooMoo\"","timestamp":"2017-12-10T21:41:01.369Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:41:01.369Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:41:01.369Z"}
+{"level":"info","message":"The url received was : /cowsay?text=wordsGoingMooMoo","timestamp":"2017-12-10T21:41:01.369Z"}
+{"level":"info","message":"the request.url.query received was: {\"text\":\"wordsGoingMooMoo\"}","timestamp":"2017-12-10T21:41:01.369Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=wordsGoingMooMoo\",\"query\":{\"text\":\"wordsGoingMooMoo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=wordsGoingMooMoo\",\"href\":\"/cowsay?text=wordsGoingMooMoo\"}","timestamp":"2017-12-10T21:41:01.369Z"}
+{"level":"info","message":"Original url is: /cowsay?text=wordsGoingMooMoo","timestamp":"2017-12-10T21:41:01.369Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:41:01.414Z"}
+{"level":"info","message":"Original url is: \"/favicon.ico\"","timestamp":"2017-12-10T21:41:01.414Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:41:01.414Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay?text=wordsGoingMooMoo\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:41:01.414Z"}
+{"level":"info","message":"The url received was : /favicon.ico","timestamp":"2017-12-10T21:41:01.414Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:41:01.414Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/favicon.ico\",\"path\":\"/favicon.ico\",\"href\":\"/favicon.ico\"}","timestamp":"2017-12-10T21:41:01.414Z"}
+{"level":"info","message":"Original url is: /favicon.ico","timestamp":"2017-12-10T21:41:01.414Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:41:08.278Z"}
+{"level":"info","message":"Original url is: \"/cowsay?text=wordsGoingMoo_Moo\"","timestamp":"2017-12-10T21:41:08.279Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:41:08.279Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:41:08.279Z"}
+{"level":"info","message":"The url received was : /cowsay?text=wordsGoingMoo_Moo","timestamp":"2017-12-10T21:41:08.279Z"}
+{"level":"info","message":"the request.url.query received was: {\"text\":\"wordsGoingMoo_Moo\"}","timestamp":"2017-12-10T21:41:08.279Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=wordsGoingMoo_Moo\",\"query\":{\"text\":\"wordsGoingMoo_Moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=wordsGoingMoo_Moo\",\"href\":\"/cowsay?text=wordsGoingMoo_Moo\"}","timestamp":"2017-12-10T21:41:08.279Z"}
+{"level":"info","message":"Original url is: /cowsay?text=wordsGoingMoo_Moo","timestamp":"2017-12-10T21:41:08.279Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:41:08.324Z"}
+{"level":"info","message":"Original url is: \"/favicon.ico\"","timestamp":"2017-12-10T21:41:08.324Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:41:08.324Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay?text=wordsGoingMoo_Moo\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:41:08.324Z"}
+{"level":"info","message":"The url received was : /favicon.ico","timestamp":"2017-12-10T21:41:08.324Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:41:08.324Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/favicon.ico\",\"path\":\"/favicon.ico\",\"href\":\"/favicon.ico\"}","timestamp":"2017-12-10T21:41:08.324Z"}
+{"level":"info","message":"Original url is: /favicon.ico","timestamp":"2017-12-10T21:41:08.324Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:41:50.938Z"}
+{"level":"info","message":"Original url is: \"/cowsay?text=wordsGoingMoo%Moo\"","timestamp":"2017-12-10T21:41:50.938Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:41:50.938Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:41:50.938Z"}
+{"level":"info","message":"The url received was : /cowsay?text=wordsGoingMoo%Moo","timestamp":"2017-12-10T21:41:50.938Z"}
+{"level":"info","message":"the request.url.query received was: {\"text\":\"wordsGoingMoo%Moo\"}","timestamp":"2017-12-10T21:41:50.938Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=wordsGoingMoo%Moo\",\"query\":{\"text\":\"wordsGoingMoo%Moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=wordsGoingMoo%Moo\",\"href\":\"/cowsay?text=wordsGoingMoo%Moo\"}","timestamp":"2017-12-10T21:41:50.938Z"}
+{"level":"info","message":"Original url is: /cowsay?text=wordsGoingMoo%Moo","timestamp":"2017-12-10T21:41:50.938Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:41:51.007Z"}
+{"level":"info","message":"Original url is: \"/favicon.ico\"","timestamp":"2017-12-10T21:41:51.007Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:41:51.007Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay?text=wordsGoingMoo%Moo\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:41:51.007Z"}
+{"level":"info","message":"The url received was : /favicon.ico","timestamp":"2017-12-10T21:41:51.007Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:41:51.007Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/favicon.ico\",\"path\":\"/favicon.ico\",\"href\":\"/favicon.ico\"}","timestamp":"2017-12-10T21:41:51.007Z"}
+{"level":"info","message":"Original url is: /favicon.ico","timestamp":"2017-12-10T21:41:51.007Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:42:02.602Z"}
+{"level":"info","message":"Original url is: \"/cowsay?text=wordsGoingMoo%20Moo\"","timestamp":"2017-12-10T21:42:02.602Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:42:02.602Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:42:02.602Z"}
+{"level":"info","message":"The url received was : /cowsay?text=wordsGoingMoo%20Moo","timestamp":"2017-12-10T21:42:02.602Z"}
+{"level":"info","message":"the request.url.query received was: {\"text\":\"wordsGoingMoo Moo\"}","timestamp":"2017-12-10T21:42:02.603Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=wordsGoingMoo%20Moo\",\"query\":{\"text\":\"wordsGoingMoo Moo\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=wordsGoingMoo%20Moo\",\"href\":\"/cowsay?text=wordsGoingMoo%20Moo\"}","timestamp":"2017-12-10T21:42:02.603Z"}
+{"level":"info","message":"Original url is: /cowsay?text=wordsGoingMoo%20Moo","timestamp":"2017-12-10T21:42:02.602Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:42:02.688Z"}
+{"level":"info","message":"Original url is: \"/favicon.ico\"","timestamp":"2017-12-10T21:42:02.688Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:42:02.688Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay?text=wordsGoingMoo%20Moo\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:42:02.688Z"}
+{"level":"info","message":"The url received was : /favicon.ico","timestamp":"2017-12-10T21:42:02.688Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:42:02.688Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/favicon.ico\",\"path\":\"/favicon.ico\",\"href\":\"/favicon.ico\"}","timestamp":"2017-12-10T21:42:02.688Z"}
+{"level":"info","message":"Original url is: /favicon.ico","timestamp":"2017-12-10T21:42:02.688Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:43:03.576Z"}
+{"level":"info","message":"Original url is: \"/cowsay?text=whatever%20you%20want%20to%20say\"","timestamp":"2017-12-10T21:43:03.577Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:43:03.577Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:43:03.577Z"}
+{"level":"info","message":"The url received was : /cowsay?text=whatever%20you%20want%20to%20say","timestamp":"2017-12-10T21:43:03.577Z"}
+{"level":"info","message":"the request.url.query received was: {\"text\":\"whatever you want to say\"}","timestamp":"2017-12-10T21:43:03.577Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":\"?text=whatever%20you%20want%20to%20say\",\"query\":{\"text\":\"whatever you want to say\"},\"pathname\":\"/cowsay\",\"path\":\"/cowsay?text=whatever%20you%20want%20to%20say\",\"href\":\"/cowsay?text=whatever%20you%20want%20to%20say\"}","timestamp":"2017-12-10T21:43:03.577Z"}
+{"level":"info","message":"Original url is: /cowsay?text=whatever%20you%20want%20to%20say","timestamp":"2017-12-10T21:43:03.577Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:43:03.630Z"}
+{"level":"info","message":"Original url is: \"/favicon.ico\"","timestamp":"2017-12-10T21:43:03.631Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:43:03.631Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay?text=whatever%20you%20want%20to%20say\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:43:03.631Z"}
+{"level":"info","message":"The url received was : /favicon.ico","timestamp":"2017-12-10T21:43:03.631Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:43:03.631Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/favicon.ico\",\"path\":\"/favicon.ico\",\"href\":\"/favicon.ico\"}","timestamp":"2017-12-10T21:43:03.631Z"}
+{"level":"info","message":"Original url is: /favicon.ico","timestamp":"2017-12-10T21:43:03.631Z"}
+{"level":"info","message":"Processing the request : [object Object]","timestamp":"2017-12-10T21:45:03.643Z"}
+{"level":"info","message":"Original url is: \"/favicon.ico\"","timestamp":"2017-12-10T21:45:03.643Z"}
+{"level":"info","message":"The method received was : GET","timestamp":"2017-12-10T21:45:03.643Z"}
+{"level":"info","message":"The header received was : {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\",\"referer\":\"http://localhost:3000/cowsay?text=whatever%20you%20want%20to%20say\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-10T21:45:03.643Z"}
+{"level":"info","message":"The url received was : /favicon.ico","timestamp":"2017-12-10T21:45:03.643Z"}
+{"level":"info","message":"the request.url.query received was: {}","timestamp":"2017-12-10T21:45:03.643Z"}
+{"level":"info","message":"the request.url received was: {\"protocol\":null,\"slashes\":null,\"auth\":null,\"host\":null,\"port\":null,\"hostname\":null,\"hash\":null,\"search\":null,\"query\":{},\"pathname\":\"/favicon.ico\",\"path\":\"/favicon.ico\",\"href\":\"/favicon.ico\"}","timestamp":"2017-12-10T21:45:03.643Z"}
+{"level":"info","message":"Original url is: /favicon.ico","timestamp":"2017-12-10T21:45:03.643Z"}
