@@ -1,0 +1,34 @@
+{
+  "name": "07-http-server",
+  "version": "1.0.0",
+  "description": "CF lab 7 on HTTP server using cowsay",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest -i --coverage",
+    "lint": "eslint ./",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sedillon93/07-http-server.git"
+  },
+  "author": "shannon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sedillon93/07-http-server/issues"
+  },
+  "homepage": "https://github.com/sedillon93/07-http-server#readme",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1",
+    "superagent": "^3.8.1"
+  },
+  "dependencies": {
+    "cowsay": "^1.2.1",
+    "dotenv": "^4.0.0",
+    "winston": "^2.4.0"
+  }
+}
