@@ -1,0 +1,28 @@
+{
+  "name": "01-http-server",
+  "version": "1.0.0",
+  "description": "This TCP Chat Server allows users to connect to an ip via telnet and do basic chat with one another, change their displayd name, and direct message other users.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest -i --coverage",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1",
+    "superagent": "^3.8.1"
+  },
+  "dependencies": {
+    "cowsay": "^1.2.1",
+    "dotenv": "^4.0.0",
+    "faker": "^4.1.0",
+    "winston": "^2.4.0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
