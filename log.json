@@ -1,3 +1,25 @@
 {"level":"info","message":"Server is up on port undefined","timestamp":"2017-12-12T01:25:54.019Z"}
 {"level":"info","message":"Server is up on port undefined","timestamp":"2017-12-12T01:27:34.762Z"}
 {"level":"info","message":"Server is up on port undefined","timestamp":"2017-12-12T01:28:08.479Z"}
+{"level":"info","message":"Server is up on port undefined","timestamp":"2017-12-13T21:04:22.754Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-13T21:27:04.208Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-13T21:27:33.038Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-13T21:27:33.038Z"}
+{"level":"info","message":"URL: /cowsay?text=lol","timestamp":"2017-12-13T21:27:33.038Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"cache-control\":\"max-age=0\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-13T21:27:33.039Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-13T21:27:33.045Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-13T21:27:37.533Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-13T21:27:37.533Z"}
+{"level":"info","message":"URL: /cowsay?text=yo","timestamp":"2017-12-13T21:27:37.534Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\"}","timestamp":"2017-12-13T21:27:37.534Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-13T21:27:37.540Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-13T21:27:46.343Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-13T21:27:46.343Z"}
+{"level":"info","message":"URL: /api/cowsay","timestamp":"2017-12-13T21:27:46.343Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.2\",\"content-type\":\"application/json\",\"content-length\":\"14\",\"connection\":\"close\"}","timestamp":"2017-12-13T21:27:46.343Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-13T21:27:46.356Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-13T21:27:46.356Z"}
+{"level":"info","message":"URL: /echo","timestamp":"2017-12-13T21:27:46.356Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.2\",\"content-type\":\"application/json\",\"content-length\":\"1\",\"connection\":\"close\"}","timestamp":"2017-12-13T21:27:46.356Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-13T21:27:46.357Z"}
+{"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/DaltonCarr/codefellows/401/lab-assignments/07-http-server/lib/request-parser.js:37:29)\n    at emitNone (events.js:105:13)\n    at IncomingMessage.emit (events.js:207:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-13T21:27:46.357Z"}
