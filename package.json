@@ -1,0 +1,30 @@
+{
+  "name": "07-http-server",
+  "version": "1.0.0",
+  "description": "Lab 07",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest -i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hazzed/07-http-server.git"
+  },
+  "author": "Dalton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hazzed/07-http-server/issues"
+  },
+  "homepage": "https://github.com/hazzed/07-http-server#readme",
+  "dependencies": {
+    "cowsay": "^1.2.1",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.13.1",
+    "jest": "^21.2.1",
+    "superagent": "^3.8.2",
+    "winston": "^2.4.0"
+  }
+}
