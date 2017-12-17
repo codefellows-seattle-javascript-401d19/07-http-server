@@ -94,7 +94,6 @@ const app = http.createServer((request, response) => {
       else if(request.method === 'POST' && request.url.pathname === '/cowsay'){
         response.writeHead(200,{'Content-Type' : 'application/json'});
         response.write(JSON.stringify(request.body));
-        // response.write(JSON.stringify({"content": "<cowsay cow text>"}));
         logger.log('debug', `${request.body}`);
         response.end();
         return;
