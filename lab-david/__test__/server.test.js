@@ -6,7 +6,7 @@ const server = require('../lib/server');
 describe('server.test.js', () => {
   test('POST request should respond with a 200 status code and body if there is no error', () => {
     let bodyTest = { monty : 'python'};
-    return superagent.post('http://localhost:300/cowsay')
+    return superagent.post('http://localhost:3000/cowsay')
       .send(bodyTest)
       .then(response => {
         expect(response.status).toEqual(200);

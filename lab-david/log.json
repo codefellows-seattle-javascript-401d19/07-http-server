@@ -272,3 +272,36 @@
 {"level":"info","message":"URL: /cowsaycowsay?text=%22booo%22","timestamp":"2017-12-06T01:46:02.979Z"}
 {"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"dnt\":\"1\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-06T01:46:02.979Z"}
 {"level":"info","message":"Responding with a 404 status code","timestamp":"2017-12-06T01:46:02.979Z"}
+{"level":"info","message":"server is up on port 3000","timestamp":"2017-12-17T05:28:04.394Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-17T05:28:14.222Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-17T05:28:14.222Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-17T05:28:14.222Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"upgrade-insecure-requests\":\"1\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"dnt\":\"1\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-17T05:28:14.222Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-17T05:28:14.225Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-17T05:28:17.005Z"}
+{"level":"info","message":"Method: GET","timestamp":"2017-12-17T05:28:17.005Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-17T05:28:17.005Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"connection\":\"keep-alive\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\"dnt\":\"1\",\"referer\":\"http://localhost:3000/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9,la;q=0.8\"}","timestamp":"2017-12-17T05:28:17.005Z"}
+{"level":"info","message":"Responding with a 200 status code","timestamp":"2017-12-17T05:28:17.006Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-17T05:29:10.388Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-17T05:29:10.388Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-17T05:29:10.388Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"11\",\"connection\":\"close\"}","timestamp":"2017-12-17T05:29:10.388Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-17T05:29:10.389Z"}
+{"message":"Unexpected token b in JSON at position 0","stack":"SyntaxError: Unexpected token b in JSON at position 0\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/austriker/Documents/code-fellows/cf-401/labs/07-http-server/lab-david/lib/request-parser.js:36:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-17T05:29:10.389Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-17T05:30:12.896Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-17T05:30:12.896Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-12-17T05:30:12.896Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"11\",\"connection\":\"close\"}","timestamp":"2017-12-17T05:30:12.896Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-17T05:30:12.896Z"}
+{"message":"Unexpected token b in JSON at position 0","stack":"SyntaxError: Unexpected token b in JSON at position 0\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/austriker/Documents/code-fellows/cf-401/labs/07-http-server/lab-david/lib/request-parser.js:36:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-17T05:30:12.896Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-17T05:30:37.146Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-17T05:30:37.146Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-17T05:30:37.146Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"18\",\"connection\":\"close\"}","timestamp":"2017-12-17T05:30:37.146Z"}
+{"level":"info","message":"Processing Request","timestamp":"2017-12-17T05:30:37.154Z"}
+{"level":"info","message":"Method: POST","timestamp":"2017-12-17T05:30:37.154Z"}
+{"level":"info","message":"URL: /cowsay","timestamp":"2017-12-17T05:30:37.154Z"}
+{"level":"info","message":"HEADERS: {\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.1\",\"content-type\":\"application/json\",\"content-length\":\"11\",\"connection\":\"close\"}","timestamp":"2017-12-17T05:30:37.154Z"}
+{"level":"info","message":"Answering with a 400 status code","timestamp":"2017-12-17T05:30:37.154Z"}
+{"message":"Unexpected token b in JSON at position 0","stack":"SyntaxError: Unexpected token b in JSON at position 0\n    at JSON.parse (<anonymous>)\n    at IncomingMessage.request.on (/Users/austriker/Documents/code-fellows/cf-401/labs/07-http-server/lab-david/lib/request-parser.js:36:29)\n    at IncomingMessage.emit (events.js:159:13)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"info","timestamp":"2017-12-17T05:30:37.154Z"}
